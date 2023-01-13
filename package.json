@@ -1,0 +1,16 @@
+{
+  "name": "design-tokens-italia",
+  "version": "0.0.0",
+  "description": "Design Tokens italiani",
+  "author": "Presidenza del Consiglio dei Ministri",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npm run clean && node build.js",
+    "clean": "rm -rf build"
+  },
+  "license": "BSD-3-Clause",
+  "devDependencies": {
+    "style-dictionary": "^3.7.2"
+  }
+}

@@ -1,0 +1,55 @@
+:root {
+	--body-color-text: #333;
+	--body-color-background: #fff;
+
+	--header-color-text: #000;
+	--header-color-background: #dadada;
+
+	--link-color: #f00;
+	--link-color-hover: rgb(160, 2, 2);
+
+	--title-color: rgb(173, 68, 68);
+}
+
+:root .dark {
+	--body-color-text: #fff;
+	--body-color-background: #222;
+
+	--header-color-text: #dadada;
+	--header-color-background: #000;
+
+	--link-color: rgb(255, 104, 104);
+	--link-color-hover: #fd9b9b;
+
+	--title-color: rgb(252, 152, 152);
+}
+
+:root .purple {
+	--link-color: rgb(47, 0, 255);
+	--link-color-hover: rgb(12, 2, 160);
+
+	--title-color: rgb(68, 70, 173);
+}
+
+:root .dark.purple {
+	--link-color: rgb(158, 136, 255);
+	--link-color-hover: rgb(78, 65, 255);
+
+	--title-color: rgb(148, 150, 255);
+}
+
+/* OS dark mode */
+/*@media (prefers-color-scheme: dark) {
+	:root {
+		--body-color-text: #fff;
+		--body-color-background: #222;
+
+		--header-color-text: #dadada;
+		--header-color-background: #000;
+
+		--link-color: rgb(255, 104, 104);
+		--link-color-hover: #fd9b9b;
+
+		--title-color: rgb(252, 152, 152);
+	}
+}*/

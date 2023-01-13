@@ -1,0 +1,54 @@
+{
+  "shadow-1": {
+    "x": {
+      "value": "0",
+      "type": "x"
+    },
+    "y": {
+      "value": "15",
+      "type": "y"
+    },
+    "blur": {
+      "value": "15",
+      "type": "blur"
+    },
+    "spread": {
+      "value": "5",
+      "type": "spread"
+    },
+    "color": {
+      "value": "rgba(0, 0, 0, 0.15)",
+      "type": "color"
+    },
+    "type": {
+      "value": "dropShadow",
+      "type": "type"
+    }
+  },
+  "shadow-2": {
+    "x": {
+      "value": "0",
+      "type": "x"
+    },
+    "y": {
+      "value": "30",
+      "type": "y"
+    },
+    "blur": {
+      "value": "30",
+      "type": "blur"
+    },
+    "spread": {
+      "value": "10",
+      "type": "spread"
+    },
+    "color": {
+      "value": "rgba(0, 0, 0, 0.10)",
+      "type": "color"
+    },
+    "type": {
+      "value": "dropShadow",
+      "type": "type"
+    }
+  }
+}

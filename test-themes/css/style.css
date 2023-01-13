@@ -1,0 +1,125 @@
+body {
+	color: var(--body-color-text);
+	background-color: var(--body-color-background);
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	margin: 0 auto;
+}
+
+a {
+	color: var(--link-color);
+}
+
+a:hover {
+	color: var(--link-color-hover);
+}
+
+header {
+	color: var(--header-color-text);
+	background-color: var(--header-color-background);
+	padding: 24px;
+	position: relative;
+}
+
+header .title {
+	font-size: 3rem;
+	font-weight: 700;
+	text-align: center;
+	color: var(--title-color);
+}
+
+header nav ul {
+	padding: 0;
+	margin: 16px 0 0;
+	list-style-type: none;
+	display: flex;
+	justify-content: center;
+}
+
+header a {
+	color: var(--header-color-text);
+	text-decoration: none;
+	font-weight: 700;
+	margin: 0 16px;
+}
+
+header a:hover {
+	color: var(--link-color);
+}
+
+header .toggle {
+	position: absolute;
+	top: 8px;
+	right: 8px;
+}
+
+header .toggle.color {
+	position: absolute;
+	top: auto;
+	bottom: 24px;
+}
+
+.container {
+	max-width: 80%;
+	margin: 32px auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+main {
+	width: 66%;
+}
+
+h1, h2, h3 {
+	margin-top: 0;
+	color: var(--title-color);
+}
+
+h2, h3 {
+	margin-bottom: 4px;
+}
+
+p {
+	line-height: 1.5;
+	margin-top: 0;
+}
+
+aside {
+	width: 25%;
+	padding: 16px;
+	background-color: var(--header-color-background);
+}
+
+aside p {
+	font-size: 0.9rem;
+}
+
+aside ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+aside ul li {
+	margin-bottom: 8px;
+}
+
+footer {
+	color: var(--header-color-text);
+	background-color: var(--header-color-background);
+	padding: 48px 0;
+}
+
+footer h2,
+footer p {
+	max-width: 80%;
+	margin: 0 auto;
+}
+
+footer h2 {
+	font-size: 1rem;
+	margin-bottom: 4px;
+}
+
+footer p {
+	font-size: 0.75rem;
+}

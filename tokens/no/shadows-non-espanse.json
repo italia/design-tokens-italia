@@ -1,0 +1,24 @@
+{
+  "shadow-1": {
+    "value": {
+      "x": "0",
+      "y": "15",
+      "blur": "15",
+      "spread": "5",
+      "color": "rgba(0, 0, 0, 0.15)",
+      "type": "dropShadow"
+    },
+    "type": "boxShadow"
+  },
+  "shadow-2": {
+    "value": {
+      "x": "0",
+      "y": "30",
+      "blur": "30",
+      "spread": "10",
+      "color": "rgba(0, 0, 0, 0.10)",
+      "type": "dropShadow"
+    },
+    "type": "boxShadow"
+  }
+}
