@@ -1,8 +1,7 @@
 // build.js
 const StyleDictionary = require('style-dictionary').extend('config.json');
 
-console.log('Build started...');
-console.log('\n==============================================');
+console.log('📦 Building SCSS and CSS...');
 
 StyleDictionary.registerTransform({
 	name: 'font/family',
@@ -81,48 +80,4 @@ StyleDictionary.registerFormat({
 
 StyleDictionary.buildAllPlatforms();
 
-console.log(`\nCSS + SCSS variables files created \n`)
-
-//------------------- test
-
-/* unused RADIUS/PX
-StyleDictionary.registerTransform({
-	name: 'radius/px',
-	type: 'value',
-	matcher: function(prop) {
-		// You can be more specific here if you only want 'px' units for radius
-		return prop.attributes.category === 'radius';
-	},
-	transformer: function(prop) {
-		// Modify the value here if you want to convert pixels to pxs
-		return parseFloat(prop.original.value) + 'px';
-	}
-}); */
-
-/* unused SPACING/PX
-StyleDictionary.registerTransform({
-	name: 'spacing/px',
-	type: 'value',
-	matcher: function(prop) {
-		// You can be more specific here if you only want 'px' units for radius
-		return prop.attributes.category === 'spacing-small';
-	},
-	transformer: function(prop) {
-		// Modify the value here if you want to convert pixels to pxs
-		return parseFloat(prop.original.value) + 'px';
-	}
-}); */
-
-/* unused FONT/REM
-StyleDictionary.registerTransform({
-	name: 'font/rem',
-	type: 'value',
-	matcher: function(prop) {
-		return prop.attributes.category === 'font-size';
-	},
-	transformer: function(prop, options) {
-    const baseFont = (options && options.basePxFontSize) || 16;
-		// converts the value from px to rem using 16 as standard 1rem size
-		return parseFloat(prop.original.value / baseFont) + 'rem';
-	}
-}); */
+console.log(`\n✅ CSS + SCSS variables files created \n`)
