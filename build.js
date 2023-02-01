@@ -9,7 +9,12 @@ StyleDictionary.registerTransform({
 	type: "value",
 	transitive: true,
 	matcher: (token) => token.type === "fontFamilies",
-	transformer: (token) => `'${token.value}'`,
+	transformer: (token) => {
+		if (token.original.value.startsWith('{'))
+			return token.value
+		else
+			return `'${token.value}'`
+	},
 });
 
 StyleDictionary.registerTransform({
