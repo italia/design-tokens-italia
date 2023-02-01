@@ -6,10 +6,15 @@
   "main": "index.js",
   "scripts": {
     "build": "npm run clean && node build.js",
-    "clean": "rm -rf build"
+    "clean": "rm -rf css scss"
   },
   "license": "BSD-3-Clause",
   "devDependencies": {
     "style-dictionary": "^3.7.2"
-  }
+  },
+  "files": [
+    "css/",
+    "scss/",
+    "tokens/"
+  ]
 }

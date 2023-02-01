@@ -1,5 +1,6 @@
 # Ignore dist files
-build
+css
+scss
 
 # Numerous always-ignore extensions
 *.diff
