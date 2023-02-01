@@ -1,6 +1,6 @@
 # Design Tokens Italia
 
-Design Tokens per progetto Designers Italia.
+Design Tokens per il progetto Designers Italia.
 
 ## Installazione
 
@@ -24,7 +24,7 @@ npm i
 
 ### Utilizzo
 
-I tokens devono essere esportati nella cartella `/tokens`.
+I tokens devono essere esportati da Figma nella cartella `/tokens`.
 
 Per compilare i token una volta esportati da Figma: 
 
