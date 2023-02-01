@@ -1,0 +1,35 @@
+name: Generate new release
+on:
+  push:
+    tags:
+      - 'v1*'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+          # Always release the tip of the default branch
+          ref: main
+      - name: Git config
+        run: |
+          git config user.name "${GITHUB_ACTOR}"
+          git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
+      - run: apt-get update && apt-get install zip
+      - run: mv .npmrc-dist .npmrc
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 18
+      - run: npm ci
+      - run: npm run build
+      - name: Publish package to NPM
+        run: npm publish
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+      - run: sh ./scripts/create-release-attachment.sh
+      - uses: ncipollo/release-action@v1
+        with:
+          artifacts: './design-tokens-italia.zip'
+          token: ${{ secrets.GITHUB_TOKEN }}
+

@@ -1,6 +1,7 @@
 # Ignore dist files
 css
 scss
+design-tokens-italia
 
 # Numerous always-ignore extensions
 *.diff
