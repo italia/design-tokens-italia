@@ -107,7 +107,7 @@
       "warning": {
         "value": "{color.orange.30}",
         "type": "color",
-        "description": "Sfondo di allerta, utilizzato per elementi interattivi o componenti.  Il testo deve essere inverse"
+        "description": "Sfondo di allerta, utilizzato per elementi interattivi o componenti. Il testo deve essere inverse"
       },
       "warning-light": {
         "value": "{color.orange.87}",
@@ -127,12 +127,12 @@
       "error": {
         "value": "{color.red.50}",
         "type": "color",
-        "description": "Sfondo di errore, utilizzato per elementi interattivi o componenti.  Il testo deve essere inverse"
+        "description": "Sfondo di errore, utilizzato per elementi interattivi o componenti. Il testo deve essere inverse"
       },
       "error-light": {
         "value": "{color.red.96}",
         "type": "color",
-        "description": "Sfondo di errore per sezioni e componenti che prevedono contenuti medio/lunghi. Il testo può essere utilizzato in più varianti tranne che  inverse"
+        "description": "Sfondo di errore per sezioni e componenti che prevedono contenuti medio/lunghi. Il testo può essere utilizzato in più varianti tranne che inverse"
       },
       "error-hover": {
         "value": "{color.red.37}",
