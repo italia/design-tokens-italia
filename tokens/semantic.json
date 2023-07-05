@@ -346,27 +346,27 @@
       }
     }
   },
-  "display-1-font-weight": {
+  "heading-1-font-weight": {
     "value": "{font-weight.bold}",
     "type": "fontWeights"
   },
-  "display-2-font-weight": {
+  "heading-2-font-weight": {
     "value": "{font-weight.bold}",
     "type": "fontWeights"
   },
-  "display-3-font-weight": {
+  "heading-3-font-weight": {
     "value": "{font-weight.bold}",
     "type": "fontWeights"
   },
-  "display-4-font-weight": {
+  "heading-4-font-weight": {
     "value": "{font-weight.semibold}",
     "type": "fontWeights"
   },
-  "display-5-font-weight": {
+  "heading-5-font-weight": {
     "value": "{font-weight.semibold}",
     "type": "fontWeights"
   },
-  "display-6-font-weight": {
+  "heading-6-font-weight": {
     "value": "{font-weight.semibold}",
     "type": "fontWeights"
   },
@@ -386,27 +386,27 @@
     "value": "{font-weight.regular}",
     "type": "fontWeights"
   },
-  "display-1-font-size": {
+  "heading-1-font-size": {
     "value": "{font-size.8}",
     "type": "fontSizes"
   },
-  "display-2-font-size": {
+  "heading-2-font-size": {
     "value": "{font-size.7}",
     "type": "fontSizes"
   },
-  "display-3-font-size": {
+  "heading-3-font-size": {
     "value": "{font-size.6}",
     "type": "fontSizes"
   },
-  "display-4-font-size": {
+  "heading-4-font-size": {
     "value": "{font-size.5}",
     "type": "fontSizes"
   },
-  "display-5-font-size": {
+  "heading-5-font-size": {
     "value": "{font-size.4}",
     "type": "fontSizes"
   },
-  "display-6-font-size": {
+  "heading-6-font-size": {
     "value": "{font-size.2}",
     "type": "fontSizes"
   },
@@ -422,27 +422,27 @@
     "value": "{font-size.4}",
     "type": "fontSizes"
   },
-  "display-1-font-size-lg": {
+  "heading-1-font-size-lg": {
     "value": "{font-size.9}",
     "type": "fontSizes"
   },
-  "display-2-font-size-lg": {
+  "heading-2-font-size-lg": {
     "value": "{font-size.8}",
     "type": "fontSizes"
   },
-  "display-3-font-size-lg": {
+  "heading-3-font-size-lg": {
     "value": "{font-size.7}",
     "type": "fontSizes"
   },
-  "display-4-font-size-lg": {
+  "heading-4-font-size-lg": {
     "value": "{font-size.6}",
     "type": "fontSizes"
   },
-  "display-5-font-size-on-desktop": {
+  "heading-5-font-size-on-desktop": {
     "value": "{font-size.5}",
     "type": "fontSizes"
   },
-  "display-6-font-size-lg": {
+  "heading-6-font-size-lg": {
     "value": "{font-size.3}",
     "type": "fontSizes"
   },
@@ -454,27 +454,27 @@
     "value": "{font-size.5}",
     "type": "fontSizes"
   },
-  "display-1-line-height": {
+  "heading-1-line-height": {
     "value": "{font-line-height-xl}",
     "type": "lineHeights"
   },
-  "display-2-line-height": {
+  "heading-2-line-height": {
     "value": "{font-line-height-l}",
     "type": "lineHeights"
   },
-  "display-3-line-height": {
+  "heading-3-line-height": {
     "value": "{font-line-height-m}",
     "type": "lineHeights"
   },
-  "display-4-line-height": {
+  "heading-4-line-height": {
     "value": "{font-line-height-m}",
     "type": "lineHeights"
   },
-  "display-5-line-height": {
+  "heading-5-line-height": {
     "value": "{font-line-height-xs}",
     "type": "lineHeights"
   },
-  "display-6-line-height": {
+  "heading-6-line-height": {
     "value": "{font-line-height-xs}",
     "type": "lineHeights"
   },
@@ -486,27 +486,27 @@
     "value": "{font-line-height-xxs}",
     "type": "lineHeights"
   },
-  "display-1-line-height-lg": {
+  "heading-1-line-height-lg": {
     "value": "{font-line-height-xxl}",
     "type": "lineHeights"
   },
-  "display-2-line-height-lg": {
+  "heading-2-line-height-lg": {
     "value": "{font-line-height-xl}",
     "type": "lineHeights"
   },
-  "display-3-line-height-lg": {
+  "heading-3-line-height-lg": {
     "value": "{font-line-height-l}",
     "type": "lineHeights"
   },
-  "display-4-line-height-lg": {
+  "heading-4-line-height-lg": {
     "value": "{font-line-height-m}",
     "type": "lineHeights"
   },
-  "display-5-line-height-lg": {
+  "heading-5-line-height-lg": {
     "value": "{font-line-height-m}",
     "type": "lineHeights"
   },
-  "display-6-line-height-lg": {
+  "heading-6-line-height-lg": {
     "value": "{font-line-height-xs}",
     "type": "lineHeights"
   },
