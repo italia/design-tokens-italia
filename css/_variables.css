@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 01 Feb 2023 14:56:05 GMT
+ * Generated on Wed, 05 Jul 2023 15:26:36 GMT
  */
 
 :root {
@@ -229,47 +229,47 @@
   --theme-color-dark: #004d99;
   --theme-color-darker: #003366;
   --font-line-height-s: 28px;
-  --display-1-font-weight: 700;
-  --display-2-font-weight: 700;
-  --display-3-font-weight: 700;
-  --display-4-font-weight: 600;
-  --display-5-font-weight: 600;
-  --display-6-font-weight: 600;
+  --heading-1-font-weight: 700;
+  --heading-2-font-weight: 700;
+  --heading-3-font-weight: 700;
+  --heading-4-font-weight: 600;
+  --heading-5-font-weight: 600;
+  --heading-6-font-weight: 600;
   --body-font-weight: normal;
   --caption-font-weight-semibold: 600;
   --caption-font-weight-regular: normal;
   --lead-font-weight: normal;
-  --display-1-font-size: 40px;
-  --display-2-font-size: 32px;
-  --display-3-font-size: 28px;
-  --display-4-font-size: 24px;
-  --display-5-font-size: 20px;
-  --display-6-font-size: 16px;
+  --heading-1-font-size: 40px;
+  --heading-2-font-size: 32px;
+  --heading-3-font-size: 28px;
+  --heading-4-font-size: 24px;
+  --heading-5-font-size: 20px;
+  --heading-6-font-size: 16px;
   --body-font-size: 16px;
   --caption-font-size: 14px;
   --lead-font-size: 20px;
-  --display-1-font-size-lg: 48px;
-  --display-2-font-size-lg: 40px;
-  --display-3-font-size-lg: 32px;
-  --display-4-font-size-lg: 28px;
-  --display-5-font-size-on-desktop: 24px;
-  --display-6-font-size-lg: 18px;
+  --heading-1-font-size-lg: 48px;
+  --heading-2-font-size-lg: 40px;
+  --heading-3-font-size-lg: 32px;
+  --heading-4-font-size-lg: 28px;
+  --heading-5-font-size-lg: 24px;
+  --heading-6-font-size-lg: 18px;
   --body-font-size-lg: 18px;
   --lead-font-size-lg: 24px;
-  --display-1-line-height: 48px;
-  --display-2-line-height: 40px;
-  --display-3-line-height: 32px;
-  --display-4-line-height: 32px;
-  --display-5-line-height: 24px;
-  --display-6-line-height: 24px;
+  --heading-1-line-height: 48px;
+  --heading-2-line-height: 40px;
+  --heading-3-line-height: 32px;
+  --heading-4-line-height: 32px;
+  --heading-5-line-height: 24px;
+  --heading-6-line-height: 24px;
   --body-line-height: 24px;
   --caption-line-height: 16px;
-  --display-1-line-height-lg: 56px;
-  --display-2-line-height-lg: 48px;
-  --display-3-line-height-lg: 40px;
-  --display-4-line-height-lg: 32px;
-  --display-5-line-height-lg: 32px;
-  --display-6-line-height-lg: 24px;
+  --heading-1-line-height-lg: 56px;
+  --heading-2-line-height-lg: 48px;
+  --heading-3-line-height-lg: 40px;
+  --heading-4-line-height-lg: 32px;
+  --heading-5-line-height-lg: 32px;
+  --heading-6-line-height-lg: 24px;
   --body-line-height-lg: 28px;
   --lead-line-height: 32px;
   --lead-line-height-lg: 32px;
