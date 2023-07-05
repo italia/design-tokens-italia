@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 05 Jul 2023 15:10:51 GMT
+ * Generated on Wed, 05 Jul 2023 15:26:36 GMT
  */
 
 :root {
@@ -252,7 +252,7 @@
   --heading-2-font-size-lg: 40px;
   --heading-3-font-size-lg: 32px;
   --heading-4-font-size-lg: 28px;
-  --heading-5-font-size-on-desktop: 24px;
+  --heading-5-font-size-lg: 24px;
   --heading-6-font-size-lg: 18px;
   --body-font-size-lg: 18px;
   --lead-font-size-lg: 24px;
