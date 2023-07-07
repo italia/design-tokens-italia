@@ -26,13 +26,13 @@ StyleDictionary.registerTransform({
 		const fontWeight = prop.original.value;
 		switch (fontWeight) {
 			case 'Regular':
-				return 'normal';
+				return '400';
 			case 'SemiBold':
 				return 600;
 			case 'Bold':
 				return 700;
 			default:
-				return 'normal';
+				return '400';
 		}
 	}
 });
