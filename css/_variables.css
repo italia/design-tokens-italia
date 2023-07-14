@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 05 Jul 2023 15:26:36 GMT
+ * Generated on Fri, 14 Jul 2023 13:41:05 GMT
  */
 
 :root {
@@ -165,9 +165,9 @@
   --font-size-8: 40px;
   --font-size-9: 48px;
   --font-size-10: 56px;
-  --font-weight-extra-light: normal;
-  --font-weight-light: normal;
-  --font-weight-regular: normal;
+  --font-weight-extra-light: 400;
+  --font-weight-light: 400;
+  --font-weight-regular: 400;
   --font-weight-semibold: 600;
   --font-weight-bold: 700;
   --spacing-xxs: 4px;
@@ -191,9 +191,9 @@
   --font-tracking-narrow: -1.3px;
   --font-tracking-tight: -2px;
   --font-tracking-normal: 0px;
-  --font-style-italic: normal;
-  --font-style-bold-italic: normal;
-  --font-style-semibold-italic: normal;
+  --font-style-italic: 400;
+  --font-style-bold-italic: 400;
+  --font-style-semibold-italic: 400;
   --shadow-s-x: 0;
   --shadow-s-y: 4px;
   --shadow-s-blur: 4px;
@@ -231,10 +231,10 @@
   --heading-4-font-weight: 600;
   --heading-5-font-weight: 600;
   --heading-6-font-weight: 600;
-  --body-font-weight: normal;
+  --body-font-weight: 400;
   --caption-font-weight-semibold: 600;
-  --caption-font-weight-regular: normal;
-  --lead-font-weight: normal;
+  --caption-font-weight-regular: 400;
+  --lead-font-weight: 400;
   --heading-1-font-size: 40px;
   --heading-2-font-size: 32px;
   --heading-3-font-size: 28px;
@@ -292,7 +292,7 @@
   --blockquote-cite-size: 14px;
   --blockquote-font: 'Titillium Web';
   --blockquote-cite-font: 'Titillium Web';
-  --blockquote-font-weight: normal;
+  --blockquote-font-weight: 400;
   --icon-default: #1a1a1a;
   --icon-primary: #0066cc;
   --icon-primary-hover: #004d99;
