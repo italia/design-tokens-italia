@@ -8,24 +8,6 @@
       "value": "#ffffff",
       "type": "color"
     },
-    "lightblue": {
-      "a01": {
-        "value": "#E8F2FC",
-        "type": "color"
-      },
-      "a02": {
-        "value": "#EDF5FC",
-        "type": "color"
-      },
-      "a03": {
-        "value": "#F2F7FC",
-        "type": "color"
-      },
-      "a04": {
-        "value": "#F5F9FC",
-        "type": "color"
-      }
-    },
     "blue": {
       "20": {
         "value": "#003366",
