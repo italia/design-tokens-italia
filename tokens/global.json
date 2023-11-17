@@ -716,5 +716,30 @@
   "font-line-height-s": {
     "value": "28px",
     "type": "lineHeights"
+  },
+  "sizing-border-xs": {
+    "value": "1px",
+    "type": "borderWidth",
+    "description": "Dimensione base di un bordo."
+  },
+  "sizing-border-sm": {
+    "value": "2px",
+    "type": "borderWidth"
+  },
+  "sizing-border-md": {
+    "value": "4px",
+    "type": "borderWidth"
+  },
+  "sizing-border-lg": {
+    "value": "8px",
+    "type": "borderWidth"
+  },
+  "sizing-border-xl": {
+    "value": "16px",
+    "type": "borderWidth"
+  },
+  "sizing-border-xxl": {
+    "value": "32px",
+    "type": "borderWidth"
   }
 }
