@@ -487,31 +487,31 @@
   },
   "spacing": {
     "xxs": {
-      "value": "{spacer}",
+      "value": "{baseline}",
       "type": "spacing"
     },
     "xs": {
-      "value": "{spacer} * 2",
+      "value": "{baseline} * 2",
       "type": "spacing"
     },
     "s": {
-      "value": "{spacer} * 4",
+      "value": "{baseline} * 4",
       "type": "spacing"
     },
     "m": {
-      "value": "{spacer} * 6",
+      "value": "{baseline} * 6",
       "type": "spacing"
     },
     "l": {
-      "value": "{spacer} * 8",
+      "value": "{baseline} * 8",
       "type": "spacing"
     },
     "xl": {
-      "value": "{spacer} * 10",
+      "value": "{baseline} * 10",
       "type": "spacing"
     },
     "xxl": {
-      "value": "{spacer} * 12",
+      "value": "{baseline} * 12",
       "type": "spacing"
     }
   },
@@ -527,7 +527,7 @@
     "value": "Roboto Mono",
     "type": "fontFamilies"
   },
-  "spacer": {
+  "baseline": {
     "value": "4",
     "type": "spacing"
   },
