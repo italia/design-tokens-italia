@@ -1,12 +1,18 @@
 
 // Do not edit directly
-// Generated on Fri, 14 Jul 2023 13:41:05 GMT
+// Generated on Fri, 17 Nov 2023 14:49:05 GMT
 
 $icon-size-xxl: 64px;
 $icon-size-xl: 48px;
 $icon-size-l: 32px;
 $icon-size-m: 24px;
 $icon-size-s: 16px;
+$sizing-border-xxl: 32px;
+$sizing-border-xl: 16px;
+$sizing-border-lg: 8px;
+$sizing-border-md: 4px;
+$sizing-border-sm: 2px;
+$sizing-border-xs: 1px;
 $font-line-height-s: 28px;
 $radius-rounded: 40px;
 $radius-circle: 80px;
@@ -33,9 +39,6 @@ $shadow-s-spread: 0;
 $shadow-s-blur: 4px;
 $shadow-s-y: 4px;
 $shadow-s-x: 0;
-$font-style-semibold-italic: 400;
-$font-style-bold-italic: 400;
-$font-style-italic: 400;
 $font-tracking-normal: 0px;
 $font-tracking-tight: -2px;
 $font-tracking-narrow: -1.3px;
@@ -46,7 +49,7 @@ $font-line-height-l: 40px;
 $font-line-height-m: 32px;
 $font-line-height-xs: 24px;
 $font-line-height-xxs: 16px;
-$spacer: 4px;
+$baseline: 4px;
 $font-mono: 'Roboto Mono';
 $font-serif: 'Lora';
 $font-sans: 'Titillium Web';
@@ -206,13 +209,13 @@ $theme-color-dark: $color-blue-30;
 $theme-color-base: $color-blue-40;
 $theme-color-light: $color-blue-77;
 $theme-color-lighter: $color-blue-97;
-$spacing-xxl: $spacer * 12;
-$spacing-xl: $spacer * 10;
-$spacing-l: $spacer * 8;
-$spacing-m: $spacer * 6;
-$spacing-s: $spacer * 4;
-$spacing-xs: $spacer * 2;
-$spacing-xxs: $spacer;
+$spacing-xxl: $baseline * 12;
+$spacing-xl: $baseline * 10;
+$spacing-l: $baseline * 8;
+$spacing-m: $baseline * 6;
+$spacing-s: $baseline * 4;
+$spacing-xs: $baseline * 2;
+$spacing-xxs: $baseline;
 $color-outline-focus: $color-gray-10;
 $color-text-accent: $color-teal-32;
 $color-text-inverse: $color-white;

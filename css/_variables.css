@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Fri, 14 Jul 2023 13:41:05 GMT
+ * Generated on Fri, 17 Nov 2023 14:49:05 GMT
  */
 
 :root {
@@ -180,7 +180,7 @@
   --font-sans: 'Titillium Web';
   --font-serif: 'Lora';
   --font-mono: 'Roboto Mono';
-  --spacer: 4px;
+  --baseline: 4px;
   --font-line-height-xxs: 16px;
   --font-line-height-xs: 24px;
   --font-line-height-m: 32px;
@@ -191,9 +191,6 @@
   --font-tracking-narrow: -1.3px;
   --font-tracking-tight: -2px;
   --font-tracking-normal: 0px;
-  --font-style-italic: 400;
-  --font-style-bold-italic: 400;
-  --font-style-semibold-italic: 400;
   --shadow-s-x: 0;
   --shadow-s-y: 4px;
   --shadow-s-blur: 4px;
@@ -225,6 +222,12 @@
   --theme-color-dark: #004d99;
   --theme-color-darker: #003366;
   --font-line-height-s: 28px;
+  --sizing-border-xs: 1px;
+  --sizing-border-sm: 2px;
+  --sizing-border-md: 4px;
+  --sizing-border-lg: 8px;
+  --sizing-border-xl: 16px;
+  --sizing-border-xxl: 32px;
   --heading-1-font-weight: 700;
   --heading-2-font-weight: 700;
   --heading-3-font-weight: 700;
