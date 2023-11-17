@@ -571,18 +571,6 @@
     "value": "0px",
     "type": "letterSpacing"
   },
-  "font-style-italic": {
-    "value": "Italic",
-    "type": "fontWeights"
-  },
-  "font-style-bold-italic": {
-    "value": "Bold Italic",
-    "type": "fontWeights"
-  },
-  "font-style-semibold-italic": {
-    "value": "SemiBold Italic",
-    "type": "fontWeights"
-  },
   "shadow-s": {
     "x": {
       "value": "0",
