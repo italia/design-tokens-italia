@@ -60,12 +60,6 @@
         "description": "Colore tema default"
       }
     },
-    "indigo": {
-      "a07": {
-        "value": "#3126ff",
-        "type": "color"
-      }
-    },
     "seagreen": {
       "10": {
         "value": "#003121",
@@ -705,29 +699,21 @@
     "value": "28px",
     "type": "lineHeights"
   },
-  "sizing-border-xs": {
+  "border-base": {
     "value": "1px",
     "type": "borderWidth",
     "description": "Dimensione base di un bordo."
   },
-  "sizing-border-sm": {
+  "border-double": {
     "value": "2px",
     "type": "borderWidth"
   },
-  "sizing-border-md": {
+  "border-thick": {
     "value": "4px",
     "type": "borderWidth"
   },
-  "sizing-border-lg": {
+  "border-broad": {
     "value": "8px",
-    "type": "borderWidth"
-  },
-  "sizing-border-xl": {
-    "value": "16px",
-    "type": "borderWidth"
-  },
-  "sizing-border-xxl": {
-    "value": "32px",
     "type": "borderWidth"
   }
 }

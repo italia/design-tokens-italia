@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Fri, 17 Nov 2023 14:49:05 GMT
+ * Generated on Mon, 20 Nov 2023 10:36:10 GMT
  */
 
 :root {
@@ -16,7 +16,6 @@
   --color-blue-77: #94c4f5;
   --color-blue-87: #bfdfff;
   --color-blue-97: #f2f7fc;
-  --color-indigo-a07: #3126ff;
   --color-seagreen-10: #003121;
   --color-seagreen-14: #004931;
   --color-seagreen-19: #006242;
@@ -222,12 +221,10 @@
   --theme-color-dark: #004d99;
   --theme-color-darker: #003366;
   --font-line-height-s: 28px;
-  --sizing-border-xs: 1px;
-  --sizing-border-sm: 2px;
-  --sizing-border-md: 4px;
-  --sizing-border-lg: 8px;
-  --sizing-border-xl: 16px;
-  --sizing-border-xxl: 32px;
+  --border-base: 1px;
+  --border-double: 2px;
+  --border-thick: 4px;
+  --border-broad: 8px;
   --heading-1-font-weight: 700;
   --heading-2-font-weight: 700;
   --heading-3-font-weight: 700;
