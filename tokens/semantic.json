@@ -539,6 +539,10 @@
     "type": "fontFamilies"
   },
   "spacing-stack": {
+    "xs": {
+      "value": "{spacing.xs}",
+      "type": "spacing"
+    },
     "s": {
       "value": "{spacing.s}",
       "type": "spacing"
@@ -601,6 +605,10 @@
     },
     "xl": {
       "value": "{spacing.xl}",
+      "type": "spacing"
+    },
+    "xxl": {
+      "value": "{spacing.xxl}",
       "type": "spacing"
     }
   }

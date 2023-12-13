@@ -60,12 +60,6 @@
         "description": "Colore tema default"
       }
     },
-    "indigo": {
-      "a07": {
-        "value": "#3126ff",
-        "type": "color"
-      }
-    },
     "seagreen": {
       "10": {
         "value": "#003121",
@@ -487,31 +481,31 @@
   },
   "spacing": {
     "xxs": {
-      "value": "{spacer}",
+      "value": "4px",
       "type": "spacing"
     },
     "xs": {
-      "value": "{spacer} * 2",
+      "value": "8px",
       "type": "spacing"
     },
     "s": {
-      "value": "{spacer} * 4",
+      "value": "16px",
       "type": "spacing"
     },
     "m": {
-      "value": "{spacer} * 6",
+      "value": "24px",
       "type": "spacing"
     },
     "l": {
-      "value": "{spacer} * 8",
+      "value": "32px",
       "type": "spacing"
     },
     "xl": {
-      "value": "{spacer} * 10",
+      "value": "40px",
       "type": "spacing"
     },
     "xxl": {
-      "value": "{spacer} * 12",
+      "value": "48px",
       "type": "spacing"
     }
   },
@@ -526,10 +520,6 @@
   "font-mono": {
     "value": "Roboto Mono",
     "type": "fontFamilies"
-  },
-  "spacer": {
-    "value": "4",
-    "type": "spacing"
   },
   "font-line-height-xxs": {
     "value": "16px",
@@ -570,18 +560,6 @@
   "font-tracking-normal": {
     "value": "0px",
     "type": "letterSpacing"
-  },
-  "font-style-italic": {
-    "value": "Italic",
-    "type": "fontWeights"
-  },
-  "font-style-bold-italic": {
-    "value": "Bold Italic",
-    "type": "fontWeights"
-  },
-  "font-style-semibold-italic": {
-    "value": "SemiBold Italic",
-    "type": "fontWeights"
   },
   "shadow-s": {
     "x": {
@@ -661,19 +639,19 @@
       "type": "type"
     }
   },
-  "sizing-s": {
+  "sizing-quarter": {
     "value": "25%",
     "type": "sizing"
   },
-  "sizing-m": {
+  "sizing-half": {
     "value": "50%",
     "type": "sizing"
   },
-  "sizing-l": {
+  "sizing-two-thirds": {
     "value": "75%",
     "type": "sizing"
   },
-  "sizing-xl": {
+  "sizing-full": {
     "value": "100%",
     "type": "sizing"
   },
@@ -716,5 +694,22 @@
   "font-line-height-s": {
     "value": "28px",
     "type": "lineHeights"
+  },
+  "border-base": {
+    "value": "1px",
+    "type": "borderWidth",
+    "description": "Dimensione base di un bordo."
+  },
+  "border-double": {
+    "value": "2px",
+    "type": "borderWidth"
+  },
+  "border-thick": {
+    "value": "4px",
+    "type": "borderWidth"
+  },
+  "border-broad": {
+    "value": "8px",
+    "type": "borderWidth"
   }
 }
