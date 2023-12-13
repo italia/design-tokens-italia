@@ -1,6 +1,6 @@
 
 // Do not edit directly
-// Generated on Mon, 20 Nov 2023 10:36:10 GMT
+// Generated on Wed, 13 Dec 2023 09:20:38 GMT
 
 $icon-size-xxl: 64px;
 $icon-size-xl: 48px;
@@ -15,10 +15,10 @@ $font-line-height-s: 28px;
 $radius-rounded: 40px;
 $radius-circle: 80px;
 $radius-smooth: 4px;
-$sizing-xl: 100%;
-$sizing-l: 75%;
-$sizing-m: 50%;
-$sizing-s: 25%;
+$sizing-full: 100%;
+$sizing-two-thirds: 75%;
+$sizing-half: 50%;
+$sizing-quarter: 25%;
 $shadow-l-type: '';
 $shadow-l-color: rgba(0,0,0,.15);
 $shadow-l-spread: 0;
@@ -302,6 +302,7 @@ $icon-primary-active: $color-background-primary-active;
 $icon-primary-hover: $color-background-primary-hover;
 $icon-primary: $color-background-primary;
 $icon-default: $color-text-base;
+$spacing-inset-xxl: $spacing-xxl;
 $spacing-inset-xl: $spacing-xl;
 $spacing-inset-l: $spacing-l;
 $spacing-inset-m: $spacing-m;
@@ -317,3 +318,4 @@ $spacing-stack-xl: $spacing-xl;
 $spacing-stack-l: $spacing-l;
 $spacing-stack-m: $spacing-m;
 $spacing-stack-s: $spacing-s;
+$spacing-stack-xs: $spacing-xs;

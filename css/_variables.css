@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Mon, 20 Nov 2023 10:36:10 GMT
+ * Generated on Wed, 13 Dec 2023 09:20:38 GMT
  */
 
 :root {
@@ -208,10 +208,10 @@
   --shadow-l-spread: 0;
   --shadow-l-color: rgba(0,0,0,.15);
   --shadow-l-type: '';
-  --sizing-s: 25%;
-  --sizing-m: 50%;
-  --sizing-l: 75%;
-  --sizing-xl: 100%;
+  --sizing-quarter: 25%;
+  --sizing-half: 50%;
+  --sizing-two-thirds: 75%;
+  --sizing-full: 100%;
   --radius-smooth: 4px;
   --radius-circle: 80px;
   --radius-rounded: 40px;
@@ -273,6 +273,7 @@
   --body-font-mono: 'Roboto Mono';
   --body-font-serif: 'Lora';
   --caption-font: 'Titillium Web';
+  --spacing-stack-xs: 4px * 2;
   --spacing-stack-s: 4px * 4;
   --spacing-stack-m: 4px * 6;
   --spacing-stack-l: 4px * 8;
@@ -288,6 +289,7 @@
   --spacing-inset-m: 4px * 6;
   --spacing-inset-l: 4px * 8;
   --spacing-inset-xl: 4px * 10;
+  --spacing-inset-xxl: 4px * 12;
   --blockquote-font-size: 18px;
   --blockquote-cite-size: 14px;
   --blockquote-font: 'Titillium Web';
