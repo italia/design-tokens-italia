@@ -643,19 +643,19 @@
       "type": "type"
     }
   },
-  "sizing-s": {
+  "sizing-quarter": {
     "value": "25%",
     "type": "sizing"
   },
-  "sizing-m": {
+  "sizing-half": {
     "value": "50%",
     "type": "sizing"
   },
-  "sizing-l": {
+  "sizing-two-thirds": {
     "value": "75%",
     "type": "sizing"
   },
-  "sizing-xl": {
+  "sizing-full": {
     "value": "100%",
     "type": "sizing"
   },
