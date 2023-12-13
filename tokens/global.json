@@ -481,31 +481,31 @@
   },
   "spacing": {
     "xxs": {
-      "value": "{baseline}",
+      "value": "4px",
       "type": "spacing"
     },
     "xs": {
-      "value": "{baseline} * 2",
+      "value": "8px",
       "type": "spacing"
     },
     "s": {
-      "value": "{baseline} * 4",
+      "value": "16px",
       "type": "spacing"
     },
     "m": {
-      "value": "{baseline} * 6",
+      "value": "24px",
       "type": "spacing"
     },
     "l": {
-      "value": "{baseline} * 8",
+      "value": "32px",
       "type": "spacing"
     },
     "xl": {
-      "value": "{baseline} * 10",
+      "value": "40px",
       "type": "spacing"
     },
     "xxl": {
-      "value": "{baseline} * 12",
+      "value": "48px",
       "type": "spacing"
     }
   },
@@ -520,10 +520,6 @@
   "font-mono": {
     "value": "Roboto Mono",
     "type": "fontFamilies"
-  },
-  "baseline": {
-    "value": "4px",
-    "type": "spacing"
   },
   "font-line-height-xxs": {
     "value": "16px",
