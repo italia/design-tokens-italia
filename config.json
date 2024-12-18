@@ -21,14 +21,15 @@
 		"transforms": ["attribute/cti", "name/cti/kebab", "font/family", "font/weight", "spacing/px", "shadow/type"],
 		"prefix": "",
 		"buildPath": "css/",
-		"files": [
-		  {
+		"files": [{
 			"destination": "_variables.css",
-			"format": "css/variables"
-		  }
-		],
+			"format": "css/variables",
+			"options": {
+				"outputReferences": true
+			}
+	  }],
 		"basePxFontSize": 16
 	  }
 	}
-  }
+}
 

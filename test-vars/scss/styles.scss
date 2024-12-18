@@ -1,223 +1,223 @@
-@import '../../build/scss/variables';
+@import '../../scss/variables';
 
 .square {
 	width: 100%;
 	height: 200px;
 	display: flex;
-	background-color: $global-primary-primary-100;
+	background-color: $color-blue-77;
 	align-items: center;
 	justify-content: center;
-	color: $global-primary-primary-white;
+	color: $color-white;
 }
 
 .color {
 	width: 100%;
 	height: 80px;
 	display: flex;
-	background-color: grey;
+	background-color: $color-gray-96;
 	align-items: center;
 	justify-content: center;
-	color: $global-primary-primary-white;
+	color: $color-white;
 }
 
 /*----------------*/
 .spacing {
-	background-color: $global-primary-primary-100;
+	background-color: $color-blue-77;
 	display: inline-block;
-	margin-right: $spacing-small;
+	margin-right: $spacing-2x;
 }
 
-.spacing-small {
-	height: $spacing-small;
-	width: $spacing-small;
+.spacing-1x {
+	height: $spacing-1x;
+	width: $spacing-1x;
 }
 
-.spacing-medium {
-	height: $spacing-medium;
-	width: $spacing-medium;
+.spacing-2x {
+	height: $spacing-2x;
+	width: $spacing-2x;
 }
 
-.spacing-large {
-	height: $spacing-large;
-	width: $spacing-large;
+.spacing-3x {
+	height: $spacing-3x;
+	width: $spacing-3x;
 }
 
-.spacing-xlarge {
-	height: $spacing-xlarge;
-	width: $spacing-xlarge;
+.spacing-4x {
+	height: $spacing-4x;
+	width: $spacing-4x;
 }
 
-.spacing-x2large {
-	height: $spacing-x2large;
-	width: $spacing-x2large;
+.spacing-5x {
+	height: $spacing-5x;
+	width: $spacing-5x;
 }
 
-.spacing-x3large {
-	height: $spacing-x3large;
-	width: $spacing-x3large;
+.spacing-6x {
+	height: $spacing-6x;
+	width: $spacing-6x;
 }
 
-.spacing-x4large {
-	height: $spacing-x4large;
-	width: $spacing-x4large;
+.spacing-8x {
+	height: $spacing-8x;
+	width: $spacing-8x;
 }
 
-.spacing-x5large {
-	height: $spacing-x5large;
-	width: $spacing-x5large;
+.spacing-10x {
+	height: $spacing-10x;
+	width: $spacing-10x;
 }
 
-.spacing-x6large {
-	height: $spacing-x6large;
-	width: $spacing-x6large;
+.spacing-12x {
+	height: $spacing-12x;
+	width: $spacing-12x;
 }
 
-.spacing-x7large {
-	height: $spacing-x7large;
-	width: $spacing-x7large;
-}
-
-/*----------------*/
-.radius-small {
-	border-radius: $radius-small;
-}
-
-.radius-medium {
-	border-radius: $radius-medium;
-}
-
-.radius-big {
-	border-radius: $radius-big;
+.spacing-24x {
+	height: $spacing-24x;
+	width: $spacing-24x;
 }
 
 /*----------------*/
-.global-primary-primary-05 {
-	background-color: $global-primary-primary-05;
-	color: $global-primary-primary-130;
+.radius-smooth {
+	border-radius: $radius-smooth;
 }
 
-.global-primary-primary-10 {
-	background-color: $global-primary-primary-10;
-	color: $global-primary-primary-130;
+.radius-rounded {
+	border-radius: $radius-rounded;
 }
 
-.global-primary-primary-20 {
-	background-color: $global-primary-primary-20;
+.radius-cricle {
+	border-radius: $radius-circle;
 }
 
-.global-primary-primary-30 {
-	background-color: $global-primary-primary-30;
+/*----------------*/
+.color-primary-05 {
+	background-color: $color-primary-05;
+	color: $color-primary-130;
 }
 
-.global-primary-primary-60 {
-	background-color: $global-primary-primary-60;
+.color-primary-10 {
+	background-color: $color-primary-10;
+	color: $color-primary-130;
 }
 
-.global-primary-primary-100 {
-	background-color: $global-primary-primary-100;
+.color-primary-20 {
+	background-color: $color-primary-20;
 }
 
-.global-primary-primary-105 {
-	background-color: $global-primary-primary-105;
+.color-primary-30 {
+	background-color: $color-primary-30;
 }
 
-.global-primary-primary-110 {
-	background-color: $global-primary-primary-110;
+.color-primary-60 {
+	background-color: $color-primary-60;
 }
 
-.global-primary-primary-115 {
-	background-color: $global-primary-primary-115;
+.color-primary-100 {
+	background-color: $color-primary-100;
 }
 
-.global-primary-primary-120 {
-	background-color: $global-primary-primary-120;
+.color-primary-105 {
+	background-color: $color-primary-105;
 }
 
-.global-primary-primary-125 {
-	background-color: $global-primary-primary-125;
+.color-primary-110 {
+	background-color: $color-primary-110;
 }
 
-.global-primary-primary-130 {
-	background-color: $global-primary-primary-130;
+.color-primary-115 {
+	background-color: $color-primary-115;
+}
+
+.color-primary-120 {
+	background-color: $color-primary-120;
+}
+
+.color-primary-125 {
+	background-color: $color-primary-125;
+}
+
+.color-primary-130 {
+	background-color: $color-primary-130;
 }
 /*---------------*/
-.global-primary-primary-accent {
-	background-color: $global-primary-primary-accent;
+.color-accent {
+	background-color: $color-accent;
 }
 
-.global-primary-primary-accent-mid1 {
-	background-color: $global-primary-primary-accent-mid1;
+.color-accent-mid1 {
+	background-color: $color-accent-mid1;
 }
 
-.global-primary-primary-accent-mid2 {
-	background-color: $global-primary-primary-accent-mid2;
+.color-accent-mid2 {
+	background-color: $color-accent-mid2;
 }
 
-.global-primary-primary-accent-mid3 {
-	background-color: $global-primary-primary-accent-mid3;
+.color-accent-mid3 {
+	background-color: $color-accent-mid3;
 }
 
-.global-primary-primary-accent-mid4 {
-	background-color: $global-primary-primary-accent-mid4;
-	color: $global-primary-primary-accent;
+.color-accent-mid4 {
+	background-color: $color-accent-mid4;
+	color: $color-accent;
 }
 
-.global-primary-primary-accent-mid5 {
-	background-color: $global-primary-primary-accent-mid5;
-	color: $global-primary-primary-accent;
+.color-accent-mid5 {
+	background-color: $color-accent-mid5;
+	color: $color-accent;
 }
 /*---------------------------*/
-.global-semantic-semantic-error {
-	background-color: $global-semantic-semantic-error;
+.color-error {
+	background-color: $color-error;
 }
 
-.global-semantic-semantic-warning {
-	background-color: $global-semantic-semantic-warning;
+.color-warning {
+	background-color: $color-warning;
 }
 
-.global-semantic-semantic-success {
-	background-color: $global-semantic-semantic-success;
+.color-success {
+	background-color: $color-success;
 }
 /*-------------------------------------*/
 
-.global-secondary-secondary01 {
-	background-color: $global-secondary-secondary01;
-	color: $global-secondary-secondary10;
+.color-secondary-01 {
+	background-color: $color-secondary-01;
+	color: $color-secondary-10;
 }
 
-.global-secondary-secondary02 {
-	background-color: $global-secondary-secondary02;
-	color: $global-secondary-secondary10;
+.color-secondary-02 {
+	background-color: $color-secondary-02;
+	color: $color-secondary-10;
 }
 
-.global-secondary-secondary03 {
-	background-color: $global-secondary-secondary03;
+.color-secondary-03 {
+	background-color: $color-secondary-03;
 }
 
-.global-secondary-secondary04 {
-	background-color: $global-secondary-secondary04;
+.color-secondary-04 {
+	background-color: $color-secondary-04;
 }
 
-.global-secondary-secondary05 {
-	background-color: $global-secondary-secondary05;
+.color-secondary-05 {
+	background-color: $color-secondary-05;
 }
 
-.global-secondary-secondary06 {
-	background-color: $global-secondary-secondary06;
+.color-secondary-06 {
+	background-color: $color-secondary-06;
 }
 
-.global-secondary-secondary07 {
-	background-color: $global-secondary-secondary07;
+.color-secondary-07 {
+	background-color: $color-secondary-07;
 }
 
-.global-secondary-secondary08 {
-	background-color: $global-secondary-secondary08;
+.color-secondary-08 {
+	background-color: $color-secondary-08;
 }
 
-.global-secondary-secondary09 {
-	background-color: $global-secondary-secondary09;
+.color-secondary-09 {
+	background-color: $color-secondary-09;
 }
 
-.global-secondary-secondary10 {
-	background-color: $global-secondary-secondary10;
+.color-secondary-10 {
+	background-color: $color-secondary-10;
 }
