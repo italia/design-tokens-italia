@@ -1,24 +1,4 @@
 {
-  "blockquote-font-size": {
-    "value": "{font-size.3}",
-    "type": "fontSizes"
-  },
-  "blockquote-cite-size": {
-    "value": "{font-size.1}",
-    "type": "fontSizes"
-  },
-  "blockquote-font": {
-    "value": "{font-sans}",
-    "type": "fontFamilies"
-  },
-  "blockquote-cite-font": {
-    "value": "{font-sans}",
-    "type": "fontFamilies"
-  },
-  "blockquote-font-weight": {
-    "value": "{font-weight.regular}",
-    "type": "fontWeights"
-  },
   "icon": {
     "default": {
       "value": "{color.text.base}",
@@ -106,18 +86,6 @@
       "description": "Colore icona dsabilitata"
     }
   },
-  "progress": {
-    "background": {
-      "default": {
-        "value": "{color.background.secondary-lighter}",
-        "type": "color"
-      },
-      "active": {
-        "value": "{color.background.secondary}",
-        "type": "color"
-      }
-    }
-  },
   "icon-size-s": {
     "value": "16px",
     "type": "sizing"
@@ -137,15 +105,5 @@
   "icon-size-xxl": {
     "value": "64px",
     "type": "sizing"
-  },
-  "footer": {
-    "background": {
-      "value": "{theme.color.dark}",
-      "type": "color"
-    },
-    "bottom-background": {
-      "value": "{theme.color.darker}",
-      "type": "color"
-    }
   }
 }
