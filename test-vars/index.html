@@ -4,21 +4,22 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Test import Design tokens da Figma</title>
+	<title>Design Token Italia - tester</title>
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
 	
 	<!-- the following import uses CSS variables -->
 	<!--<link rel="stylesheet" href="../build/css/_variables.css">-->
-	<!--<link rel="stylesheet" href="css/styles-css-variables.css">-->
+	<link rel="stylesheet" href="../css/_variables.css">
+	<link rel="stylesheet" href="css/styles-css-variables.css">
 
 	<!-- the following import uses SCSS variables compiled to a CSS file -->
-	<link rel="stylesheet" href="css/styles.css">
+	<!-- <link rel="stylesheet" href="css/styles.css"> -->
 </head>
 <body>
 	<div class="container mt-5 mb-5 pt-5">
 		<div class="row">
 			<div class="col">
-				<h1>Test import Design tokens da Figma</h1>
+				<h1>Design Token Italia</h1>
 			</div>
 		</div>
 		<div class="row mt-5">
@@ -27,111 +28,49 @@
 					<hr>
 			</div>
 		</div>
+		
 		<div class="row">
-			<div class="col">
-				<h3>Primary</h3>
-				<div class="color global-primary-primary-05">
-					global-primary-primary-05
-				</div>
-				<div class="color global-primary-primary-10">
-					global-primary-primary-10
-				</div>
-				<div class="color global-primary-primary-20">
-					global-primary-primary-20
-				</div>
-				<div class="color global-primary-primary-30">
-					global-primary-primary-30
-				</div>
-				<div class="color global-primary-primary-60">
-					global-primary-primary-60
-				</div>
-				<div class="color global-primary-primary-100">
-					global-primary-primary-100
-				</div>
-				<div class="color global-primary-primary-105">
-					global-primary-primary-105
-				</div>
-				<div class="color global-primary-primary-110">
-					global-primary-primary-110
-				</div>
-				<div class="color global-primary-primary-115">
-					global-primary-primary-115
-				</div>
-				<div class="color global-primary-primary-120">
-					global-primary-primary-120
-				</div>
-				<div class="color global-primary-primary-125">
-					global-primary-primary-125
-				</div>
-				<div class="color global-primary-primary-130">
-					global-primary-primary-130
-				</div>
-			</div>
-			<div class="col">
-				<h3>Secondary</h3>
-				<div class="color global-secondary-secondary01">
-					global-secondary-secondary01
-				</div>
-				<div class="color global-secondary-secondary02">
-					global-secondary-secondary02
-				</div>
-				<div class="color global-secondary-secondary03">
-					global-secondary-secondary03
-				</div>
-				<div class="color global-secondary-secondary04">
-					global-secondary-secondary04
-				</div>
-				<div class="color global-secondary-secondary05">
-					global-secondary-secondary05
-				</div>
-				<div class="color global-secondary-secondary06">
-					global-secondary-secondary06
-				</div>
-				<div class="color global-secondary-secondary07">
-					global-secondary-secondary07
-				</div>
-				<div class="color global-secondary-secondary08">
-					global-secondary-secondary08
-				</div>
-				<div class="color global-secondary-secondary09">
-					global-secondary-secondary09
-				</div>
-				<div class="color global-secondary-secondary10">
-					global-secondary-secondary10
-				</div>
-			</div>
-			<div class="col">
-				<h3>Primary accent</h3>
-				<div class="color global-primary-primary-accent">
-					global-primary-primary-accent
-				</div>
-				<div class="color global-primary-primary-accent-mid1">
-					global-primary-primary-accent-mid1
-				</div>
-				<div class="color global-primary-primary-accent-mid2">
-					global-primary-primary-accent-mid2
-				</div>
-				<div class="color global-primary-primary-accent-mid3">
-					global-primary-primary-accent-mid3
-				</div>
-				<div class="color global-primary-primary-accent-mid4">
-					global-primary-primary-accent-mid4
-				</div>
-				<div class="color global-primary-primary-accent-mid5">
-					global-primary-primary-accent-mid5
-				</div>
-				<h3 class="mt-4">Semantic</h3>
-				<div class="color global-semantic-semantic-error">
-					global-semantic-semantic-error
-				</div>
-				<div class="color global-semantic-semantic-warning">
-					global-semantic-semantic-warning
-				</div>
-				<div class="color global-semantic-semantic-success">
-					global-semantic-semantic-success
-				</div>
+			<div class="col-6">
+				<table class="w-100">
+					<tr>
+						<td>
+							<div class="color color-background-primary-lighter">
+								color-background-primary-lighter
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<div class="color color-background-primary-light">
+								color-background-primary-light
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<div class="color color-background-primary">
+								color-background-primary
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<div class="color color-background-primary-muted">
+								color-background-primary-muted
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<div class="color color-background-primary-dark">
+								color-background-primary-dark
+							</div>
+						</td>
+					</tr>
+				</table>
 			</div>
 		</div>
+
 		<div class="row mt-5">
 			<div class="col">
 				<h2>Radius</h1>
@@ -140,18 +79,18 @@
 		</div>
 		<div class="row">
 			<div class="col">
-				<div class="square radius-small">
-					radius-small
+				<div class="square radius-smooth">
+					radius-smooth
 				</div>
 			</div>
 			<div class="col">
-				<div class="square radius-medium">
-					radius-medium
+				<div class="square radius-rounded">
+					radius-rounded
 				</div>
 			</div>
 			<div class="col">
-				<div class="square radius-big">
-					radius-big
+				<div class="square radius-circle">
+					radius-circle
 				</div>
 			</div>
 		</div>
@@ -161,18 +100,19 @@
 				<hr>
 			</div>
 		</div>
+
 		<div class="row pb-5">
 			<div class="col d-flex align-items-start">
-				<div class="spacing spacing-small" title="spacing-small"></div>
-				<div class="spacing spacing-medium" title="spacing-medium"></div>
-				<div class="spacing spacing-large" title="spacing-large"></div>
-				<div class="spacing spacing-xlarge" title="spacing-xlarge"></div>
-				<div class="spacing spacing-x2large" title="spacing-x2large"></div>
-				<div class="spacing spacing-x3large" title="spacing-x3large"></div>
-				<div class="spacing spacing-x4large" title="spacing-x4large"></div>
-				<div class="spacing spacing-x5large" title="spacing-x5large"></div>
-				<div class="spacing spacing-x6large" title="spacing-x6large"></div>
-				<div class="spacing spacing-x7large" title="spacing-x7large"></div>
+				<div class="space spacing-1x" title="spacing-small"></div>
+				<div class="space spacing-2x" title="spacing-medium"></div>
+				<div class="space spacing-3x" title="spacing-large"></div>
+				<div class="space spacing-4x" title="spacing-xlarge"></div>
+				<div class="space spacing-5x" title="spacing-x2large"></div>
+				<div class="space spacing-6x" title="spacing-x3large"></div>
+				<div class="space spacing-8x" title="spacing-x4large"></div>
+				<div class="space spacing-10x" title="spacing-x5large"></div>
+				<div class="space spacing-12x" title="spacing-x6large"></div>
+				<div class="space spacing-24x" title="spacing-x7large"></div>
 			</div>
 		</div>
 	</div>
