@@ -526,6 +526,14 @@
       "type": "spacing",
       "description": "Multiplo 12x della misura minima"
     },
+    "14x": {
+      "value": "56px",
+      "type": "spacing"
+    },
+    "16x": {
+      "value": "64px",
+      "type": "spacing"
+    },
     "24x": {
       "value": "96px",
       "type": "spacing",
@@ -589,82 +597,37 @@
     "type": "letterSpacing"
   },
   "shadow-s": {
-    "x": {
-      "value": "0",
-      "type": "x"
+    "value": {
+      "x": "0",
+      "y": "4px",
+      "blur": "4px",
+      "spread": "0",
+      "color": "rgba(0,0,0,.15)",
+      "type": "dropShadow"
     },
-    "y": {
-      "value": "4px",
-      "type": "y"
-    },
-    "blur": {
-      "value": "4px",
-      "type": "blur"
-    },
-    "spread": {
-      "value": "0",
-      "type": "spread"
-    },
-    "color": {
-      "value": "rgba(0,0,0,.15)",
-      "type": "color"
-    },
-    "type": {
-      "value": "dropShadow",
-      "type": "type"
-    }
+    "type": "boxShadow"
   },
   "shadow-m": {
-    "x": {
-      "value": "0",
-      "type": "x"
+    "value": {
+      "x": "0",
+      "y": "8px",
+      "blur": "16px",
+      "spread": "0",
+      "color": "rgba(0,0,0,.15)",
+      "type": "dropShadow"
     },
-    "y": {
-      "value": "8px",
-      "type": "y"
-    },
-    "blur": {
-      "value": "16px",
-      "type": "blur"
-    },
-    "spread": {
-      "value": "0",
-      "type": "spread"
-    },
-    "color": {
-      "value": "rgba(0,0,0,.15)",
-      "type": "color"
-    },
-    "type": {
-      "value": "dropShadow",
-      "type": "type"
-    }
+    "type": "boxShadow"
   },
   "shadow-l": {
-    "x": {
-      "value": "0",
-      "type": "x"
+    "value": {
+      "x": "0",
+      "y": "16px",
+      "blur": "48px",
+      "spread": "0",
+      "color": "rgba(0,0,0,.15)",
+      "type": "dropShadow"
     },
-    "y": {
-      "value": "16px",
-      "type": "y"
-    },
-    "blur": {
-      "value": "48px",
-      "type": "blur"
-    },
-    "spread": {
-      "value": "0",
-      "type": "spread"
-    },
-    "color": {
-      "value": "rgba(0,0,0,.15)",
-      "type": "color"
-    },
-    "type": {
-      "value": "dropShadow",
-      "type": "type"
-    }
+    "type": "boxShadow"
   },
   "sizing-quarter": {
     "value": "25%",
