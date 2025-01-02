@@ -5,10 +5,10 @@
 	"platforms": {
 	  "scss": {
 		"transforms": ["attribute/cti", "name/cti/kebab", "font/family", "font/weight", "spacing/px", "shadow/type"],
-		"prefix": "",
+		"prefix": "dsi-",
 		"buildPath": "scss/",
 		"files": [{
-		  "destination": "_variables.scss",
+		  "destination": "dsi-tokens.scss",
 		  "format": "scss/variables",
 		  "options": {
 			"outputReferences": true,
@@ -19,10 +19,10 @@
 	  },
 	  "css": {
 		"transforms": ["attribute/cti", "name/cti/kebab", "font/family", "font/weight", "spacing/px", "shadow/type"],
-		"prefix": "",
+		"prefix": "dsi-",
 		"buildPath": "css/",
 		"files": [{
-			"destination": "_variables.css",
+			"destination": "dsi-tokens.css",
 			"format": "css/variables",
 			"options": {
 				"outputReferences": true
