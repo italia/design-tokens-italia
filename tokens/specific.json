@@ -105,5 +105,133 @@
   "icon-size-xxl": {
     "value": "64px",
     "type": "sizing"
+  },
+  "code-font": {
+    "value": "{font-mono}",
+    "type": "fontFamilies",
+    "description": "The default font family for code blocks."
+  },
+  "data-font": {
+    "value": "{font-mono}",
+    "type": "fontFamilies",
+    "description": "The default font family for data visualization content."
+  },
+  "heading-font-weight": {
+    "value": "{font-weight-bold}",
+    "type": "fontWeights",
+    "description": "The default font weight for headings."
+  },
+  "heading-font-weight-weak": {
+    "value": "{font-weight-solid}",
+    "type": "fontWeights",
+    "description": "The alternative font weight for secondary headings."
+  },
+  "heading-line-height": {
+    "value": "{font-line-height-2}",
+    "type": "lineHeights"
+  },
+  "body-line-height": {
+    "value": "{font-line-height-5}",
+    "type": "lineHeights"
+  },
+  "caption-line-height": {
+    "value": "{font-line-height-3}",
+    "type": "lineHeights"
+  },
+  "lead-line-height": {
+    "value": "{font-line-height-3}",
+    "type": "lineHeights"
+  },
+  "heading-1-font-size": {
+    "value": "{font-size-9}",
+    "type": "fontSizes"
+  },
+  "heading-1-font-size-l": {
+    "value": "{font-size-10}",
+    "type": "fontSizes"
+  },
+  "heading-2-font-size": {
+    "value": "{font-size-8}",
+    "type": "fontSizes"
+  },
+  "heading-2-font-size-l": {
+    "value": "{font-size-9}",
+    "type": "fontSizes"
+  },
+  "heading-3-font-size-l": {
+    "value": "{font-size-8}",
+    "type": "fontSizes"
+  },
+  "heading-3-font-size": {
+    "value": "{font-size-7}",
+    "type": "fontSizes"
+  },
+  "heading-4-font-size": {
+    "value": "{font-size-6}",
+    "type": "fontSizes"
+  },
+  "heading-4-font-size-l": {
+    "value": "{font-size-7}",
+    "type": "fontSizes"
+  },
+  "heading-5-font-size": {
+    "value": "{font-size-5}",
+    "type": "fontSizes"
+  },
+  "heading-5-font-size-l": {
+    "value": "{font-size-6}",
+    "type": "fontSizes"
+  },
+  "heading-6-font-size": {
+    "value": "{font-size-3}",
+    "type": "fontSizes"
+  },
+  "heading-6-font-size-l": {
+    "value": "{font-size-4}",
+    "type": "fontSizes"
+  },
+  "body-font-size": {
+    "value": "{font-size-3}",
+    "type": "fontSizes"
+  },
+  "body-font-size-l": {
+    "value": "{font-size-4}",
+    "type": "fontSizes"
+  },
+  "caption-font-size": {
+    "value": "{font-size-2}",
+    "type": "fontSizes"
+  },
+  "lead-font-size": {
+    "value": "{font-size-5}",
+    "type": "fontSizes"
+  },
+  "lead-font-size-l": {
+    "value": "{font-size-6}",
+    "type": "fontSizes"
+  },
+  "theme": {
+    "italia": {
+      "base": {
+        "value": "{color.blue.40}",
+        "type": "color"
+      },
+      "light": {
+        "value": "{color.blue.87}",
+        "type": "color"
+      },
+      "lighter": {
+        "value": "{color.blue.97}",
+        "type": "color"
+      },
+      "muted": {
+        "value": "{color.blue.25}",
+        "type": "color"
+      },
+      "deep": {
+        "value": "{color.blue.20}",
+        "type": "color"
+      }
+    }
   }
 }
