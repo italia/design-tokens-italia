@@ -597,37 +597,82 @@
     "type": "letterSpacing"
   },
   "shadow-s": {
-    "value": {
-      "x": "0",
-      "y": "4px",
-      "blur": "4px",
-      "spread": "0",
-      "color": "rgba(0,0,0,.15)",
-      "type": "dropShadow"
+    "x": {
+      "value": "0",
+      "type": "x"
     },
-    "type": "boxShadow"
+    "y": {
+      "value": "4px",
+      "type": "y"
+    },
+    "blur": {
+      "value": "4px",
+      "type": "blur"
+    },
+    "spread": {
+      "value": "0",
+      "type": "spread"
+    },
+    "color": {
+      "value": "rgba(0,0,0,.15)",
+      "type": "color"
+    },
+    "type": {
+      "value": "dropShadow",
+      "type": "type"
+    }
   },
   "shadow-m": {
-    "value": {
-      "x": "0",
-      "y": "8px",
-      "blur": "16px",
-      "spread": "0",
-      "color": "rgba(0,0,0,.15)",
-      "type": "dropShadow"
+    "x": {
+      "value": "0",
+      "type": "x"
     },
-    "type": "boxShadow"
+    "y": {
+      "value": "8px",
+      "type": "y"
+    },
+    "blur": {
+      "value": "16px",
+      "type": "blur"
+    },
+    "spread": {
+      "value": "0",
+      "type": "spread"
+    },
+    "color": {
+      "value": "rgba(0,0,0,.15)",
+      "type": "color"
+    },
+    "type": {
+      "value": "dropShadow",
+      "type": "type"
+    }
   },
   "shadow-l": {
-    "value": {
-      "x": "0",
-      "y": "16px",
-      "blur": "48px",
-      "spread": "0",
-      "color": "rgba(0,0,0,.15)",
-      "type": "dropShadow"
+    "x": {
+      "value": "0",
+      "type": "x"
     },
-    "type": "boxShadow"
+    "y": {
+      "value": "16px",
+      "type": "y"
+    },
+    "blur": {
+      "value": "48px",
+      "type": "blur"
+    },
+    "spread": {
+      "value": "0",
+      "type": "spread"
+    },
+    "color": {
+      "value": "rgba(0,0,0,.15)",
+      "type": "color"
+    },
+    "type": {
+      "value": "dropShadow",
+      "type": "type"
+    }
   },
   "sizing-quarter": {
     "value": "25%",
