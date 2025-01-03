@@ -24,7 +24,16 @@
       "primary-active": {
         "value": "{color.blue.20}",
         "type": "color",
-        "description": "Sfondo utilizzato su componenti primari interattivi nello stato di :active."
+      },
+      "primary-muted": {
+        "value": "{color.blue.30}",
+        "type": "color",
+        "description": "Sfondo del colore primario tenue utilizzato su sezioni di pagina."
+      },
+      "primary-deep": {
+        "value": "{color.blue.20}",
+        "type": "color",
+        "description": "Sfondo del colore primario profondo utilizzato su sezioni di pagina."
       },
       "secondary": {
         "value": "{color.slate.44}",
