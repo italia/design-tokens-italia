@@ -124,35 +124,25 @@
         "type": "color",
         "description": "Sfondo di allerta, utilizzato per elementi interattivi nello stato di :active"
       },
-      "error": {
+      "danger": {
         "value": "{color.red.50}",
         "type": "color",
-        "description": "Sfondo di errore, utilizzato per elementi interattivi o componenti. Il testo deve essere inverse"
+        "description": "Colore di sfondo che avvisa di un pericolo o errore, utilizzato per elementi interattivi o componenti. Il testo deve essere inverse."
       },
       "error-light": {
         "value": "{color.red.96}",
         "type": "color",
         "description": "Sfondo di errore per sezioni e componenti che prevedono contenuti medio/lunghi. Il testo può essere utilizzato in più varianti tranne che inverse"
       },
-      "error-hover": {
+      "danger-hover": {
         "value": "{color.red.37}",
         "type": "color",
-        "description": "Sfondo di errore, utilizzato per elementi interattivi nello stato di :hover"
+        "description": "Colore di sfondo che avvisa di un pericolo o errore, utilizzato per elementi interattivi nello stato di :hover."
       },
-      "error-active": {
+      "danger-active": {
         "value": "{color.red.25}",
         "type": "color",
-        "description": "Sfondo di errore, utilizzato per elementi interattivi nello stato di :active"
-      },
-      "primary-muted": {
-        "value": "{color.blue.30}",
-        "type": "color",
-        "description": "Sfondo di un elemento nel colore primario scuro."
-      },
-      "primary-dark": {
-        "value": "{color.blue.20}",
-        "type": "color",
-        "description": "Sfondo di un elemento nel colore primario più scuro."
+        "description": "Colore di sfondo che avvisa di un pericolo o errore, utilizzato per elementi interattivi nello stato di :active"
       }
     },
     "border": {
@@ -231,20 +221,20 @@
         "type": "color",
         "description": "Bordo di allerta per stato interattivo active"
       },
-      "error": {
+      "danger": {
         "value": "{color.red.50}",
         "type": "color",
-        "description": "Bordo di errore, utilizzato per elementi interattivi o statici (vedi esempio success)"
+        "description": "Colore di un bordo che avvisa di un pericolo o errore, utilizzato per elementi interattivi o statici (vedi esempio success)"
       },
       "error-hover": {
         "value": "{color.red.37}",
         "type": "color",
-        "description": "Bordo di errore per stato interattivo hover"
+        "description": "Colore di sfondo che avvisa di un pericolo o errore per stato interattivo :hover."
       },
-      "error-active": {
+      "danger-active": {
         "value": "{color.red.25}",
         "type": "color",
-        "description": "Bordo di errore per stato interattivo active"
+        "description": "Colore di sfondo che avvisa di un pericolo o errore per stato interattivo :active."
       }
     },
     "text": {
@@ -323,20 +313,20 @@
         "type": "color",
         "description": "Testo di allerta interattivo nello stato active"
       },
-      "error": {
+      "danger": {
         "value": "{color.red.50}",
         "type": "color",
-        "description": "Testo di errore, può essere anche interattivo (link, button)"
+        "description": "Colore del testo per problema o errore, può essere anche interattivo (link, button)"
       },
-      "error-hover": {
+      "danger-hover": {
         "value": "{color.red.37}",
         "type": "color",
-        "description": "Testo di errore interattivo nello stato hover"
+        "description": "Colore del testo per problema o errore interattivo nello stato hover"
       },
-      "error-active": {
+      "danger-active": {
         "value": "{color.red.25}",
         "type": "color",
-        "description": "Testo di errore interattivo nello stato active"
+        "description": "Colore del testo per problema o errore interattivo nello stato active"
       },
       "inverse": {
         "value": "{color.white}",
