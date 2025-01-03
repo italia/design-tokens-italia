@@ -19,11 +19,12 @@
       "primary-hover": {
         "value": "{color.blue.30}",
         "type": "color",
-        "description": "Sfondo utilizzato su componenti primari interattivi nello stato di :hover."
+        "description": "Sfondo utilizzato su componenti primari interattivi nello stato di hover."
       },
       "primary-active": {
         "value": "{color.blue.20}",
         "type": "color",
+        "description": "Sfondo utilizzato su componenti primari interattivi nello stato attivo e premuto."
       },
       "primary-muted": {
         "value": "{color.blue.30}",
@@ -43,12 +44,12 @@
       "secondary-hover": {
         "value": "{color.slate.28}",
         "type": "color",
-        "description": "Sfondo utilizzato su elementi interattivi secondari nello stato di :hover."
+        "description": "Sfondo utilizzato su elementi interattivi secondari nello stato di hover."
       },
       "secondary-active": {
         "value": "{color.slate.20}",
         "type": "color",
-        "description": "Sfondo utilizzato su elementi interattivi secondari nello stato di :active"
+        "description": "Sfondo utilizzato su elementi interattivi secondari nello stato attivo e premuto"
       },
       "secondary-light": {
         "value": "{color.slate.68}",
