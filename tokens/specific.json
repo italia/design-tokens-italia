@@ -65,17 +65,17 @@
       "type": "color",
       "description": "Colore icona di supporto per comunicazioni che richiedono attenzione - status attivo"
     },
-    "error": {
+    "danger": {
       "value": "{color.background.danger}",
       "type": "color",
       "description": "Colore icona di supporto per azioni non andate a buon fine - status hover"
     },
-    "error-hover": {
+    "danger-hover": {
       "value": "{color.background.danger-hover}",
       "type": "color",
       "description": "Colore icona di supporto per azioni non andate a buon fine - status hover"
     },
-    "error-active": {
+    "danger-active": {
       "value": "{color.background.danger-active}",
       "type": "color",
       "description": "Colore icona di supporto per azioni non andate a buon fine - status hover"
