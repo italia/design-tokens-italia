@@ -1,6 +1,6 @@
 
 // Do not edit directly
-// Generated on Thu, 02 Jan 2025 15:20:49 GMT
+// Generated on Fri, 03 Jan 2025 17:03:19 GMT
 
 $dsi-icon-size-xxl: 64px;
 $dsi-icon-size-xl: 48px;
@@ -159,6 +159,11 @@ $dsi-color-blue-25: #004080;
 $dsi-color-blue-20: #003366;
 $dsi-color-white: #ffffff;
 $dsi-color-black: #000000;
+$dsi-theme-italia-deep: $dsi-color-blue-20;
+$dsi-theme-italia-muted: $dsi-color-blue-25;
+$dsi-theme-italia-lighter: $dsi-color-blue-97;
+$dsi-theme-italia-light: $dsi-color-blue-87;
+$dsi-theme-italia-base: $dsi-color-blue-40;
 $dsi-lead-font-size-l: $dsi-font-size-6;
 $dsi-lead-font-size: $dsi-font-size-5;
 $dsi-caption-font-size: $dsi-font-size-2;
@@ -268,7 +273,7 @@ $dsi-color-background-secondary-light: $dsi-color-slate-68;
 $dsi-color-background-secondary-active: $dsi-color-slate-20;
 $dsi-color-background-secondary-hover: $dsi-color-slate-28;
 $dsi-color-background-secondary: $dsi-color-slate-44;
-$dsi-color-background-primary-dark: $dsi-color-blue-20;
+$dsi-color-background-primary-deep: $dsi-color-blue-20;
 $dsi-color-background-primary-muted: $dsi-color-blue-30;
 $dsi-color-background-primary-active: $dsi-color-blue-20;
 $dsi-color-background-primary-hover: $dsi-color-blue-30;
@@ -276,8 +281,6 @@ $dsi-color-background-primary-lighter: $dsi-color-blue-97;
 $dsi-color-background-primary-light: $dsi-color-blue-87;
 $dsi-color-background-primary: $dsi-color-blue-40;
 $dsi-heading-font-weight-weak: $dsi-font-weight-solid;
-$dsi-progress-background-active: $dsi-color-background-secondary;
-$dsi-progress-background-default: $dsi-color-background-secondary-lighter;
 $dsi-icon-inverse: $dsi-color-background-inverse;
 $dsi-icon-danger-active: $dsi-color-background-danger-active;
 $dsi-icon-danger-hover: $dsi-color-background-danger-hover;
