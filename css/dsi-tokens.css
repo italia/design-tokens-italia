@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Fri, 03 Jan 2025 17:03:19 GMT
+ * Generated on Wed, 08 Jan 2025 11:08:34 GMT
  */
 
 :root {
@@ -42,13 +42,11 @@
   --dsi-font-tracking-tight: -2px;
   --dsi-font-tracking-narrow: -1.3px;
   --dsi-font-tracking-short: -1px;
-  --dsi-font-line-height-7: 56px;
-  --dsi-font-line-height-6: 48px;
-  --dsi-font-line-height-5: 40px;
-  --dsi-font-line-height-4: 32px;
-  --dsi-font-line-height-3: 28px;
-  --dsi-font-line-height-2: 24px;
-  --dsi-font-line-height-1: 16px;
+  --dsi-font-line-height-5: 150%;
+  --dsi-font-line-height-4: 140%;
+  --dsi-font-line-height-3: 130%;
+  --dsi-font-line-height-2: 120%;
+  --dsi-font-line-height-1: 110%;
   --dsi-font-mono: 'Roboto Mono';
   --dsi-font-serif: 'Lora';
   --dsi-font-sans: 'Titillium Web';

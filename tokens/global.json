@@ -553,31 +553,23 @@
     "type": "fontFamilies"
   },
   "font-line-height-1": {
-    "value": "16px",
+    "value": "110%",
     "type": "lineHeights"
   },
   "font-line-height-2": {
-    "value": "24px",
+    "value": "120%",
     "type": "lineHeights"
   },
   "font-line-height-3": {
-    "value": "28px",
+    "value": "130%",
     "type": "lineHeights"
   },
   "font-line-height-4": {
-    "value": "32px",
+    "value": "140%",
     "type": "lineHeights"
   },
   "font-line-height-5": {
-    "value": "40px",
-    "type": "lineHeights"
-  },
-  "font-line-height-6": {
-    "value": "48px",
-    "type": "lineHeights"
-  },
-  "font-line-height-7": {
-    "value": "56px",
+    "value": "150%",
     "type": "lineHeights"
   },
   "font-tracking-short": {
