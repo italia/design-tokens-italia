@@ -199,7 +199,7 @@
     "type": "fontSizes"
   },
   "caption-font-size": {
-    "value": "{font-size-2}",
+    "value": "{font-size-1}",
     "type": "fontSizes"
   },
   "lead-font-size": {
