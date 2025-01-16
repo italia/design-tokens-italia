@@ -4,11 +4,11 @@
  */
 
 :root {
-  --dsi-icon-size-xxl: 64px;
-  --dsi-icon-size-xl: 48px;
-  --dsi-icon-size-l: 32px;
-  --dsi-icon-size-m: 24px;
-  --dsi-icon-size-s: 16px;
+  --dsi-icon-size-xl: 64px;
+  --dsi-icon-size-l: 48px;
+  --dsi-icon-size-m: 32px;
+  --dsi-icon-size-s: 24px;
+  --dsi-icon-size-xs: 16px;
   --dsi-border-broad: 8px;
   --dsi-border-thick: 4px;
   --dsi-border-double: 2px;

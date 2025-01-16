@@ -86,23 +86,23 @@
       "description": "Colore icona dsabilitata"
     }
   },
-  "icon-size-s": {
+  "icon-size-xs": {
     "value": "16px",
     "type": "sizing"
   },
-  "icon-size-m": {
+  "icon-size-s": {
     "value": "24px",
     "type": "sizing"
   },
-  "icon-size-l": {
+  "icon-size-m": {
     "value": "32px",
     "type": "sizing"
   },
-  "icon-size-xl": {
+  "icon-size-l": {
     "value": "48px",
     "type": "sizing"
   },
-  "icon-size-xxl": {
+  "icon-size-xl": {
     "value": "64px",
     "type": "sizing"
   },
