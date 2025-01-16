@@ -210,6 +210,22 @@
     "value": "{font-size-6}",
     "type": "fontSizes"
   },
+  "label-font-size-xs": {
+    "value": "{font-size-1}",
+    "type": "fontSizes"
+  },
+  "label-font-size-s": {
+    "value": "{font-size-2}",
+    "type": "fontSizes"
+  },
+  "label-font-size": {
+    "value": "{font-size-3}",
+    "type": "fontSizes"
+  },
+  "label-font-size-m": {
+    "value": "{font-size-4}",
+    "type": "fontSizes"
+  },
   "theme": {
     "italia": {
       "base": {
