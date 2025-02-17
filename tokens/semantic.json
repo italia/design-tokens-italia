@@ -19,7 +19,7 @@
       "primary-hover": {
         "value": "{color.blue.30}",
         "type": "color",
-        "description": "Sfondo utilizzato su componenti primari interattivi nello stato di hover."
+        "description": "Sfondo utilizzato su componenti primari interattivi nello stato di :hover."
       },
       "primary-active": {
         "value": "{color.blue.20}",
@@ -29,12 +29,12 @@
       "primary-muted": {
         "value": "{color.blue.30}",
         "type": "color",
-        "description": "Sfondo del colore primario tenue utilizzato su sezioni di pagina."
+        "description": "Sfondo utilizzato su sezioni di pagina."
       },
-      "primary-deep": {
+      "primary-dark": {
         "value": "{color.blue.20}",
         "type": "color",
-        "description": "Sfondo del colore primario profondo utilizzato su sezioni di pagina."
+        "description": "Sfondo utilizzato su sezioni di pagina."
       },
       "secondary": {
         "value": "{color.slate.44}",
@@ -44,12 +44,12 @@
       "secondary-hover": {
         "value": "{color.slate.28}",
         "type": "color",
-        "description": "Sfondo utilizzato su elementi interattivi secondari nello stato di hover."
+        "description": "Sfondo utilizzato su elementi interattivi secondari nello stato di :hover."
       },
       "secondary-active": {
         "value": "{color.slate.20}",
         "type": "color",
-        "description": "Sfondo utilizzato su elementi interattivi secondari nello stato attivo e premuto"
+        "description": "Sfondo utilizzato su elementi interattivi secondari nello stato attivo e premuto."
       },
       "secondary-light": {
         "value": "{color.slate.68}",
@@ -112,7 +112,7 @@
       "success-active": {
         "value": "{color.emerald.15}",
         "type": "color",
-        "description": "Sfondo di successo, utilizzato per elementi interattivi nello stato di :active."
+        "description": "Sfondo di successo, utilizzato per elementi interattivi nello stato attivo e premuto."
       },
       "warning": {
         "value": "{color.orange.30}",
@@ -132,17 +132,17 @@
       "warning-active": {
         "value": "{color.orange.20}",
         "type": "color",
-        "description": "Sfondo di allerta, utilizzato per elementi interattivi nello stato di :active"
+        "description": "Sfondo di allerta, utilizzato per elementi interattivi nello stato attivo e premuto."
       },
       "danger": {
         "value": "{color.red.50}",
         "type": "color",
         "description": "Colore di sfondo che avvisa di un pericolo o errore, utilizzato per elementi interattivi o componenti. Il testo deve essere inverse."
       },
-      "error-light": {
+      "danger-light": {
         "value": "{color.red.96}",
         "type": "color",
-        "description": "Sfondo di errore per sezioni e componenti che prevedono contenuti medio/lunghi. Il testo può essere utilizzato in più varianti tranne che inverse"
+        "description": "Sfondo di pericolo o errore per sezioni e componenti che prevedono contenuti medio/lunghi. Il testo può essere utilizzato in più varianti tranne che inverse"
       },
       "danger-hover": {
         "value": "{color.red.37}",
@@ -152,7 +152,7 @@
       "danger-active": {
         "value": "{color.red.25}",
         "type": "color",
-        "description": "Colore di sfondo che avvisa di un pericolo o errore, utilizzato per elementi interattivi nello stato di :active"
+        "description": "Colore di sfondo che avvisa di un pericolo o errore, utilizzato per elementi interattivi nello stato attivo e premuto."
       }
     },
     "border": {
@@ -169,7 +169,7 @@
       "primary-active": {
         "value": "{color.blue.20}",
         "type": "color",
-        "description": "Bordo primario per stato interattivo active"
+        "description": "Bordo primario per stato interattivo attivo e premuto."
       },
       "secondary": {
         "value": "{color.slate.44}",
@@ -184,7 +184,7 @@
       "secondary-active": {
         "value": "{color.slate.20}",
         "type": "color",
-        "description": "Bordo secondario per stato interattivo active"
+        "description": "Bordo secondario per stato interattivo attivo e premuto."
       },
       "inverse": {
         "value": "{color.white}",
@@ -214,7 +214,7 @@
       "success-active": {
         "value": "{color.emerald.15}",
         "type": "color",
-        "description": "Bordo di successo per stato interattivo active"
+        "description": "Bordo di successo per stato interattivo attivo e premuto."
       },
       "warning": {
         "value": "{color.orange.30}",
@@ -229,14 +229,14 @@
       "warning-active": {
         "value": "{color.orange.20}",
         "type": "color",
-        "description": "Bordo di allerta per stato interattivo active"
+        "description": "Bordo di allerta per stato interattivo attivo e premuto."
       },
       "danger": {
         "value": "{color.red.50}",
         "type": "color",
         "description": "Colore di un bordo che avvisa di un pericolo o errore, utilizzato per elementi interattivi o statici (vedi esempio success)"
       },
-      "error-hover": {
+      "danger-hover": {
         "value": "{color.red.37}",
         "type": "color",
         "description": "Colore di sfondo che avvisa di un pericolo o errore per stato interattivo :hover."
@@ -244,7 +244,7 @@
       "danger-active": {
         "value": "{color.red.25}",
         "type": "color",
-        "description": "Colore di sfondo che avvisa di un pericolo o errore per stato interattivo :active."
+        "description": "Colore di sfondo che avvisa di un pericolo o errore per stato attivo e premuto."
       }
     },
     "text": {
@@ -258,30 +258,10 @@
         "type": "color",
         "description": "Testo con link"
       },
-      "primary-hover": {
-        "value": "{color.blue.30}",
-        "type": "color",
-        "description": "Testo con link nello stato hover"
-      },
-      "primary-active": {
-        "value": "{color.blue.20}",
-        "type": "color",
-        "description": "Testo con link nello stato active"
-      },
       "secondary": {
         "value": "{color.slate.28}",
         "type": "color",
         "description": "Corpo pagina alternativo, contenuti di dettaglio, testo button secondary"
-      },
-      "secondary-hover": {
-        "value": "{color.slate.20}",
-        "type": "color",
-        "description": "Testo del button secondary nello stato hover"
-      },
-      "secondary-active": {
-        "value": "{color.slate.20}",
-        "type": "color",
-        "description": "Testo del button secondary nello stato active"
       },
       "muted": {
         "value": "{color.slate.44}",
@@ -306,7 +286,7 @@
       "success-active": {
         "value": "{color.emerald.15}",
         "type": "color",
-        "description": "Testo di successo interattivo nello stato active"
+        "description": "Testo di successo interattivo nello stato attivo e premuto."
       },
       "warning": {
         "value": "{color.orange.30}",
@@ -321,7 +301,7 @@
       "warning-active": {
         "value": "{color.orange.20}",
         "type": "color",
-        "description": "Testo di allerta interattivo nello stato active"
+        "description": "Testo di allerta interattivo nello stato attivo e premuto."
       },
       "danger": {
         "value": "{color.red.50}",
@@ -336,7 +316,7 @@
       "danger-active": {
         "value": "{color.red.25}",
         "type": "color",
-        "description": "Colore del testo per problema o errore interattivo nello stato active"
+        "description": "Colore del testo per problema o errore interattivo nello stato attivo e premuto."
       },
       "inverse": {
         "value": "{color.white}",
@@ -349,64 +329,103 @@
         "description": "Testo di accento, alternativo al primary per elementi interattivi su sfondi a contrasto"
       }
     },
+    "link": {
+      "base": {
+        "value": "{color.blue.40}",
+        "type": "color",
+        "description": "Colore base per i link"
+      },
+      "hover": {
+        "value": "{color.blue.30}",
+        "type": "color",
+        "description": "Colore per i link nello stato hover"
+      },
+      "active": {
+        "value": "{color.blue.20}",
+        "type": "color",
+        "description": "Colore per i link nello stato active"
+      },
+      "secondary": {
+        "value": "{color.slate.28}",
+        "type": "color",
+        "description": "Colore del link secondario, richiede sempre la sottolineatura."
+      },
+      "secondary-hover": {
+        "value": "{color.slate.20}",
+        "type": "color",
+        "description": "Testo del button secondary nello stato hover"
+      },
+      "secondary-active": {
+        "value": "{color.slate.20}",
+        "type": "color",
+        "description": "Testo del button secondary nello stato attivo e premuto."
+      },
+      "inverse": {
+        "value": "{color.white}",
+        "type": "color",
+        "description": "Colore per i link invertiti"
+      },
+      "disabled": {
+        "value": "{color.slate.85}",
+        "type": "color",
+        "description": "Colore per i link disabilitati"
+      },
+      "accent": {
+        "value": "{color.teal.32}",
+        "type": "color",
+        "description": "Colore per i link di accento"
+      },
+      "accent-hover": {
+        "value": "{color.teal.26}",
+        "type": "color"
+      }
+    },
     "outline": {
       "focus": {
         "value": "{color.gray.10}",
         "type": "color"
       }
+    },
+    "theme": {
+      "italia": {
+        "base": {
+          "value": "{color.blue.40}",
+          "type": "color"
+        },
+        "light": {
+          "value": "{color.blue.87}",
+          "type": "color"
+        },
+        "lighter": {
+          "value": "{color.blue.97}",
+          "type": "color"
+        },
+        "muted": {
+          "value": "{color.blue.25}",
+          "type": "color"
+        },
+        "deep": {
+          "value": "{color.blue.20}",
+          "type": "color"
+        },
+        "subtle": {
+          "value": "{color.blue.30}",
+          "type": "color"
+        }
+      }
     }
   },
-  "spacing-stack": {
-    "xs": {
-      "value": "{spacing.2x}",
-      "type": "spacing"
-    },
-    "s": {
-      "value": "{spacing.4x}",
-      "type": "spacing"
-    },
-    "m": {
-      "value": "{spacing.6x}",
-      "type": "spacing"
-    },
-    "l": {
-      "value": "{spacing.8x}",
-      "type": "spacing"
-    },
-    "xl": {
-      "value": "{spacing.10x}",
-      "type": "spacing"
-    },
-    "xxl": {
-      "value": "{spacing.12x}",
-      "type": "spacing"
-    }
-  },
-  "spacing-inline": {
-    "xxs": {
+  "spacing": {
+    "3xs": {
       "value": "{spacing.1x}",
       "type": "spacing"
     },
-    "xs": {
+    "xxs": {
       "value": "{spacing.2x}",
       "type": "spacing"
     },
-    "s": {
-      "value": "{spacing.4x}",
-      "type": "spacing"
-    },
-    "m": {
-      "value": "{spacing.6x}",
-      "type": "spacing"
-    },
-    "l": {
-      "value": "{spacing.8x}",
-      "type": "spacing"
-    }
-  },
-  "spacing-inset": {
     "xs": {
-      "value": "{spacing.2x}",
+      "value": "{spacing.3x}",
       "type": "spacing"
     },
     "s": {
@@ -434,23 +453,82 @@
       "type": "spacing"
     }
   },
-  "font-weight-normal": {
-    "value": "{font-weight-regular}",
-    "type": "fontWeights",
-    "description": "The default font weight for text elements."
-  },
-  "font-weight-solid": {
-    "value": "{font-weight-semibold}",
-    "type": "fontWeights",
-    "description": "The default font weight for interactive elements (button, dropdown, navigation items and more)."
-  },
-  "font-weight-strong": {
-    "value": "{font-weight-bold}",
-    "type": "fontWeights",
-    "description": "A font weight to make text stand out."
-  },
   "font-line-height-tight": {
-    "value": "{font-line-height-1}",
+    "value": "{font-line-height.1}",
     "type": "lineHeights"
+  },
+  "elevation": {
+    "low": {
+      "x": {
+        "type": "x"
+      },
+      "y": {
+        "value": "4px",
+        "type": "y"
+      },
+      "blur": {
+        "value": "4px",
+        "type": "blur"
+      },
+      "spread": {
+        "type": "spread"
+      },
+      "color": {
+        "value": "#0000000d",
+        "type": "color"
+      },
+      "type": {
+        "value": "dropShadow",
+        "type": "type"
+      }
+    },
+    "medium": {
+      "x": {
+        "type": "x"
+      },
+      "y": {
+        "value": "8px",
+        "type": "y"
+      },
+      "blur": {
+        "value": "16px",
+        "type": "blur"
+      },
+      "spread": {
+        "type": "spread"
+      },
+      "color": {
+        "value": "#0000001a",
+        "type": "color"
+      },
+      "type": {
+        "value": "dropShadow",
+        "type": "type"
+      }
+    },
+    "high": {
+      "x": {
+        "type": "x"
+      },
+      "y": {
+        "value": "16px",
+        "type": "y"
+      },
+      "blur": {
+        "value": "48px",
+        "type": "blur"
+      },
+      "spread": {
+        "type": "spread"
+      },
+      "color": {
+        "value": "#00000026",
+        "type": "color"
+      },
+      "type": {
+        "value": "dropShadow",
+        "type": "type"
+      }
+    }
   }
 }
