@@ -107,123 +107,107 @@
     "type": "sizing"
   },
   "code-font": {
-    "value": "{font-mono}",
+    "value": "{font.mono}",
     "type": "fontFamilies",
     "description": "The default font family for code blocks."
   },
   "data-font": {
-    "value": "{font-mono}",
+    "value": "{font.mono}",
     "type": "fontFamilies",
     "description": "The default font family for data visualization content."
   },
   "heading-font-weight": {
-    "value": "{font-weight-bold}",
+    "value": "{font-weight.bold}",
     "type": "fontWeights",
     "description": "The default font weight for headings."
   },
   "heading-font-weight-weak": {
-    "value": "{font-weight-solid}",
+    "value": "{font-weight.semibold}",
     "type": "fontWeights",
     "description": "The alternative font weight for secondary headings."
   },
   "heading-line-height": {
-    "value": "{font-line-height-2}",
+    "value": "{font-line-height.2}",
     "type": "lineHeights"
   },
   "body-line-height": {
-    "value": "{font-line-height-5}",
+    "value": "{font-line-height.5}",
     "type": "lineHeights"
   },
   "caption-line-height": {
-    "value": "{font-line-height-3}",
+    "value": "{font-line-height.3}",
     "type": "lineHeights"
   },
   "lead-line-height": {
-    "value": "{font-line-height-3}",
+    "value": "{font-line-height.3}",
     "type": "lineHeights"
   },
   "heading-1-font-size": {
-    "value": "{font-size-9}",
+    "value": "{font-size.9}",
     "type": "fontSizes"
   },
   "heading-1-font-size-l": {
-    "value": "{font-size-10}",
+    "value": "{font-size.10}",
     "type": "fontSizes"
   },
   "heading-2-font-size": {
-    "value": "{font-size-8}",
+    "value": "{font-size.8}",
     "type": "fontSizes"
   },
   "heading-2-font-size-l": {
-    "value": "{font-size-9}",
+    "value": "{font-size.9}",
     "type": "fontSizes"
   },
   "heading-3-font-size-l": {
-    "value": "{font-size-8}",
+    "value": "{font-size.8}",
     "type": "fontSizes"
   },
   "heading-3-font-size": {
-    "value": "{font-size-7}",
+    "value": "{font-size.7}",
     "type": "fontSizes"
   },
   "heading-4-font-size": {
-    "value": "{font-size-6}",
+    "value": "{font-size.6}",
     "type": "fontSizes"
   },
   "heading-4-font-size-l": {
-    "value": "{font-size-7}",
+    "value": "{font-size.7}",
     "type": "fontSizes"
   },
   "heading-5-font-size": {
-    "value": "{font-size-5}",
+    "value": "{font-size.5}",
     "type": "fontSizes"
   },
   "heading-5-font-size-l": {
-    "value": "{font-size-6}",
+    "value": "{font-size.6}",
     "type": "fontSizes"
   },
   "heading-6-font-size": {
-    "value": "{font-size-3}",
+    "value": "{font-size.3}",
     "type": "fontSizes"
   },
   "heading-6-font-size-l": {
-    "value": "{font-size-4}",
+    "value": "{font-size.4}",
     "type": "fontSizes"
   },
   "body-font-size": {
-    "value": "{font-size-3}",
+    "value": "{font-size.3}",
     "type": "fontSizes"
   },
   "body-font-size-l": {
-    "value": "{font-size-4}",
+    "value": "{font-size.4}",
     "type": "fontSizes"
   },
   "caption-font-size": {
-    "value": "{font-size-1}",
+    "value": "{font-size.2}",
     "type": "fontSizes"
   },
   "lead-font-size": {
-    "value": "{font-size-5}",
+    "value": "{font-size.5}",
     "type": "fontSizes"
   },
   "lead-font-size-l": {
-    "value": "{font-size-6}",
-    "type": "fontSizes"
-  },
-  "label-font-size-xs": {
-    "value": "{font-size-1}",
-    "type": "fontSizes"
-  },
-  "label-font-size-s": {
-    "value": "{font-size-2}",
-    "type": "fontSizes"
-  },
-  "label-font-size": {
-    "value": "{font-size-3}",
-    "type": "fontSizes"
-  },
-  "label-font-size-m": {
-    "value": "{font-size-4}",
+    "value": "{font-size.6}",
     "type": "fontSizes"
   },
   "theme": {
@@ -249,5 +233,21 @@
         "type": "color"
       }
     }
+  },
+  "label-font-size-xs": {
+    "value": "{font-size.1}",
+    "type": "fontSizes"
+  },
+  "label-font-size-s": {
+    "value": "{font-size.2}",
+    "type": "fontSizes"
+  },
+  "label-font-size": {
+    "value": "{font-size.3}",
+    "type": "fontSizes"
+  },
+  "label-font-size-m": {
+    "value": "{font-size.4}",
+    "type": "fontSizes"
   }
 }
