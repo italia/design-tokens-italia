@@ -1,5 +1,6 @@
 // build.js
 const StyleDictionary = require('style-dictionary').extend('config.json');
+const tinycolor = require('tinycolor2');
 
 console.log('📦 Building SCSS and CSS...');
 
@@ -75,6 +76,26 @@ StyleDictionary.registerFormat({
 		return `$${token.name}: ${token.value};`;
 	  }).join('\n');
 	}
+});
+
+// Convert RGBA to HSLA
+StyleDictionary.registerTransform({
+  name: 'color/hexRgbaToHsla',
+  type: 'value',
+  matcher: (prop) => {
+    return typeof prop.value === 'string' && 
+      (prop.value.startsWith('rgba') || prop.value.startsWith('#'));
+  },
+  transformer: (prop) => {
+    const color = tinycolor(prop.value);
+    
+    if (color.isValid()) {
+      const hsla = color.toHsl();
+      return `hsla(${Math.round(hsla.h)}, ${Math.round(hsla.s * 100)}%, ${Math.round(hsla.l * 100)}%, ${hsla.a})`;
+    }
+
+    return prop.value; // Return as is if invalid
+  }
 });
 
 
