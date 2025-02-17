@@ -413,6 +413,20 @@
           "type": "color"
         }
       }
+    },
+    "shadow": {
+      "whisper": {
+        "value": "{color.black.05}",
+        "type": "color"
+      },
+      "soft": {
+        "value": "{color.black.10}",
+        "type": "color"
+      },
+      "dark": {
+        "value": "{color.black.15}",
+        "type": "color"
+      }
     }
   },
   "spacing": {
@@ -460,21 +474,23 @@
   "elevation": {
     "low": {
       "x": {
+        "value": "0",
         "type": "x"
       },
       "y": {
-        "value": "4px",
+        "value": "{shadow.offest.s}",
         "type": "y"
       },
       "blur": {
-        "value": "4px",
+        "value": "{shadow.blur.s}",
         "type": "blur"
       },
       "spread": {
+        "value": "0",
         "type": "spread"
       },
       "color": {
-        "value": "#0000000d",
+        "value": "{color.shadow.whisper}",
         "type": "color"
       },
       "type": {
@@ -484,21 +500,23 @@
     },
     "medium": {
       "x": {
+        "value": "0",
         "type": "x"
       },
       "y": {
-        "value": "8px",
+        "value": "{shadow.offest.m}",
         "type": "y"
       },
       "blur": {
-        "value": "16px",
+        "value": "{shadow.blur.m}",
         "type": "blur"
       },
       "spread": {
+        "value": "0",
         "type": "spread"
       },
       "color": {
-        "value": "#0000001a",
+        "value": "{color.shadow.soft}",
         "type": "color"
       },
       "type": {
@@ -508,21 +526,23 @@
     },
     "high": {
       "x": {
+        "value": "0",
         "type": "x"
       },
       "y": {
-        "value": "16px",
+        "value": "{shadow.offest.l}",
         "type": "y"
       },
       "blur": {
-        "value": "48px",
+        "value": "{shadow.blur.l}",
         "type": "blur"
       },
       "spread": {
+        "value": "0",
         "type": "spread"
       },
       "color": {
-        "value": "#00000026",
+        "value": "{color.shadow.dark}",
         "type": "color"
       },
       "type": {

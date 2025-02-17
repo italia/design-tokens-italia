@@ -661,84 +661,6 @@
       "description": "Multiplo 24x della misura minima"
     }
   },
-  "shadow-s": {
-    "x": {
-      "value": "0",
-      "type": "x"
-    },
-    "y": {
-      "value": "4px",
-      "type": "y"
-    },
-    "blur": {
-      "value": "4px",
-      "type": "blur"
-    },
-    "spread": {
-      "value": "0",
-      "type": "spread"
-    },
-    "color": {
-      "value": "{color.black.05}",
-      "type": "color"
-    },
-    "type": {
-      "value": "dropShadow",
-      "type": "type"
-    }
-  },
-  "shadow-m": {
-    "x": {
-      "value": "0",
-      "type": "x"
-    },
-    "y": {
-      "value": "8px",
-      "type": "y"
-    },
-    "blur": {
-      "value": "16px",
-      "type": "blur"
-    },
-    "spread": {
-      "value": "0",
-      "type": "spread"
-    },
-    "color": {
-      "value": "{color.black.10}",
-      "type": "color"
-    },
-    "type": {
-      "value": "dropShadow",
-      "type": "type"
-    }
-  },
-  "shadow-l": {
-    "x": {
-      "value": "0",
-      "type": "x"
-    },
-    "y": {
-      "value": "16px",
-      "type": "y"
-    },
-    "blur": {
-      "value": "48px",
-      "type": "blur"
-    },
-    "spread": {
-      "value": "0",
-      "type": "spread"
-    },
-    "color": {
-      "value": "{color.black.15}",
-      "type": "color"
-    },
-    "type": {
-      "value": "dropShadow",
-      "type": "type"
-    }
-  },
   "sizing": {
     "quarter": {
       "value": "25%",
@@ -755,6 +677,36 @@
     "full": {
       "value": "100%",
       "type": "sizing"
+    }
+  },
+  "shadow": {
+    "blur": {
+      "s": {
+        "value": "4px",
+        "type": "dimension"
+      },
+      "m": {
+        "value": "16px",
+        "type": "dimension"
+      },
+      "l": {
+        "value": "48px",
+        "type": "dimension"
+      }
+    },
+    "offest": {
+      "s": {
+        "value": "4px",
+        "type": "dimension"
+      },
+      "m": {
+        "value": "8px",
+        "type": "dimension"
+      },
+      "l": {
+        "value": "16px",
+        "type": "dimension"
+      }
     }
   }
 }
