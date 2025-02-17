@@ -19,7 +19,7 @@
 	  },
 	  "css": {
 		"transforms": ["attribute/cti", "name/cti/kebab", "font/family", "font/weight", "spacing/px", "shadow/type"],
-		"prefix": "dsi-",
+		"prefix": "it-",
 		"buildPath": "css/",
 		"files": [{
 			"destination": "dsi-tokens.css",
