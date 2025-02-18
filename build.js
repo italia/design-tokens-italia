@@ -1,6 +1,5 @@
 // build.js
 const StyleDictionary = require('style-dictionary').extend('config.json');
-const tinycolor = require('tinycolor2');
 
 console.log('📦 Building SCSS and CSS...');
 
