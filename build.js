@@ -79,25 +79,16 @@ StyleDictionary.registerFormat({
 });
 
 // Convert RGBA to HSLA
-StyleDictionary.registerTransform({
-  name: 'color/hexRgbaToHsla',
-  type: 'value',
-  matcher: (prop) => {
-    return typeof prop.value === 'string' && 
-      (prop.value.startsWith('rgba') || prop.value.startsWith('#'));
-  },
-  transformer: (prop) => {
-    const color = tinycolor(prop.value);
-    
-    if (color.isValid()) {
-      const hsla = color.toHsl();
-      return `hsla(${Math.round(hsla.h)}, ${Math.round(hsla.s * 100)}%, ${Math.round(hsla.l * 100)}%, ${hsla.a})`;
-    }
-
-    return prop.value; // Return as is if invalid
-  }
-});
-
+// StyleDictionary.registerTransform({
+//   name: 'color/hsla',
+//   type: 'value',
+//   matcher: (prop) => prop.attributes.category === 'color',
+//   transformer: (prop) => {
+//     const color = tinycolor(prop.value);
+//     const hsl = color.toHsl();
+//     return `hsla(${Math.round(hsl.h)}, ${Math.round(hsl.s * 100)}%, ${Math.round(hsl.l * 100)}%, ${hsl.a})`;
+//   }
+// });
 
 StyleDictionary.buildAllPlatforms();
 
