@@ -1,6 +1,6 @@
 
 // Do not edit directly
-// Generated on Tue, 18 Feb 2025 16:12:20 GMT
+// Generated on Tue, 18 Feb 2025 17:54:38 GMT
 
 $it-icon-size-xl: 64px;
 $it-icon-size-l: 48px;
@@ -165,11 +165,6 @@ $it-label-font-size-m: $it-font-size-4;
 $it-label-font-size: $it-font-size-3;
 $it-label-font-size-s: $it-font-size-2;
 $it-label-font-size-xs: $it-font-size-1;
-$it-theme-italia-deep: $it-color-blue-20;
-$it-theme-italia-muted: $it-color-blue-25;
-$it-theme-italia-lighter: $it-color-blue-97;
-$it-theme-italia-light: $it-color-blue-87;
-$it-theme-italia-base: $it-color-blue-40;
 $it-lead-font-size-l: $it-font-size-6;
 $it-lead-font-size: $it-font-size-5;
 $it-caption-font-size: $it-font-size-2;
@@ -202,6 +197,12 @@ $it-elevation-medium-y: $it-shadow-offest-m;
 $it-elevation-low-blur: $it-shadow-blur-s;
 $it-elevation-low-y: $it-shadow-offest-s;
 $it-font-line-height-tight: $it-font-line-height-1;
+$it-theme-italia-subtle: $it-color-blue-30;
+$it-theme-italia-deep: $it-color-blue-20;
+$it-theme-italia-muted: $it-color-blue-25;
+$it-theme-italia-lighter: $it-color-blue-97;
+$it-theme-italia-light: $it-color-blue-87;
+$it-theme-italia-base: $it-color-blue-40;
 $it-spacing-3xl: $it-spacing-24x;
 $it-spacing-xxl: $it-spacing-12x;
 $it-spacing-xl: $it-spacing-10x;
@@ -214,12 +215,6 @@ $it-spacing-3xs: $it-spacing-1x;
 $it-color-shadow-dark: $it-color-black-15;
 $it-color-shadow-soft: $it-color-black-10;
 $it-color-shadow-whisper: $it-color-black-05;
-$it-color-theme-italia-subtle: $it-color-blue-30;
-$it-color-theme-italia-deep: $it-color-blue-20;
-$it-color-theme-italia-muted: $it-color-blue-25;
-$it-color-theme-italia-lighter: $it-color-blue-97;
-$it-color-theme-italia-light: $it-color-blue-87;
-$it-color-theme-italia-base: $it-color-blue-40;
 $it-color-outline-focus: $it-color-gray-10;
 $it-color-link-accent-hover: $it-color-teal-26;
 $it-color-link-accent: $it-color-teal-32;
@@ -289,7 +284,7 @@ $it-color-background-secondary-light: $it-color-slate-68;
 $it-color-background-secondary-active: $it-color-slate-20;
 $it-color-background-secondary-hover: $it-color-slate-28;
 $it-color-background-secondary: $it-color-slate-44;
-$it-color-background-primary-dark: $it-color-blue-20;
+$it-color-background-primary-deep: $it-color-blue-20;
 $it-color-background-primary-muted: $it-color-blue-30;
 $it-color-background-primary-active: $it-color-blue-20;
 $it-color-background-primary-hover: $it-color-blue-30;

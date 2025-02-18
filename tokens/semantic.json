@@ -31,7 +31,7 @@
         "type": "color",
         "description": "Sfondo utilizzato su sezioni di pagina."
       },
-      "primary-dark": {
+      "primary-deep": {
         "value": "{color.blue.20}",
         "type": "color",
         "description": "Sfondo utilizzato su sezioni di pagina."
@@ -386,34 +386,6 @@
         "type": "color"
       }
     },
-    "theme": {
-      "italia": {
-        "base": {
-          "value": "{color.blue.40}",
-          "type": "color"
-        },
-        "light": {
-          "value": "{color.blue.87}",
-          "type": "color"
-        },
-        "lighter": {
-          "value": "{color.blue.97}",
-          "type": "color"
-        },
-        "muted": {
-          "value": "{color.blue.25}",
-          "type": "color"
-        },
-        "deep": {
-          "value": "{color.blue.20}",
-          "type": "color"
-        },
-        "subtle": {
-          "value": "{color.blue.30}",
-          "type": "color"
-        }
-      }
-    },
     "shadow": {
       "whisper": {
         "value": "{color.black.05}",
@@ -425,6 +397,34 @@
       },
       "dark": {
         "value": "{color.black.15}",
+        "type": "color"
+      }
+    }
+  },
+  "theme": {
+    "italia": {
+      "base": {
+        "value": "{color.blue.40}",
+        "type": "color"
+      },
+      "light": {
+        "value": "{color.blue.87}",
+        "type": "color"
+      },
+      "lighter": {
+        "value": "{color.blue.97}",
+        "type": "color"
+      },
+      "muted": {
+        "value": "{color.blue.25}",
+        "type": "color"
+      },
+      "deep": {
+        "value": "{color.blue.20}",
+        "type": "color"
+      },
+      "subtle": {
+        "value": "{color.blue.30}",
         "type": "color"
       }
     }
