@@ -1,0 +1,13 @@
+{
+	"name": "DesignTokensItalia",
+	"image": "mcr.microsoft.com/devcontainers/javascript-node:1-18-bookworm",
+	"mounts": [
+		"source=${localWorkspaceFolderBasename}-node_modules,target=${containerWorkspaceFolder}/node_modules,type=volume"
+	],
+	"postCreateCommand": "sh .devcontainer/postCreateCommand.sh",
+	"customizations": {
+		"vscode": {
+			"extensions": ["github.vscode-pull-request-github"]
+		}
+	}
+}

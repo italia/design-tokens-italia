@@ -10,7 +10,7 @@
   },
   "license": "BSD-3-Clause",
   "devDependencies": {
-    "style-dictionary": "^3.9.2"
+    "style-dictionary": "^5.1.1"
   },
   "files": [
     "css/",
