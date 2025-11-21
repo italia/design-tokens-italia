@@ -12,7 +12,7 @@
         "spacing/px",
         "shadow/type"
       ],
-      "prefix": "",
+      "prefix": "it",
       "buildPath": "scss/",
       "files": [
         {
@@ -35,7 +35,7 @@
         "spacing/px",
         "shadow/type"
       ],
-      "prefix": "",
+      "prefix": "it",
       "buildPath": "css/",
       "files": [
         {
