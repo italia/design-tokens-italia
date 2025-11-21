@@ -1,87 +1,82 @@
 // build.js
 import StyleDictionary from 'style-dictionary';
 
+console.log('📦 Building SCSS and CSS...');
+
+// Create StyleDictionary instance and wait for initialization
 const sd = new StyleDictionary('config.json');
 await sd.hasInitialized;
 
-
-console.log('📦 Building SCSS and CSS...');
-
+// Register transforms with updated API
 sd.registerTransform({
-	name: 'font/family',
-	type: "value",
-	transitive: true,
-	matcher: (token) => token.type === "fontFamilies",
-	transform: (token) => {
-		if (token.original.value.startsWith('{'))
-			return token.value
-		else
-			return `'${token.value}'`
-	},
+  name: 'font/family',
+  type: 'value',
+  transitive: true,
+  filter: (token) => token.type === 'fontFamilies',  // matcher → filter
+  transform: (token) => {  // transformer → transform
+    if (token.original.value.startsWith('{'))
+      return token.value;
+    else
+      return `'${token.value}'`;
+  },
 });
 
 sd.registerTransform({
-	name: 'font/weight',
-	type: 'value',
-	matcher: function(prop) {
-		return prop.original.type === 'fontWeights';
-	},
-	transform: function(prop) {
-		const fontWeight = prop.original.value;
-		switch (fontWeight) {
-			case 'Regular':
-				return '400';
-			case 'SemiBold':
-				return 600;
-			case 'Bold':
-				return 700;
-			default:
-				return '400';
-		}
-	}
+  name: 'font/weight',
+  type: 'value',
+  filter: (token) => token.original.type === 'fontWeights',  // matcher → filter
+  transform: (token) => {  // transformer → transform
+    const fontWeight = token.original.value;
+    switch (fontWeight) {
+      case 'Regular':
+        return '400';
+      case 'SemiBold':
+        return 600;
+      case 'Bold':
+        return 700;
+      default:
+        return '400';
+    }
+  }
 });
 
 sd.registerTransform({
-	name: 'spacing/px',
-	type: 'value',
-	filter: function(prop) {
-		return prop.attributes.category === 'spacer';
-	},
-	transform: function(prop) {
-		return parseFloat(prop.original.value) + 'px';
-	}
+  name: 'spacing/px',
+  type: 'value',
+  filter: (token) => token.attributes?.category === 'spacer',  // matcher → filter
+  transform: (token) => {  // transformer → transform
+    return parseFloat(token.original.value) + 'px';
+  }
 });
 
 sd.registerTransform({
-	name: 'shadow/type',
-	type: 'value',
-	filter: function(prop) {
-		return prop.original.type === 'type';
-	},
-	transform: function(prop) {
-		const dropShadow = prop.original.value;
-		switch (dropShadow) {
-			case 'dropShadow':
-				return "''";
-			case 'innerShadow':
-				return 'inset';
-			default:
-				return "''";
-		}
-	}
+  name: 'shadow/type',
+  type: 'value',
+  filter: (token) => token.original.type === 'type',  // matcher → filter
+  transform: (token) => {  // transformer → transform
+    const dropShadow = token.original.value;
+    switch (dropShadow) {
+      case 'dropShadow':
+        return "''";
+      case 'innerShadow':
+        return 'inset';
+      default:
+        return "''";
+    }
+  }
 });
 
-// REGISTER A CUSTOM FORMAT
+// Register custom format with updated API
 sd.registerFormat({
-	name: 'custom/scss/variables',
-	format: function({ dictionary }) {
-	  return dictionary.allTokens.map(function(token) {
-		return `$${token.name}: ${token.value};`;
-	  }).join('\n');
-	}
+  name: 'custom/scss/variables',
+  format: ({ dictionary }) => {  // formatter → format, destructured params
+    return dictionary.allTokens.map((token) => {
+      return `$${token.name}: ${token.value};`;
+    }).join('\\n');
+  }
 });
 
-
+// Build all platforms (now async)
 await sd.buildAllPlatforms();
 
-console.log(`\n✅ CSS + SCSS variables files created \n`)
+console.log('\\n✅ CSS + SCSS variables files created \\n');
