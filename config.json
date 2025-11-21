@@ -1,34 +1,47 @@
 {
-	"source": [
-	  "tokens/*.json"
-	],
-	"platforms": {
-	  "scss": {
-		"transforms": ["attribute/cti", "name/cti/kebab", "font/family", "font/weight", "spacing/px", "shadow/type"],
-		"prefix": "",
-		"buildPath": "scss/",
-		"files": [{
-		  "destination": "_variables.scss",
-		  "format": "scss/variables",
-		  "options": {
-			"outputReferences": true,
-			"themeable" : false
-		  }
-		}],
-		"basePxFontSize": 16
-	  },
-	  "css": {
-		"transforms": ["attribute/cti", "name/cti/kebab", "font/family", "font/weight", "spacing/px", "shadow/type"],
-		"prefix": "",
-		"buildPath": "css/",
-		"files": [
-		  {
-			"destination": "_variables.css",
-			"format": "css/variables"
-		  }
-		],
-		"basePxFontSize": 16
-	  }
-	}
+  "source": [
+    "tokens/*.json"
+  ],
+  "platforms": {
+    "scss": {
+      "transforms": [
+        "attribute/cti",
+        "name/kebab",
+        "font/family",
+        "font/weight",
+        "spacing/px",
+        "shadow/type"
+      ],
+      "prefix": "",
+      "buildPath": "scss/",
+      "files": [{
+        "destination": "_variables.scss",
+        "format": "scss/variables",
+        "options": {
+          "outputReferences": true,
+          "themeable": false
+        }
+      }],
+      "basePxFontSize": 16
+    },
+    "css": {
+      "transforms": [
+        "attribute/cti",
+        "name/kebab",
+        "font/family",
+        "font/weight",
+        "spacing/px",
+        "shadow/type"
+      ],
+      "prefix": "",
+      "buildPath": "css/",
+      "files": [
+        {
+          "destination": "_variables.css",
+          "format": "css/variables"
+        }
+      ],
+      "basePxFontSize": 16
+    }
   }
-
+}

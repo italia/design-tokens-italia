@@ -1,14 +1,18 @@
 // build.js
-const StyleDictionary = require('style-dictionary').extend('config.json');
+import StyleDictionary from 'style-dictionary';
+
+const sd = new StyleDictionary('config.json');
+await sd.hasInitialized;
+
 
 console.log('📦 Building SCSS and CSS...');
 
-StyleDictionary.registerTransform({
+sd.registerTransform({
 	name: 'font/family',
 	type: "value",
 	transitive: true,
 	matcher: (token) => token.type === "fontFamilies",
-	transformer: (token) => {
+	transform: (token) => {
 		if (token.original.value.startsWith('{'))
 			return token.value
 		else
@@ -16,13 +20,13 @@ StyleDictionary.registerTransform({
 	},
 });
 
-StyleDictionary.registerTransform({
+sd.registerTransform({
 	name: 'font/weight',
 	type: 'value',
 	matcher: function(prop) {
 		return prop.original.type === 'fontWeights';
 	},
-	transformer: function(prop) {
+	transform: function(prop) {
 		const fontWeight = prop.original.value;
 		switch (fontWeight) {
 			case 'Regular':
@@ -37,24 +41,24 @@ StyleDictionary.registerTransform({
 	}
 });
 
-StyleDictionary.registerTransform({
+sd.registerTransform({
 	name: 'spacing/px',
 	type: 'value',
-	matcher: function(prop) {
+	filter: function(prop) {
 		return prop.attributes.category === 'spacer';
 	},
-	transformer: function(prop) {
+	transform: function(prop) {
 		return parseFloat(prop.original.value) + 'px';
 	}
 });
 
-StyleDictionary.registerTransform({
+sd.registerTransform({
 	name: 'shadow/type',
 	type: 'value',
-	matcher: function(prop) {
+	filter: function(prop) {
 		return prop.original.type === 'type';
 	},
-	transformer: function(prop) {
+	transform: function(prop) {
 		const dropShadow = prop.original.value;
 		switch (dropShadow) {
 			case 'dropShadow':
@@ -68,9 +72,9 @@ StyleDictionary.registerTransform({
 });
 
 // REGISTER A CUSTOM FORMAT
-StyleDictionary.registerFormat({
+sd.registerFormat({
 	name: 'custom/scss/variables',
-	formatter: function({ dictionary }) {
+	format: function({ dictionary }) {
 	  return dictionary.allTokens.map(function(token) {
 		return `$${token.name}: ${token.value};`;
 	  }).join('\n');
@@ -78,6 +82,6 @@ StyleDictionary.registerFormat({
 });
 
 
-StyleDictionary.buildAllPlatforms();
+await sd.buildAllPlatforms();
 
 console.log(`\n✅ CSS + SCSS variables files created \n`)
