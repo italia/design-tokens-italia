@@ -14,14 +14,16 @@
       ],
       "prefix": "",
       "buildPath": "scss/",
-      "files": [{
-        "destination": "_variables.scss",
-        "format": "scss/variables",
-        "options": {
-          "outputReferences": true,
-          "themeable": false
+      "files": [
+        {
+          "destination": "_variables.scss",
+          "format": "scss/variables",
+          "options": {
+            "outputReferences": true,
+            "themeable": false
+          }
         }
-      }],
+      ],
       "basePxFontSize": 16
     },
     "css": {
@@ -38,7 +40,11 @@
       "files": [
         {
           "destination": "_variables.css",
-          "format": "css/variables"
+          "format": "css/variables",
+          "options": {
+            "outputReferences": true,
+            "themeable": false
+          }
         }
       ],
       "basePxFontSize": 16
