@@ -9,6 +9,7 @@
     "clean": "rm -rf css scss"
   },
   "license": "BSD-3-Clause",
+  "type" : "module",
   "devDependencies": {
     "style-dictionary": "^5.1.1"
   },
