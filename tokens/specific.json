@@ -1,24 +1,4 @@
 {
-  "blockquote-font-size": {
-    "value": "{font-size.3}",
-    "type": "fontSizes"
-  },
-  "blockquote-cite-size": {
-    "value": "{font-size.1}",
-    "type": "fontSizes"
-  },
-  "blockquote-font": {
-    "value": "{font-sans}",
-    "type": "fontFamilies"
-  },
-  "blockquote-cite-font": {
-    "value": "{font-sans}",
-    "type": "fontFamilies"
-  },
-  "blockquote-font-weight": {
-    "value": "{font-weight.regular}",
-    "type": "fontWeights"
-  },
   "icon": {
     "default": {
       "value": "{color.text.base}",
@@ -85,18 +65,18 @@
       "type": "color",
       "description": "Colore icona di supporto per comunicazioni che richiedono attenzione - status attivo"
     },
-    "error": {
-      "value": "{color.background.error}",
+    "danger": {
+      "value": "{color.background.danger}",
       "type": "color",
       "description": "Colore icona di supporto per azioni non andate a buon fine - status hover"
     },
-    "error-hover": {
-      "value": "{color.background.error-hover}",
+    "danger-hover": {
+      "value": "{color.background.danger-hover}",
       "type": "color",
       "description": "Colore icona di supporto per azioni non andate a buon fine - status hover"
     },
-    "error-active": {
-      "value": "{color.background.error-active}",
+    "danger-active": {
+      "value": "{color.background.danger-active}",
       "type": "color",
       "description": "Colore icona di supporto per azioni non andate a buon fine - status hover"
     },
@@ -106,46 +86,168 @@
       "description": "Colore icona dsabilitata"
     }
   },
-  "progress": {
-    "background": {
-      "default": {
-        "value": "{color.background.secondary-lighter}",
+  "icon-size-xs": {
+    "value": "16px",
+    "type": "sizing"
+  },
+  "icon-size-s": {
+    "value": "24px",
+    "type": "sizing"
+  },
+  "icon-size-m": {
+    "value": "32px",
+    "type": "sizing"
+  },
+  "icon-size-l": {
+    "value": "48px",
+    "type": "sizing"
+  },
+  "icon-size-xl": {
+    "value": "64px",
+    "type": "sizing"
+  },
+  "code-font": {
+    "value": "{font.mono}",
+    "type": "fontFamilies",
+    "description": "The default font family for code blocks."
+  },
+  "data-font": {
+    "value": "{font.mono}",
+    "type": "fontFamilies",
+    "description": "The default font family for data visualization content."
+  },
+  "heading-font-weight": {
+    "value": "{font-weight.bold}",
+    "type": "fontWeights",
+    "description": "The default font weight for headings."
+  },
+  "heading-font-weight-weak": {
+    "value": "{font-weight.semibold}",
+    "type": "fontWeights",
+    "description": "The alternative font weight for secondary headings."
+  },
+  "heading-line-height": {
+    "value": "{font-line-height.2}",
+    "type": "lineHeights"
+  },
+  "body-line-height": {
+    "value": "{font-line-height.5}",
+    "type": "lineHeights"
+  },
+  "caption-line-height": {
+    "value": "{font-line-height.3}",
+    "type": "lineHeights"
+  },
+  "lead-line-height": {
+    "value": "{font-line-height.3}",
+    "type": "lineHeights"
+  },
+  "heading-1-font-size": {
+    "value": "{font-size.9}",
+    "type": "fontSizes"
+  },
+  "heading-1-font-size-l": {
+    "value": "{font-size.10}",
+    "type": "fontSizes"
+  },
+  "heading-2-font-size": {
+    "value": "{font-size.8}",
+    "type": "fontSizes"
+  },
+  "heading-2-font-size-l": {
+    "value": "{font-size.9}",
+    "type": "fontSizes"
+  },
+  "heading-3-font-size-l": {
+    "value": "{font-size.8}",
+    "type": "fontSizes"
+  },
+  "heading-3-font-size": {
+    "value": "{font-size.7}",
+    "type": "fontSizes"
+  },
+  "heading-4-font-size": {
+    "value": "{font-size.6}",
+    "type": "fontSizes"
+  },
+  "heading-4-font-size-l": {
+    "value": "{font-size.7}",
+    "type": "fontSizes"
+  },
+  "heading-5-font-size": {
+    "value": "{font-size.5}",
+    "type": "fontSizes"
+  },
+  "heading-5-font-size-l": {
+    "value": "{font-size.6}",
+    "type": "fontSizes"
+  },
+  "heading-6-font-size": {
+    "value": "{font-size.3}",
+    "type": "fontSizes"
+  },
+  "heading-6-font-size-l": {
+    "value": "{font-size.4}",
+    "type": "fontSizes"
+  },
+  "body-font-size": {
+    "value": "{font-size.3}",
+    "type": "fontSizes"
+  },
+  "body-font-size-l": {
+    "value": "{font-size.4}",
+    "type": "fontSizes"
+  },
+  "caption-font-size": {
+    "value": "{font-size.2}",
+    "type": "fontSizes"
+  },
+  "lead-font-size": {
+    "value": "{font-size.5}",
+    "type": "fontSizes"
+  },
+  "lead-font-size-l": {
+    "value": "{font-size.6}",
+    "type": "fontSizes"
+  },
+  "theme": {
+    "italia": {
+      "base": {
+        "value": "{color.blue.40}",
         "type": "color"
       },
-      "active": {
-        "value": "{color.background.secondary}",
+      "light": {
+        "value": "{color.blue.87}",
+        "type": "color"
+      },
+      "lighter": {
+        "value": "{color.blue.97}",
+        "type": "color"
+      },
+      "muted": {
+        "value": "{color.blue.25}",
+        "type": "color"
+      },
+      "deep": {
+        "value": "{color.blue.20}",
         "type": "color"
       }
     }
   },
-  "icon-size-s": {
-    "value": "16px",
-    "type": "sizing"
+  "label-font-size-xs": {
+    "value": "{font-size.1}",
+    "type": "fontSizes"
   },
-  "icon-size-m": {
-    "value": "24px",
-    "type": "sizing"
+  "label-font-size-s": {
+    "value": "{font-size.2}",
+    "type": "fontSizes"
   },
-  "icon-size-l": {
-    "value": "32px",
-    "type": "sizing"
+  "label-font-size": {
+    "value": "{font-size.3}",
+    "type": "fontSizes"
   },
-  "icon-size-xl": {
-    "value": "48px",
-    "type": "sizing"
-  },
-  "icon-size-xxl": {
-    "value": "64px",
-    "type": "sizing"
-  },
-  "footer": {
-    "background": {
-      "value": "{theme.color.dark}",
-      "type": "color"
-    },
-    "bottom-background": {
-      "value": "{theme.color.darker}",
-      "type": "color"
-    }
+  "label-font-size-m": {
+    "value": "{font-size.4}",
+    "type": "fontSizes"
   }
 }

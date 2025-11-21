@@ -76,7 +76,18 @@ sd.registerFormat({
   }
 });
 
-// Build all platforms (now async)
+// Convert RGBA to HSLA
+// sd.registerTransform({
+//   name: 'color/hsla',
+//   type: 'value',
+//   matcher: (prop) => prop.attributes.category === 'color',
+//   transformer: (prop) => {
+//     const color = tinycolor(prop.value);
+//     const hsl = color.toHsl();
+//     return `hsla(${Math.round(hsl.h)}, ${Math.round(hsl.s * 100)}%, ${Math.round(hsl.l * 100)}%, ${hsl.a})`;
+//   }
+// });
+
 await sd.buildAllPlatforms();
 
 console.log('\\n✅ CSS + SCSS variables files created \\n');
