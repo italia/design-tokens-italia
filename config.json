@@ -1,6 +1,6 @@
 {
   "source": [
-    "tokens/*.json"
+    "tokens.json"
   ],
   "platforms": {
     "scss": {
@@ -8,7 +8,6 @@
         "attribute/cti",
         "name/kebab",
         "font/family",
-        "font/weight",
         "spacing/px",
         "shadow/type"
       ],
@@ -31,7 +30,6 @@
         "attribute/cti",
         "name/kebab",
         "font/family",
-        "font/weight",
         "spacing/px",
         "shadow/type"
       ],

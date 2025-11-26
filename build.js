@@ -7,7 +7,7 @@ console.log('📦 Building SCSS and CSS...');
 const sd = new StyleDictionary('config.json');
 await sd.hasInitialized;
 
-// Register transforms with updated API
+// Apply '' to composed font family names
 sd.registerTransform({
   name: 'font/family',
   type: 'value',
@@ -21,24 +21,28 @@ sd.registerTransform({
   },
 });
 
-sd.registerTransform({
-  name: 'font/weight',
-  type: 'value',
-  filter: (token) => token.original.type === 'fontWeights',  // matcher → filter
-  transform: (token) => {  // transformer → transform
-    const fontWeight = token.original.value;
-    switch (fontWeight) {
-      case 'Regular':
-        return '400';
-      case 'SemiBold':
-        return 600;
-      case 'Bold':
-        return 700;
-      default:
-        return '400';
-    }
-  }
-});
+// sd.registerTransform({
+//   name: 'font/weight',
+//   type: 'value',
+//   filter: (token) => token.original.type === 'fontWeights',  // matcher → filter
+//   transform: (token) => {  // transformer → transform
+//     const fontWeight = token.original.value;
+//     switch (fontWeight) {
+//       case 'ExtraLight':
+//         return '200';
+//       case 'Light':
+//         return '300';
+//       case 'Regular':
+//         return '400';
+//       case 'SemiBold':
+//         return 600;
+//       case 'Bold':
+//         return 700;
+//       default:
+//         return '400';
+//     }
+//   }
+// });
 
 sd.registerTransform({
   name: 'spacing/px',
