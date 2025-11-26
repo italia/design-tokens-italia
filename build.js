@@ -21,6 +21,19 @@ sd.registerTransform({
   },
 });
 
+// Strip the first-level token set (global/semantic/specific) and produce a kebab-case name
+sd.registerTransform({
+  name: 'name/strip',
+  type: 'name',
+  transform: (token) => {
+    const topLevels = ['global', 'semantic', 'specific'];
+    if (Array.isArray(token.path) && token.path.length && topLevels.includes(token.path[0])) {
+      token.path = token.path.slice(1);
+    }
+    return token.name;
+  }
+});
+
 sd.registerTransform({
   name: 'font/weight',
   type: 'value',

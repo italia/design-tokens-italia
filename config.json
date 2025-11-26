@@ -6,6 +6,7 @@
     "scss": {
       "transforms": [
         "attribute/cti",
+        "name/strip",
         "name/kebab",
         "font/family",
         "font/weight",
@@ -29,6 +30,7 @@
     "css": {
       "transforms": [
         "attribute/cti",
+        "name/strip",
         "name/kebab",
         "font/family",
         "font/weight",
