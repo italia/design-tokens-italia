@@ -18,7 +18,7 @@ Il package include i seguenti file:
 
 - **CSS**: `css/_variables.css` - lista delle CSS Custom Properties
 - **SCSS**: `scss/_variables.scss` - liste delle variabili Sass
-- **Tokens**: `tokens/` - lista dei design tokens in formato JSON
+- **Tokens**: `tokens.json` - tutti i design tokens in formato JSON W3C DTCG Standard
 
 ## Contribuire allo sviluppo
 
