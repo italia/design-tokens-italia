@@ -1,6 +1,6 @@
 {
   "source": [
-    "tokens/*.json"
+    "tokens.json"
   ],
   "platforms": {
     "scss": {
@@ -9,7 +9,6 @@
         "name/strip",
         "name/kebab",
         "font/family",
-        "font/weight",
         "spacing/px",
         "shadow/type"
       ],
@@ -33,7 +32,6 @@
         "name/strip",
         "name/kebab",
         "font/family",
-        "font/weight",
         "spacing/px",
         "shadow/type"
       ],
