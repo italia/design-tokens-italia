@@ -16,8 +16,8 @@ npm i design-tokens-italia
 
 Il package include i seguenti file:
 
-- **CSS**: `css/_variables.css` - lista delle CSS Custom Properties
-- **SCSS**: `scss/_variables.scss` - liste delle variabili Sass
+- **CSS**: `dist/css/variables.css` - lista delle CSS Custom Properties
+- **SCSS**: `dist/scss/_variables.scss` - liste delle variabili Sass
 - **Tokens**: `tokens/` - lista dei design tokens in formato JSON
 
 ## Contribuire allo sviluppo
