@@ -17,5 +17,8 @@
     "css/",
     "scss/",
     "tokens/"
-  ]
+  ],
+  "dependencies": {
+    "@tokens-studio/sd-transforms": "^2.0.2"
+  }
 }

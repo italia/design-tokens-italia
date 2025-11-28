@@ -6,6 +6,7 @@
     "scss": {
       "transforms": [
         "attribute/cti",
+        "color/rgba-or-hex-to-hsla",
         "name/kebab",
         "font/family",
         "spacing/px",
@@ -28,6 +29,7 @@
     "css": {
       "transforms": [
         "attribute/cti",
+        "color/rgba-or-hex-to-hsla",
         "name/kebab",
         "font/family",
         "spacing/px",
