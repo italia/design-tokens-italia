@@ -47,7 +47,7 @@ I design token sono classificati in tre livelli di profondità in base al contes
 - **Token semantici** (`tokens/semantic.json`) - decisioni progettuali riutilizzabili per più elementi e componenti
 - **Token specifici** (`tokens/specific.json`) - rappresentazione esaustiva di ogni valore associato a un elemento o componente
 
-I file CSS e SCSS nella cartella `dist/` sono generati automaticamente dai file JSON tramite [Style Dictionary](https://amzn.github.io/style-dictionary/#/).
+I file CSS e SCSS nella cartella `dist/` sono generati automaticamente dai file JSON tramite [Style Dictionary](https://styledictionary.com/).
 
 ## Contribuire allo sviluppo
 
