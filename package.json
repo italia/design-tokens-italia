@@ -1,12 +1,12 @@
 {
   "name": "design-tokens-italia",
-  "version": "1.2.1",
-  "description": "Design Tokens italiani",
-  "author": "Presidenza del Consiglio dei Ministri",
+  "version": "1.3.0",
+  "description": "Official repository of design tokens from Design System Italia",
+  "author": "@italia",
   "main": "index.js",
   "scripts": {
     "build": "npm run clean && node build.js",
-    "clean": "rm -rf css scss"
+    "clean": "rm -rf dist"
   },
   "license": "BSD-3-Clause",
   "type": "module",
@@ -14,8 +14,11 @@
     "style-dictionary": "^5.1.1"
   },
   "files": [
-    "css/",
-    "scss/",
+    "dist/css/",
+    "dist/scss/",
     "tokens/"
-  ]
+  ],
+  "dependencies": {
+    "@tokens-studio/sd-transforms": "^2.0.2"
+  }
 }
