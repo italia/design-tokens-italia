@@ -491,82 +491,37 @@
   },
   "elevation": {
     "low": {
-      "x": {
-        "$value": 0,
-        "$type": "x"
+      "$value": {
+        "x": "0",
+        "y": "{shadow.offset.s}",
+        "blur": "{shadow.blur.s}",
+        "spread": "0",
+        "color": "{color.shadow.whisper}",
+        "type": "dropShadow"
       },
-      "y": {
-        "$value": "4px",
-        "$type": "y"
-      },
-      "blur": {
-        "$value": "4px",
-        "$type": "blur"
-      },
-      "spread": {
-        "$value": 0,
-        "$type": "spread"
-      },
-      "color": {
-        "$value": "#0000000d",
-        "$type": "color"
-      },
-      "type": {
-        "$value": "dropShadow",
-        "$type": "type"
-      }
+      "$type": "boxShadow"
     },
     "medium": {
-      "x": {
-        "$value": 0,
-        "$type": "x"
+      "$value": {
+        "x": "0",
+        "y": "{shadow.offset.m}",
+        "blur": "{shadow.blur.m}",
+        "spread": "0",
+        "color": "{color.shadow.soft}",
+        "type": "dropShadow"
       },
-      "y": {
-        "$value": "8px",
-        "$type": "y"
-      },
-      "blur": {
-        "$value": "16px",
-        "$type": "blur"
-      },
-      "spread": {
-        "$value": 0,
-        "$type": "spread"
-      },
-      "color": {
-        "$value": "#0000001a",
-        "$type": "color"
-      },
-      "type": {
-        "$value": "dropShadow",
-        "$type": "type"
-      }
+      "$type": "boxShadow"
     },
     "high": {
-      "x": {
-        "$value": 0,
-        "$type": "x"
+      "$value": {
+        "x": "0",
+        "y": "{shadow.offset.l}",
+        "blur": "{shadow.blur.l}",
+        "spread": "0",
+        "color": "{color.shadow.dark}",
+        "type": "dropShadow"
       },
-      "y": {
-        "$value": "16px",
-        "$type": "y"
-      },
-      "blur": {
-        "$value": "48px",
-        "$type": "blur"
-      },
-      "spread": {
-        "$value": 0,
-        "$type": "spread"
-      },
-      "color": {
-        "$value": "#00000026",
-        "$type": "color"
-      },
-      "type": {
-        "$value": "dropShadow",
-        "$type": "type"
-      }
+      "$type": "boxShadow"
     }
   }
 }
