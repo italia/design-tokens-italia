@@ -14,6 +14,7 @@ const sd = new StyleDictionary({
     css: {
       transformGroup: 'tokens-studio', // <-- apply the tokens-studio transformGroup to apply all transforms
       transforms: ['name/kebab'], // <-- add a token name transform for generating token names, default is camel
+      prefix: 'it-',
       buildPath: 'dist/',
       files: [
         {
@@ -30,10 +31,12 @@ const sd = new StyleDictionary({
       transformGroup: 'tokens-studio', // <-- apply the tokens-studio transformGroup to apply all transforms
       transforms: ['name/kebab'], // <-- add a token name transform for generating token names, default is camel
       buildPath: 'dist/',
+      prefix: 'it-',
       files: [
         {
           destination: 'scss/_variables.scss',
           format: 'scss/variables',
+          prefix: 'it-',
           options: {
             "outputReferences": true,
             "themeable": false
