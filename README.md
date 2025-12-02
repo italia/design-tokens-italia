@@ -13,6 +13,9 @@ Rappresentano associazioni fra attributi, come colori, tipografia, spaziature e 
 Per maggiori informazioni consulta la [documentazione ufficiale](https://designers.italia.it/design-system/fondamenti/design-tokens/) del design system. 
 
 ## Installazione
+
+Si richiede `Node >= 22`
+
 ```sh
 npm install design-tokens-italia
 ```
