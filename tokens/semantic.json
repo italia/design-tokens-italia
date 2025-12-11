@@ -2,408 +2,408 @@
   "color": {
     "background": {
       "primary": {
-        "$type": "color",
         "$value": "{color.blue.40}",
+        "$type": "color",
         "$description": "Sfondo primario, utilizzato per elementi interattivi (buttons, links) ed elementi caratterizzati con l’identità visiva."
       },
       "primary-light": {
-        "$type": "color",
         "$value": "{color.blue.87}",
+        "$type": "color",
         "$description": "Sfondo con contrasto leggero, utilizzato come alternativa al colore primario per elementi interattivi."
       },
       "primary-lighter": {
-        "$type": "color",
         "$value": "{color.blue.97}",
+        "$type": "color",
         "$description": "Sfondo di colore primario con contrasto ridotto, definisce una sezione o una parte di essa nel contesto della pagina."
       },
       "primary-hover": {
-        "$type": "color",
         "$value": "{color.blue.30}",
+        "$type": "color",
         "$description": "Sfondo utilizzato su componenti primari interattivi nello stato di :hover."
       },
       "primary-active": {
-        "$type": "color",
         "$value": "{color.blue.20}",
+        "$type": "color",
         "$description": "Sfondo utilizzato su componenti primari interattivi nello stato attivo e premuto."
       },
       "primary-muted": {
-        "$type": "color",
         "$value": "{color.blue.30}",
+        "$type": "color",
         "$description": "Sfondo utilizzato su sezioni di pagina."
       },
       "primary-deep": {
-        "$type": "color",
         "$value": "{color.blue.20}",
+        "$type": "color",
         "$description": "Sfondo utilizzato su sezioni di pagina."
       },
       "secondary": {
-        "$type": "color",
         "$value": "{color.slate.44}",
+        "$type": "color",
         "$description": "Sfondo alternativo, utilizzato per elementi interattivi secondari o per sezioni di una pagina."
       },
       "secondary-hover": {
-        "$type": "color",
         "$value": "{color.slate.28}",
+        "$type": "color",
         "$description": "Sfondo utilizzato su elementi interattivi secondari nello stato di :hover."
       },
       "secondary-active": {
-        "$type": "color",
         "$value": "{color.slate.20}",
+        "$type": "color",
         "$description": "Sfondo utilizzato su elementi interattivi secondari nello stato attivo e premuto."
       },
       "secondary-light": {
-        "$type": "color",
         "$value": "{color.slate.68}",
+        "$type": "color",
         "$description": "Sfondo colore secondario chiaro."
       },
       "secondary-lighter": {
-        "$type": "color",
         "$value": "{color.slate.85}",
+        "$type": "color",
         "$description": "Sfondo colore secondario molto chiaro."
       },
       "accent": {
-        "$type": "color",
         "$value": "{color.teal.32}",
+        "$type": "color",
         "$description": "Sfondo con colore di accento per elementi interattivi."
       },
       "accent-hover": {
-        "$type": "color",
         "$value": "{color.teal.26}",
+        "$type": "color",
         "$description": "Sfondo utilizzato su elementi interattivi di accento nello stato di :hover."
       },
       "muted": {
-        "$type": "color",
         "$value": "{color.gray.96}",
+        "$type": "color",
         "$description": "Sfondo con contrasto molto leggero, definisce sezioni di una pagina o paragrafi di testo."
       },
       "inverse": {
-        "$type": "color",
         "$value": "{color.white}",
+        "$type": "color",
         "$description": "Sfondo invertito, utilizzato in combinazione con uno sfondo pagina/sezione di tipo primary, secondary  o con colori neutri."
       },
       "disabled": {
-        "$type": "color",
         "$value": "{color.slate.85}",
+        "$type": "color",
         "$description": "Sfondo per elementi interattivi disabilitati/disattivati"
       },
       "subtle": {
-        "$type": "color",
         "$value": "{color.gray.83}",
+        "$type": "color",
         "$description": "Sfondo chiaro, utilizzato per definire sezioni di una pagina"
       },
       "emphasis": {
-        "$type": "color",
         "$value": "{color.slate.20}",
+        "$type": "color",
         "$description": "Sfondo di enfasi, utilizzato per mettere in risalto precise sezioni di una pagina"
       },
       "success": {
-        "$type": "color",
         "$value": "{color.emerald.25}",
+        "$type": "color",
         "$description": "Sfondo per uno stato di successo, utilizzato per elementi interattivi o sfondo di componenti.  Il testo deve essere inverse"
       },
       "success-light": {
-        "$type": "color",
         "$value": "{color.emerald.87}",
+        "$type": "color",
         "$description": "Sfondo di successo per sezioni e componenti che prevedono contenuti medio/lunghi. Il testo può essere utilizzato in più varianti tranne che inverse"
       },
       "success-hover": {
-        "$type": "color",
         "$value": "{color.emerald.20}",
+        "$type": "color",
         "$description": "Sfondo di successo, utilizzato per elementi interattivi nello stato di :hover"
       },
       "success-active": {
-        "$type": "color",
         "$value": "{color.emerald.15}",
+        "$type": "color",
         "$description": "Sfondo di successo, utilizzato per elementi interattivi nello stato attivo e premuto."
       },
       "warning": {
-        "$type": "color",
         "$value": "{color.orange.30}",
+        "$type": "color",
         "$description": "Sfondo di allerta, utilizzato per elementi interattivi o componenti. Il testo deve essere inverse"
       },
       "warning-light": {
-        "$type": "color",
         "$value": "{color.orange.87}",
+        "$type": "color",
         "$description": "Sfondo di allerta per sezioni e componenti che prevedono contenuti medio/lunghi. Il testo può essere utilizzato in più varianti tranne che inverse"
       },
       "warning-hover": {
-        "$type": "color",
         "$value": "{color.orange.25}",
+        "$type": "color",
         "$description": "Sfondo di allerta, utilizzato per elementi interattivi nello stato di :hover"
       },
       "warning-active": {
-        "$type": "color",
         "$value": "{color.orange.20}",
+        "$type": "color",
         "$description": "Sfondo di allerta, utilizzato per elementi interattivi nello stato attivo e premuto."
       },
       "danger": {
-        "$type": "color",
         "$value": "{color.red.50}",
+        "$type": "color",
         "$description": "Colore di sfondo che avvisa di un pericolo o errore, utilizzato per elementi interattivi o componenti. Il testo deve essere inverse."
       },
       "danger-light": {
-        "$type": "color",
         "$value": "{color.red.96}",
+        "$type": "color",
         "$description": "Sfondo di pericolo o errore per sezioni e componenti che prevedono contenuti medio/lunghi. Il testo può essere utilizzato in più varianti tranne che inverse"
       },
       "danger-hover": {
-        "$type": "color",
         "$value": "{color.red.37}",
+        "$type": "color",
         "$description": "Colore di sfondo che avvisa di un pericolo o errore, utilizzato per elementi interattivi nello stato di :hover."
       },
       "danger-active": {
-        "$type": "color",
         "$value": "{color.red.25}",
+        "$type": "color",
         "$description": "Colore di sfondo che avvisa di un pericolo o errore, utilizzato per elementi interattivi nello stato attivo e premuto."
       }
     },
     "border": {
       "primary": {
-        "$type": "color",
         "$value": "{color.blue.40}",
+        "$type": "color",
         "$description": "Bordo primario, utilizzato per elementi interattivi cliccabili."
       },
       "primary-hover": {
-        "$type": "color",
         "$value": "{color.blue.30}",
+        "$type": "color",
         "$description": "Bordo primario per stato interattivo hover"
       },
       "primary-active": {
-        "$type": "color",
         "$value": "{color.blue.20}",
+        "$type": "color",
         "$description": "Bordo primario per stato interattivo attivo e premuto."
       },
       "secondary": {
-        "$type": "color",
         "$value": "{color.slate.44}",
+        "$type": "color",
         "$description": "Bordo secondario, utilizzato per elementi interattivi cliccabili"
       },
       "secondary-hover": {
-        "$type": "color",
         "$value": "{color.slate.28}",
+        "$type": "color",
         "$description": "Bordo secondario per stato interattivo hover"
       },
       "secondary-active": {
-        "$type": "color",
         "$value": "{color.slate.20}",
+        "$type": "color",
         "$description": "Bordo secondario per stato interattivo attivo e premuto."
       },
       "inverse": {
-        "$type": "color",
         "$value": "{color.white}",
+        "$type": "color",
         "$description": "Bordo invertito, utilizzato su sfondo a contrasto di tipo primary, secondary o emphasis"
       },
       "disabled": {
-        "$type": "color",
         "$value": "{color.slate.85}",
+        "$type": "color",
         "$description": "Bordo per elementi interattivi disabilitati"
       },
       "subtle": {
-        "$type": "color",
         "$value": "{color.slate.78}",
+        "$type": "color",
         "$description": "Bordo separatore, delimita le sezioni di una pagina, componenti o singoli elementi"
       },
       "success": {
-        "$type": "color",
         "$value": "{color.emerald.25}",
+        "$type": "color",
         "$description": "Bordo di successo, utilizzato per elementi interattivi o statici (alert, notifications, etc)"
       },
       "success-hover": {
-        "$type": "color",
         "$value": "{color.emerald.20}",
+        "$type": "color",
         "$description": "Bordo di successo per stato interattivo hover"
       },
       "success-active": {
-        "$type": "color",
         "$value": "{color.emerald.15}",
+        "$type": "color",
         "$description": "Bordo di successo per stato interattivo attivo e premuto."
       },
       "warning": {
-        "$type": "color",
         "$value": "{color.orange.30}",
+        "$type": "color",
         "$description": "Bordo di allerta, utilizzato per elementi interattivi o statici (vedi esempio success)"
       },
       "warning-hover": {
-        "$type": "color",
         "$value": "{color.orange.25}",
+        "$type": "color",
         "$description": "Bordo di allerta per stato interattivo hover"
       },
       "warning-active": {
-        "$type": "color",
         "$value": "{color.orange.20}",
+        "$type": "color",
         "$description": "Bordo di allerta per stato interattivo attivo e premuto."
       },
       "danger": {
-        "$type": "color",
         "$value": "{color.red.50}",
+        "$type": "color",
         "$description": "Colore di un bordo che avvisa di un pericolo o errore, utilizzato per elementi interattivi o statici (vedi esempio success)"
       },
       "danger-hover": {
-        "$type": "color",
         "$value": "{color.red.37}",
+        "$type": "color",
         "$description": "Colore di sfondo che avvisa di un pericolo o errore per stato interattivo :hover."
       },
       "danger-active": {
-        "$type": "color",
         "$value": "{color.red.25}",
+        "$type": "color",
         "$description": "Colore di sfondo che avvisa di un pericolo o errore per stato attivo e premuto."
       }
     },
     "text": {
       "base": {
-        "$type": "color",
         "$value": "{color.gray.10}",
+        "$type": "color",
         "$description": "Corpo pagina base"
       },
       "primary": {
-        "$type": "color",
         "$value": "{color.blue.40}",
+        "$type": "color",
         "$description": "Testo con link"
       },
       "secondary": {
-        "$type": "color",
         "$value": "{color.slate.28}",
+        "$type": "color",
         "$description": "Corpo pagina alternativo, contenuti di dettaglio, testo button secondary"
       },
       "muted": {
-        "$type": "color",
         "$value": "{color.slate.44}",
+        "$type": "color",
         "$description": "Testo di supporto per contenuti molto brevi"
       },
       "disabled": {
-        "$type": "color",
         "$value": "{color.slate.44}",
+        "$type": "color",
         "$description": "Testo disabilitato"
       },
       "success": {
-        "$type": "color",
         "$value": "{color.emerald.25}",
+        "$type": "color",
         "$description": "Testo di successo, può essere anche interattivo (button, link)"
       },
       "success-hover": {
-        "$type": "color",
         "$value": "{color.emerald.20}",
+        "$type": "color",
         "$description": "Testo di successo interattivo nello stato hover"
       },
       "success-active": {
-        "$type": "color",
         "$value": "{color.emerald.15}",
+        "$type": "color",
         "$description": "Testo di successo interattivo nello stato attivo e premuto."
       },
       "warning": {
-        "$type": "color",
         "$value": "{color.orange.30}",
+        "$type": "color",
         "$description": "Testo di allerta, può essere anche interattivo (button, link)"
       },
       "warning-hover": {
-        "$type": "color",
         "$value": "{color.orange.25}",
+        "$type": "color",
         "$description": "Testo di allerta interattivo nello stato hover"
       },
       "warning-active": {
-        "$type": "color",
         "$value": "{color.orange.20}",
+        "$type": "color",
         "$description": "Testo di allerta interattivo nello stato attivo e premuto."
       },
       "danger": {
-        "$type": "color",
         "$value": "{color.red.50}",
+        "$type": "color",
         "$description": "Colore del testo per problema o errore, può essere anche interattivo (link, button)"
       },
       "danger-hover": {
-        "$type": "color",
         "$value": "{color.red.37}",
+        "$type": "color",
         "$description": "Colore del testo per problema o errore interattivo nello stato hover"
       },
       "danger-active": {
-        "$type": "color",
         "$value": "{color.red.25}",
+        "$type": "color",
         "$description": "Colore del testo per problema o errore interattivo nello stato attivo e premuto."
       },
       "inverse": {
-        "$type": "color",
         "$value": "{color.white}",
+        "$type": "color",
         "$description": "Testo invertito per sfondi a contrasto (primary, secondary, emphasis)"
       },
       "accent": {
-        "$type": "color",
         "$value": "{color.teal.32}",
+        "$type": "color",
         "$description": "Testo di accento, alternativo al primary per elementi interattivi su sfondi a contrasto"
       }
     },
     "link": {
       "base": {
-        "$type": "color",
         "$value": "{color.blue.40}",
+        "$type": "color",
         "$description": "Colore base per i link"
       },
       "hover": {
-        "$type": "color",
         "$value": "{color.blue.30}",
+        "$type": "color",
         "$description": "Colore per i link nello stato hover"
       },
       "active": {
-        "$type": "color",
         "$value": "{color.blue.20}",
+        "$type": "color",
         "$description": "Colore per i link nello stato active"
       },
       "secondary": {
-        "$type": "color",
         "$value": "{color.slate.28}",
+        "$type": "color",
         "$description": "Colore del link secondario, richiede sempre la sottolineatura."
       },
       "secondary-hover": {
-        "$type": "color",
         "$value": "{color.slate.20}",
+        "$type": "color",
         "$description": "Testo del button secondary nello stato hover"
       },
       "secondary-active": {
-        "$type": "color",
         "$value": "{color.slate.20}",
+        "$type": "color",
         "$description": "Testo del button secondary nello stato attivo e premuto."
       },
       "inverse": {
-        "$type": "color",
         "$value": "{color.white}",
+        "$type": "color",
         "$description": "Colore per i link invertiti"
       },
       "disabled": {
-        "$type": "color",
         "$value": "{color.slate.85}",
+        "$type": "color",
         "$description": "Colore per i link disabilitati"
       },
       "accent": {
-        "$type": "color",
         "$value": "{color.teal.32}",
+        "$type": "color",
         "$description": "Colore di risalto per un link"
       },
       "accent-hover": {
-        "$type": "color",
         "$value": "{color.teal.26}",
+        "$type": "color",
         "$description": "Colore di risalto per un link in stato hover."
       }
     },
     "outline": {
       "focus": {
-        "$type": "color",
         "$value": "{color.gray.10}",
+        "$type": "color",
         "$description": "Colore di evidenziazione dello stato focus"
       }
     },
     "shadow": {
       "whisper": {
-        "$type": "color",
         "$value": "{color.black.05}",
+        "$type": "color",
         "$description": "Colore ombreggiatura leggermente visibile"
       },
       "soft": {
-        "$type": "color",
         "$value": "{color.black.10}",
+        "$type": "color",
         "$description": "Colore ombreggiatura chiara"
       },
       "dark": {
-        "$type": "color",
         "$value": "{color.black.15}",
+        "$type": "color",
         "$description": "Colore ombreggiatura molto visibile"
       }
     }
@@ -411,87 +411,86 @@
   "theme": {
     "italia": {
       "base": {
-        "$type": "color",
         "$value": "{color.blue.40}",
+        "$type": "color",
         "$description": "Colore base del tema"
       },
       "light": {
-        "$type": "color",
         "$value": "{color.blue.87}",
+        "$type": "color",
         "$description": "Colore del tema chiaro"
       },
       "lighter": {
-        "$type": "color",
         "$value": "{color.blue.97}",
+        "$type": "color",
         "$description": "Colore del tema molto chiaro"
       },
       "subtle": {
-        "$type": "color",
         "$value": "{color.blue.30}",
+        "$type": "color",
         "$description": "Colore del tema meno saturo"
       },
       "muted": {
-        "$type": "color",
         "$value": "{color.blue.25}",
+        "$type": "color",
         "$description": "Colore del tema molto meno saturo"
       },
       "deep": {
-        "$type": "color",
         "$value": "{color.blue.20}",
+        "$type": "color",
         "$description": "Colore del tema scuro"
       }
     }
   },
   "spacing": {
     "3xs": {
-      "$type": "spacing",
       "$value": "{spacing.1x}",
+      "$type": "spacing",
       "$description": "Valore 3-extra-small nella scala dimensionale per la spaziatura"
     },
     "xxs": {
-      "$type": "spacing",
       "$value": "{spacing.2x}",
+      "$type": "spacing",
       "$description": "Valore extra-extra small nella scala dimensionale per la spaziatura"
     },
     "xs": {
-      "$type": "spacing",
       "$value": "{spacing.3x}",
+      "$type": "spacing",
       "$description": "Valore extra small nella scala dimensionale per la spaziatura"
     },
     "s": {
-      "$type": "spacing",
       "$value": "{spacing.4x}",
+      "$type": "spacing",
       "$description": "Valore small nella scala dimensionale per la spaziatura"
     },
     "m": {
-      "$type": "spacing",
       "$value": "{spacing.6x}",
+      "$type": "spacing",
       "$description": "Valore medium nella scala dimensionale per la spaziatura"
     },
     "l": {
-      "$type": "spacing",
       "$value": "{spacing.8x}",
+      "$type": "spacing",
       "$description": "Valore large nella scala dimensionale per la spaziatura"
     },
     "xl": {
-      "$type": "spacing",
       "$value": "{spacing.10x}",
+      "$type": "spacing",
       "$description": "Valore extra-large nella scala dimensionale per la spaziatura"
     },
     "xxl": {
-      "$type": "spacing",
       "$value": "{spacing.12x}",
+      "$type": "spacing",
       "$description": "Valore extra-extra-large nella scala dimensionale per la spaziatura"
     },
     "3xl": {
-      "$type": "spacing",
       "$value": "{spacing.24x}",
+      "$type": "spacing",
       "$description": "Valore 3-extra-large nella scala dimensionale per la spaziatura"
     }
   },
   "elevation": {
     "low": {
-      "$type": "boxShadow",
       "$value": {
         "x": "0",
         "y": "{shadow.offset.s}",
@@ -499,10 +498,10 @@
         "spread": "0",
         "color": "{color.shadow.whisper}",
         "type": "dropShadow"
-      }
+      },
+      "$type": "boxShadow"
     },
     "medium": {
-      "$type": "boxShadow",
       "$value": {
         "x": "0",
         "y": "{shadow.offset.m}",
@@ -510,10 +509,10 @@
         "spread": "0",
         "color": "{color.shadow.soft}",
         "type": "dropShadow"
-      }
+      },
+      "$type": "boxShadow"
     },
     "high": {
-      "$type": "boxShadow",
       "$value": {
         "x": "0",
         "y": "{shadow.offset.l}",
@@ -521,7 +520,8 @@
         "spread": "0",
         "color": "{color.shadow.dark}",
         "type": "dropShadow"
-      }
+      },
+      "$type": "boxShadow"
     }
   }
 }

@@ -1,769 +1,769 @@
 {
   "border": {
     "base": {
-      "$type": "borderWidth",
       "$value": "1px",
+      "$type": "borderWidth",
       "$description": "Dimensione base di un bordo."
     },
     "double": {
-      "$type": "borderWidth",
       "$value": "2px",
+      "$type": "borderWidth",
       "$description": "Dimensione doppia di un bordo."
     },
     "thick": {
-      "$type": "borderWidth",
       "$value": "4px",
+      "$type": "borderWidth",
       "$description": "Dimensione spessa di un bordo."
     },
     "broad": {
-      "$type": "borderWidth",
       "$value": "8px",
+      "$type": "borderWidth",
       "$description": "Dimensione larga di un bordo."
     }
   },
   "color": {
     "black": {
       "10": {
-        "$type": "color",
         "$value": "rgba(0,0,0,0.10)",
+        "$type": "color",
         "$description": "Colore neutro"
       },
       "15": {
-        "$type": "color",
         "$value": "rgba(0,0,0,0.15)",
+        "$type": "color",
         "$description": "Colore neutro"
       },
       "25": {
-        "$type": "color",
         "$value": "rgba(0,0,0,0.25)",
+        "$type": "color",
         "$description": "Colore neutro"
       },
       "50": {
-        "$type": "color",
         "$value": "rgba(0,0,0,0.50)",
+        "$type": "color",
         "$description": "Colore neutro"
       },
       "85": {
-        "$type": "color",
         "$value": "rgba(0,0,0,0.85)",
+        "$type": "color",
         "$description": "Colore neutro"
       },
       "100": {
-        "$type": "color",
         "$value": "rgba(0,0,0,1)",
+        "$type": "color",
         "$description": "Colore neutro"
       },
       "05": {
-        "$type": "color",
         "$value": "rgba(0,0,0,0.05)",
+        "$type": "color",
         "$description": "Colore neutro"
       }
     },
     "white": {
-      "$type": "color",
       "$value": "#ffffff",
+      "$type": "color",
       "$description": "Colore neutro"
     },
     "blue": {
       "20": {
-        "$type": "color",
         "$value": "#003366",
+        "$type": "color",
         "$description": "Colore tema default"
       },
       "25": {
-        "$type": "color",
         "$value": "#004080",
+        "$type": "color",
         "$description": "Colore tema default"
       },
       "30": {
-        "$type": "color",
         "$value": "#004d99",
+        "$type": "color",
         "$description": "Colore tema default"
       },
       "40": {
-        "$type": "color",
         "$value": "#0066cc",
+        "$type": "color",
         "$description": "Colore tema default - valore base"
       },
       "48": {
-        "$type": "color",
         "$value": "#207ad5",
+        "$type": "color",
         "$description": "Colore tema default"
       },
       "57": {
-        "$type": "color",
         "$value": "#4392e0",
+        "$type": "color",
         "$description": "Colore tema default"
       },
       "67": {
-        "$type": "color",
         "$value": "#6aaaeb",
+        "$type": "color",
         "$description": "Colore tema default"
       },
       "77": {
-        "$type": "color",
         "$value": "#94c4f5",
+        "$type": "color",
         "$description": "Colore tema default"
       },
       "87": {
-        "$type": "color",
         "$value": "#bfdfff",
+        "$type": "color",
         "$description": "Colore tema default"
       },
       "97": {
-        "$type": "color",
         "$value": "#f2f7fc",
+        "$type": "color",
         "$description": "Colore tema default"
       }
     },
     "seagreen": {
       "10": {
-        "$type": "color",
         "$value": "#003121",
+        "$type": "color",
         "$description": "Colore tema secondario"
       },
       "14": {
-        "$type": "color",
         "$value": "#004931",
+        "$type": "color",
         "$description": "Colore tema secondario"
       },
       "19": {
-        "$type": "color",
         "$value": "#006242",
+        "$type": "color",
         "$description": "Colore tema secondario"
       },
       "24": {
-        "$type": "color",
         "$value": "#007A52",
+        "$type": "color",
         "$description": "Colore tema secondario - valore base"
       },
       "39": {
-        "$type": "color",
         "$value": "#329574",
+        "$type": "color",
         "$description": "Colore tema secondario"
       },
       "54": {
-        "$type": "color",
         "$value": "#64AF96",
+        "$type": "color",
         "$description": "Colore tema secondario"
       },
       "69": {
-        "$type": "color",
         "$value": "#96CAB9",
+        "$type": "color",
         "$description": "Colore tema secondario"
       },
       "76": {
-        "$type": "color",
         "$value": "#AFD7CA",
+        "$type": "color",
         "$description": "Colore tema secondario"
       },
       "84": {
-        "$type": "color",
         "$value": "#C8E4DB",
+        "$type": "color",
         "$description": "Colore tema secondario"
       },
       "92": {
-        "$type": "color",
         "$value": "#E1F2EC",
+        "$type": "color",
         "$description": "Colore tema secondario"
       }
     },
     "slate": {
       "20": {
-        "$type": "color",
         "$value": "#17324d",
+        "$type": "color",
         "$description": "Colore neutro"
       },
       "28": {
-        "$type": "color",
         "$value": "#2f475e",
+        "$type": "color",
         "$description": "Colore neutro"
       },
       "36": {
-        "$type": "color",
         "$value": "#455b71",
+        "$type": "color",
         "$description": "Colore neutro"
       },
       "44": {
-        "$type": "color",
         "$value": "#5c6f82",
+        "$type": "color",
         "$description": "Colore neutro - valore base"
       },
       "52": {
-        "$type": "color",
         "$value": "#768594",
+        "$type": "color",
         "$description": "Colore neutro"
       },
       "62": {
-        "$type": "color",
         "$value": "#929da9",
+        "$type": "color",
         "$description": "Colore neutro"
       },
       "68": {
-        "$type": "color",
         "$value": "#a3adb7",
+        "$type": "color",
         "$description": "Colore neutro"
       },
       "78": {
-        "$type": "color",
         "$value": "#c5c7c9",
+        "$type": "color",
         "$description": "Colore neutro"
       },
       "85": {
-        "$type": "color",
         "$value": "#d9dadb",
+        "$type": "color",
         "$description": "Colore neutro"
       },
       "93": {
-        "$type": "color",
         "$value": "#ebeced",
+        "$type": "color",
         "$description": "Colore neutro"
       }
     },
     "gray": {
       "10": {
-        "$type": "color",
         "$value": "#1a1a1a",
+        "$type": "color",
         "$description": "Colore neutro"
       },
       "15": {
-        "$type": "color",
         "$value": "#262626",
+        "$type": "color",
         "$description": "Colore neutro - valore base"
       },
       "25": {
-        "$type": "color",
         "$value": "#404040",
+        "$type": "color",
         "$description": "Colore neutro"
       },
       "32": {
-        "$type": "color",
         "$value": "#525252",
+        "$type": "color",
         "$description": "Colore neutro"
       },
       "45": {
-        "$type": "color",
         "$value": "#737373",
+        "$type": "color",
         "$description": "Colore neutro"
       },
       "64": {
-        "$type": "color",
         "$value": "#a3a3a3",
+        "$type": "color",
         "$description": "Colore neutro"
       },
       "83": {
-        "$type": "color",
         "$value": "#d4d4d4",
+        "$type": "color",
         "$description": "Colore neutro"
       },
       "90": {
-        "$type": "color",
         "$value": "#e5e5e5",
+        "$type": "color",
         "$description": "Colore neutro"
       },
       "96": {
-        "$type": "color",
         "$value": "#f5f5f5",
+        "$type": "color",
         "$description": "Colore neutro"
       },
       "98": {
-        "$type": "color",
         "$value": "#fafafa",
+        "$type": "color",
         "$description": "Colore neutro"
       }
     },
     "red": {
       "25": {
-        "$type": "color",
         "$value": "#661a26",
+        "$type": "color",
         "$description": "Colore di sistema"
       },
       "30": {
-        "$type": "color",
         "$value": "#7a1f2e",
+        "$type": "color",
         "$description": "Colore di sistema"
       },
       "37": {
-        "$type": "color",
         "$value": "#992639",
+        "$type": "color",
         "$description": "Colore di sistema"
       },
       "44": {
-        "$type": "color",
         "$value": "#b32d43",
+        "$type": "color",
         "$description": "Colore di sistema"
       },
       "50": {
-        "$type": "color",
         "$value": "#cc334d",
+        "$type": "color",
         "$description": "Colore di sistema - valore base"
       },
       "60": {
-        "$type": "color",
         "$value": "#d65c70",
+        "$type": "color",
         "$description": "Colore di sistema"
       },
       "70": {
-        "$type": "color",
         "$value": "#e08593",
+        "$type": "color",
         "$description": "Colore di sistema"
       },
       "80": {
-        "$type": "color",
         "$value": "#ebadb8",
+        "$type": "color",
         "$description": "Colore di sistema"
       },
       "90": {
-        "$type": "color",
         "$value": "#f5d6db",
+        "$type": "color",
         "$description": "Colore di sistema"
       },
       "96": {
-        "$type": "color",
         "$value": "#fbeff1",
+        "$type": "color",
         "$description": "Colore di sistema"
       }
     },
     "emerald": {
       "15": {
-        "$type": "color",
         "$value": "#004d33",
+        "$type": "color",
         "$description": "Colore di sistema"
       },
       "20": {
-        "$type": "color",
         "$value": "#006644",
+        "$type": "color",
         "$description": "Colore di sistema"
       },
       "25": {
-        "$type": "color",
         "$value": "#008055",
+        "$type": "color",
         "$description": "Colore di sistema - valore base"
       },
       "35": {
-        "$type": "color",
         "$value": "#00b377",
+        "$type": "color",
         "$description": "Colore di sistema"
       },
       "40": {
-        "$type": "color",
         "$value": "#00cc88",
+        "$type": "color",
         "$description": "Colore di sistema"
       },
       "48": {
-        "$type": "color",
         "$value": "#22d499",
+        "$type": "color",
         "$description": "Colore di sistema"
       },
       "57": {
-        "$type": "color",
         "$value": "#43e0ac",
+        "$type": "color",
         "$description": "Colore di sistema"
       },
       "67": {
-        "$type": "color",
         "$value": "#6ee7bf",
+        "$type": "color",
         "$description": "Colore di sistema"
       },
       "77": {
-        "$type": "color",
         "$value": "#99eed2",
+        "$type": "color",
         "$description": "Colore di sistema"
       },
       "87": {
-        "$type": "color",
         "$value": "#c8f6e7",
+        "$type": "color",
         "$description": "Colore di sistema"
       }
     },
     "orange": {
       "20": {
-        "$type": "color",
         "$value": "#663d00",
+        "$type": "color",
         "$description": "Colore di sistema"
       },
       "25": {
-        "$type": "color",
         "$value": "#804d00",
+        "$type": "color",
         "$description": "Colore di sistema"
       },
       "30": {
-        "$type": "color",
         "$value": "#995c00",
+        "$type": "color",
         "$description": "Colore di sistema"
       },
       "35": {
-        "$type": "color",
         "$value": "#b36b00",
+        "$type": "color",
         "$description": "Colore di sistema"
       },
       "40": {
-        "$type": "color",
         "$value": "#cc7a00",
+        "$type": "color",
         "$description": "Colore di sistema - valore base"
       },
       "48": {
-        "$type": "color",
         "$value": "#d48d22",
+        "$type": "color",
         "$description": "Colore di sistema"
       },
       "57": {
-        "$type": "color",
         "$value": "#e0a243",
+        "$type": "color",
         "$description": "Colore di sistema"
       },
       "67": {
-        "$type": "color",
         "$value": "#e7b66e",
+        "$type": "color",
         "$description": "Colore di sistema"
       },
       "77": {
-        "$type": "color",
         "$value": "#eecd9a",
+        "$type": "color",
         "$description": "Colore di sistema"
       },
       "87": {
-        "$type": "color",
         "$value": "#f6e4c8",
+        "$type": "color",
         "$description": "Colore di sistema"
       }
     },
     "teal": {
       "20": {
-        "$type": "color",
         "$value": "#05615e",
+        "$type": "color",
         "$description": "Colore di risalto"
       },
       "26": {
-        "$type": "color",
         "$value": "#077f7b",
+        "$type": "color",
         "$description": "Colore di risalto"
       },
       "32": {
-        "$type": "color",
         "$value": "#089994",
+        "$type": "color",
         "$description": "Colore di risalto"
       },
       "36": {
-        "$type": "color",
         "$value": "#09afa9",
+        "$type": "color",
         "$description": "Colore di risalto"
       },
       "42": {
-        "$type": "color",
         "$value": "#0bcbc5",
+        "$type": "color",
         "$description": "Colore di risalto"
       },
       "50": {
-        "$type": "color",
         "$value": "#2bd6d0",
+        "$type": "color",
         "$description": "Colore di risalto"
       },
       "60": {
-        "$type": "color",
         "$value": "#52e0db",
+        "$type": "color",
         "$description": "Colore di risalto"
       },
       "70": {
-        "$type": "color",
         "$value": "#79ece8",
+        "$type": "color",
         "$description": "Colore di risalto"
       },
       "80": {
-        "$type": "color",
         "$value": "#a3f5f2",
+        "$type": "color",
         "$description": "Colore di risalto"
       },
       "90": {
-        "$type": "color",
         "$value": "#ccfffd",
+        "$type": "color",
         "$description": "Colore di risalto"
       }
     }
   },
   "font": {
     "sans": {
-      "$type": "fontFamilies",
       "$value": "Titillium Web",
+      "$type": "fontFamilies",
       "$description": "Famiglia font senza grazie"
     },
     "serif": {
-      "$type": "fontFamilies",
       "$value": "Lora",
+      "$type": "fontFamilies",
       "$description": "Famiglia font con grazie"
     },
     "mono": {
-      "$type": "fontFamilies",
       "$value": "Roboto Mono",
+      "$type": "fontFamilies",
       "$description": "Famiglia font mono spaziata"
     }
   },
   "font-size": {
     "1": {
-      "$type": "fontSizes",
       "$value": "12px",
+      "$type": "fontSizes",
       "$description": "Dimensione della scala tipografica"
     },
     "2": {
-      "$type": "fontSizes",
       "$value": "14px",
+      "$type": "fontSizes",
       "$description": "Dimensione della scala tipografica"
     },
     "3": {
-      "$type": "fontSizes",
       "$value": "16px",
+      "$type": "fontSizes",
       "$description": "Dimensione della scala tipografica"
     },
     "4": {
-      "$type": "fontSizes",
       "$value": "18px",
+      "$type": "fontSizes",
       "$description": "Dimensione della scala tipografica"
     },
     "5": {
-      "$type": "fontSizes",
       "$value": "20px",
+      "$type": "fontSizes",
       "$description": "Dimensione della scala tipografica"
     },
     "6": {
-      "$type": "fontSizes",
       "$value": "24px",
+      "$type": "fontSizes",
       "$description": "Dimensione della scala tipografica"
     },
     "7": {
-      "$type": "fontSizes",
       "$value": "28px",
+      "$type": "fontSizes",
       "$description": "Dimensione della scala tipografica"
     },
     "8": {
-      "$type": "fontSizes",
       "$value": "32px",
+      "$type": "fontSizes",
       "$description": "Dimensione della scala tipografica"
     },
     "9": {
-      "$type": "fontSizes",
       "$value": "40px",
+      "$type": "fontSizes",
       "$description": "Dimensione della scala tipografica"
     },
     "10": {
-      "$type": "fontSizes",
       "$value": "48px",
+      "$type": "fontSizes",
       "$description": "Dimensione della scala tipografica"
     },
     "11": {
-      "$type": "fontSizes",
       "$value": "56px",
+      "$type": "fontSizes",
       "$description": "Dimensione della scala tipografica"
     }
   },
   "font-leading": {
     "1": {
-      "$type": "lineHeights",
       "$value": "110%",
+      "$type": "lineHeights",
       "$description": "Spazio tra due righe di testo"
     },
     "2": {
-      "$type": "lineHeights",
       "$value": "120%",
+      "$type": "lineHeights",
       "$description": "Spazio tra due righe di testo"
     },
     "3": {
-      "$type": "lineHeights",
       "$value": "130%",
+      "$type": "lineHeights",
       "$description": "Spazio tra due righe di testo"
     },
     "4": {
-      "$type": "lineHeights",
       "$value": "140%",
+      "$type": "lineHeights",
       "$description": "Spazio tra due righe di testo"
     },
     "5": {
-      "$type": "lineHeights",
       "$value": "150%",
+      "$type": "lineHeights",
       "$description": "Spazio tra due righe di testo"
     }
   },
   "font-tracking": {
     "short": {
-      "$type": "letterSpacing",
       "$value": "-1px",
+      "$type": "letterSpacing",
       "$description": "Spazio tra le lettere di un font"
     },
     "narrow": {
-      "$type": "letterSpacing",
       "$value": "-1.3px",
+      "$type": "letterSpacing",
       "$description": "Spazio tra le lettere di un font"
     },
     "tight": {
-      "$type": "letterSpacing",
       "$value": "-2px",
+      "$type": "letterSpacing",
       "$description": "Spazio tra le lettere di un font"
     },
     "normal": {
-      "$type": "letterSpacing",
       "$value": "0px",
+      "$type": "letterSpacing",
       "$description": "Spazio tra le lettere di un font"
     }
   },
   "font-weight": {
     "extra-light": {
-      "$type": "fontWeights",
       "$value": "200",
+      "$type": "fontWeights",
       "$description": "Peso del font"
     },
     "light": {
-      "$type": "fontWeights",
       "$value": "300",
+      "$type": "fontWeights",
       "$description": "Peso del font"
     },
     "regular": {
-      "$type": "fontWeights",
       "$value": "400",
+      "$type": "fontWeights",
       "$description": "Peso del font"
     },
     "semibold": {
-      "$type": "fontWeights",
       "$value": "600",
+      "$type": "fontWeights",
       "$description": "Peso del font"
     },
     "bold": {
-      "$type": "fontWeights",
       "$value": "700",
+      "$type": "fontWeights",
       "$description": "Peso del font"
     }
   },
   "radius": {
     "smooth": {
-      "$type": "borderRadius",
       "$value": "4px",
+      "$type": "borderRadius",
       "$description": "Raggio di un bordo"
     },
     "circle": {
-      "$type": "borderRadius",
       "$value": "80px",
+      "$type": "borderRadius",
       "$description": "Raggio di un bordo"
     },
     "rounded": {
-      "$type": "borderRadius",
       "$value": "40px",
+      "$type": "borderRadius",
       "$description": "Raggio di un bordo"
     }
   },
   "spacing": {
     "1x": {
-      "$type": "spacing",
       "$value": "4px",
+      "$type": "spacing",
       "$description": "Dimensione baseline"
     },
     "2x": {
-      "$type": "spacing",
       "$value": "8px",
+      "$type": "spacing",
       "$description": "2x la dimensione della baseline"
     },
     "3x": {
-      "$type": "spacing",
       "$value": "12px",
+      "$type": "spacing",
       "$description": "3x la dimensione della baseline"
     },
     "4x": {
-      "$type": "spacing",
       "$value": "16px",
+      "$type": "spacing",
       "$description": "4x la dimensione della baseline"
     },
     "5x": {
-      "$type": "spacing",
       "$value": "20px",
+      "$type": "spacing",
       "$description": "5x la dimensione della baseline"
     },
     "6x": {
-      "$type": "spacing",
       "$value": "24px",
+      "$type": "spacing",
       "$description": "6x la dimensione della baseline"
     },
     "8x": {
-      "$type": "spacing",
       "$value": "32px",
+      "$type": "spacing",
       "$description": "8x la dimensione della baseline"
     },
     "10x": {
-      "$type": "spacing",
       "$value": "40px",
+      "$type": "spacing",
       "$description": "10x la dimensione della baseline"
     },
     "12x": {
-      "$type": "spacing",
       "$value": "48px",
+      "$type": "spacing",
       "$description": "12x la dimensione della baseline"
     },
     "14x": {
-      "$type": "spacing",
       "$value": "56px",
+      "$type": "spacing",
       "$description": "14x la dimensione della baseline"
     },
     "16x": {
-      "$type": "spacing",
       "$value": "64px",
+      "$type": "spacing",
       "$description": "16x la dimensione della baseline"
     },
     "24x": {
-      "$type": "spacing",
       "$value": "96px",
+      "$type": "spacing",
       "$description": "24x la dimensione della baseline"
     }
   },
   "sizing": {
     "quarter": {
-      "$type": "sizing",
       "$value": "25%",
+      "$type": "sizing",
       "$description": "Dimensione di un quarto rispetto all'elemento contenitore"
     },
     "half": {
-      "$type": "sizing",
       "$value": "50%",
+      "$type": "sizing",
       "$description": "Dimensione della metà rispetto all'elemento contenitorer"
     },
     "two-thirds": {
-      "$type": "sizing",
       "$value": "75%",
+      "$type": "sizing",
       "$description": "Dimensione di un tre/quarti rispetto all'elemento contenitorer"
     },
     "full": {
-      "$type": "sizing",
       "$value": "100%",
+      "$type": "sizing",
       "$description": "Dimensione del 100% rispetto all'elemento contenitore"
     }
   },
   "shadow": {
     "blur": {
       "s": {
-        "$type": "dimension",
         "$value": "4px",
+        "$type": "dimension",
         "$description": "Raggio di sfocatura dell'ombreggiatura"
       },
       "m": {
-        "$type": "dimension",
         "$value": "16px",
+        "$type": "dimension",
         "$description": "Raggio di sfocatura dell'ombreggiatura"
       },
       "l": {
-        "$type": "dimension",
         "$value": "48px",
+        "$type": "dimension",
         "$description": "Raggio di sfocatura dell'ombreggiatura"
       }
     },
     "offset": {
       "s": {
-        "$type": "dimension",
         "$value": "4px",
+        "$type": "dimension",
         "$description": "Offset dell'ombreggiatura"
       },
       "m": {
-        "$type": "dimension",
         "$value": "8px",
+        "$type": "dimension",
         "$description": "Offset dell'ombreggiatura"
       },
       "l": {
-        "$type": "dimension",
         "$value": "16px",
+        "$type": "dimension",
         "$description": "Offset dell'ombreggiatura"
       }
     }

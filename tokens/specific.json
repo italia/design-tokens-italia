@@ -2,272 +2,288 @@
   "icon": {
     "color": {
       "default": {
-        "$type": "color",
         "$value": "{color.text.base}",
+        "$type": "color",
         "$description": "Colore icona di base"
       },
       "primary": {
-        "$type": "color",
         "$value": "{color.background.primary}",
+        "$type": "color",
         "$description": "Colore icona con link"
       },
       "primary-hover": {
-        "$type": "color",
         "$value": "{color.background.primary-hover}",
+        "$type": "color",
         "$description": "Colore icona con link status hover"
       },
       "primary-active": {
-        "$type": "color",
         "$value": "{color.background.primary-active}",
+        "$type": "color",
         "$description": "Colore icona con link status attivo"
       },
       "secondary": {
-        "$type": "color",
         "$value": "{color.background.secondary}",
+        "$type": "color",
         "$description": "Colore icona di supporto"
       },
       "secondary-hover": {
-        "$type": "color",
         "$value": "{color.background.secondary-hover}",
+        "$type": "color",
         "$description": "Colore icona di supporto - status hover"
       },
       "secondary-active": {
-        "$type": "color",
         "$value": "{color.background.secondary-active}",
+        "$type": "color",
         "$description": "Colore icona di supporto - status attivo"
       },
       "success": {
-        "$type": "color",
         "$value": "{color.background.success}",
+        "$type": "color",
         "$description": "Colore icona di supporto per azioni avvenute con successo"
       },
       "success-hover": {
-        "$type": "color",
         "$value": "{color.background.success-hover}",
+        "$type": "color",
         "$description": "Colore icona di supporto per azioni avvenute con successo - status hover"
       },
       "success-active": {
-        "$type": "color",
         "$value": "{color.background.success-active}",
+        "$type": "color",
         "$description": "Colore icona di supporto per azioni avvenute con successo - status attivo"
       },
       "warning": {
-        "$type": "color",
         "$value": "{color.background.warning}",
+        "$type": "color",
         "$description": "Colore icona di supporto per comunicazioni che richiedono attenzione"
       },
       "warning-hover": {
-        "$type": "color",
         "$value": "{color.background.warning-hover}",
+        "$type": "color",
         "$description": "Colore icona di supporto per comunicazioni che richiedono attenzione - status hover"
       },
       "warning-active": {
-        "$type": "color",
         "$value": "{color.background.warning-active}",
+        "$type": "color",
         "$description": "Colore icona di supporto per comunicazioni che richiedono attenzione - status attivo"
       },
       "danger": {
-        "$type": "color",
         "$value": "{color.background.danger}",
+        "$type": "color",
         "$description": "Colore icona di supporto per azioni non andate a buon fine - status hover"
       },
       "danger-hover": {
-        "$type": "color",
         "$value": "{color.background.danger-hover}",
+        "$type": "color",
         "$description": "Colore icona di supporto per azioni non andate a buon fine - status hover"
       },
       "danger-active": {
-        "$type": "color",
         "$value": "{color.background.danger-active}",
+        "$type": "color",
         "$description": "Colore icona di supporto per azioni non andate a buon fine - status hover"
       },
       "inverse": {
-        "$type": "color",
         "$value": "{color.background.inverse}",
+        "$type": "color",
         "$description": "Colore icona dsabilitata"
       },
       "disabled": {
-        "$type": "color",
         "$value": "{color.text.disabled}",
+        "$type": "color",
         "$description": "Colore icona disabilitata."
       }
     },
     "size": {
       "xs": {
-        "$type": "sizing",
         "$value": "16px",
+        "$type": "sizing",
         "$description": "Dimensione icona molto piccola"
       },
       "s": {
-        "$type": "sizing",
         "$value": "24px",
+        "$type": "sizing",
         "$description": "Dimensione icona piccola"
       },
       "m": {
-        "$type": "sizing",
         "$value": "32px",
+        "$type": "sizing",
         "$description": "Dimensione icona media"
       },
       "l": {
-        "$type": "sizing",
         "$value": "48px",
+        "$type": "sizing",
         "$description": "Dimensione icona grande"
       },
       "xl": {
-        "$type": "sizing",
         "$value": "64px",
+        "$type": "sizing",
         "$description": "Dimensione icona molto grande"
       }
     }
   },
   "code-font": {
-    "$type": "fontFamilies",
     "$value": "{font.mono}",
+    "$type": "fontFamilies",
     "$description": "La famiglia di font predefinita per i blocchi di codice."
   },
   "data-font": {
-    "$type": "fontFamilies",
     "$value": "{font.mono}",
+    "$type": "fontFamilies",
     "$description": "La famiglia di font predefinita per il contenuto della visualizzazione dei dati."
   },
   "heading-font-weight": {
-    "$type": "fontWeights",
     "$value": "{font-weight.bold}",
+    "$type": "fontWeights",
     "$description": "Il peso di font predefinito per i titoli."
   },
   "heading-font-weight-weak": {
-    "$type": "fontWeights",
     "$value": "{font-weight.semibold}",
+    "$type": "fontWeights",
     "$description": "Il peso di font alternativo per i titoli secondari."
   },
   "heading-leading": {
-    "$type": "lineHeights",
     "$value": "{font-leading.2}",
+    "$type": "lineHeights",
     "$description": "Spazio tra le righe predefinito per i titoli."
   },
   "body-leading": {
-    "$type": "lineHeights",
     "$value": "{font-leading.5}",
+    "$type": "lineHeights",
     "$description": "Spazio tra le righe predefinito per il corpo del testo."
   },
   "caption-leading": {
-    "$type": "lineHeights",
     "$value": "{font-leading.3}",
+    "$type": "lineHeights",
     "$description": "Spazio tra le righe predefinito per le didascalie."
   },
   "lead-leading": {
-    "$type": "lineHeights",
     "$value": "{font-leading.3}",
+    "$type": "lineHeights",
     "$description": "Spazio tra le righe predefinito per il testo in primo piano."
   },
   "heading-1-font-size": {
-    "$type": "fontSizes",
     "$value": "{font-size.9}",
+    "$type": "fontSizes",
     "$description": "La dimensione di font predefinita per il titolo 1."
   },
   "heading-1-font-size-l": {
-    "$type": "fontSizes",
     "$value": "{font-size.10}",
+    "$type": "fontSizes",
     "$description": "La dimensione di font predefinita per il titolo 1 grande."
   },
   "heading-2-font-size": {
-    "$type": "fontSizes",
     "$value": "{font-size.8}",
+    "$type": "fontSizes",
     "$description": "La dimensione di font predefinita per il titolo 2."
   },
   "heading-2-font-size-l": {
-    "$type": "fontSizes",
     "$value": "{font-size.9}",
+    "$type": "fontSizes",
     "$description": "La dimensione di font predefinita per il titolo 2 grande."
   },
   "heading-3-font-size-l": {
-    "$type": "fontSizes",
     "$value": "{font-size.8}",
+    "$type": "fontSizes",
     "$description": "La dimensione di font predefinita per il titolo 3 grande."
   },
   "heading-3-font-size": {
-    "$type": "fontSizes",
     "$value": "{font-size.7}",
+    "$type": "fontSizes",
     "$description": "La dimensione di font predefinita per il titolo 3."
   },
   "heading-4-font-size": {
-    "$type": "fontSizes",
     "$value": "{font-size.6}",
+    "$type": "fontSizes",
     "$description": "La dimensione di font predefinita per il titolo 4."
   },
   "heading-4-font-size-l": {
-    "$type": "fontSizes",
     "$value": "{font-size.7}",
+    "$type": "fontSizes",
     "$description": "La dimensione di font predefinita per il titolo 4 grande."
   },
   "heading-5-font-size": {
-    "$type": "fontSizes",
     "$value": "{font-size.5}",
+    "$type": "fontSizes",
     "$description": "La dimensione di font predefinita per il titolo 5."
   },
   "heading-5-font-size-l": {
+    "$value": "{font-size.6}",
     "$type": "fontSizes",
-    "$value": "{font-size.6}", 
     "$description": "La dimensione di font predefinita per il titolo 5 grande."
   },
   "heading-6-font-size": {
+    "$value": "{font-size.3}",
     "$type": "fontSizes",
-    "$value": "{font-size.3}", 
     "$description": "La dimensione di font predefinita per il titolo 6."
   },
   "heading-6-font-size-l": {
-    "$type": "fontSizes",
     "$value": "{font-size.4}",
+    "$type": "fontSizes",
     "$description": "La dimensione di font predefinita per il titolo 6 grande."
   },
   "body-font-size": {
-    "$type": "fontSizes",
     "$value": "{font-size.3}",
+    "$type": "fontSizes",
     "$description": "La dimensione di font predefinita per il corpo del testo."
   },
   "body-font-size-l": {
-    "$type": "fontSizes",
     "$value": "{font-size.4}",
+    "$type": "fontSizes",
     "$description": "La dimensione di font predefinita per il corpo del testo grande."
   },
   "caption-font-size": {
-    "$type": "fontSizes",
     "$value": "{font-size.2}",
+    "$type": "fontSizes",
     "$description": "La dimensione di font predefinita per le didascalie."
   },
   "lead-font-size": {
-    "$type": "fontSizes",
     "$value": "{font-size.5}",
+    "$type": "fontSizes",
     "$description": "La dimensione di font predefinita per il testo in primo piano."
   },
   "lead-font-size-l": {
-    "$type": "fontSizes",
     "$value": "{font-size.6}",
+    "$type": "fontSizes",
     "$description": "La dimensione di font predefinita per il testo in primo piano grande."
   },
   "label-font-size-xs": {
-    "$type": "fontSizes",
     "$value": "{font-size.1}",
+    "$type": "fontSizes",
     "$description": "La dimensione di font predefinita per le etichette molto piccole."
   },
   "label-font-size-s": {
-    "$type": "fontSizes",
     "$value": "{font-size.2}",
+    "$type": "fontSizes",
     "$description": "La dimensione di font predefinita per le etichette piccole."
   },
   "label-font-size": {
-    "$type": "fontSizes",
     "$value": "{font-size.3}",
+    "$type": "fontSizes",
     "$description": "La dimensione di font predefinita per le etichette medie."
   },
   "label-font-size-l": {
-    "$type": "fontSizes",
     "$value": "{font-size.4}",
+    "$type": "fontSizes",
     "$description": "La dimensione di font predefinita per le etichette grandi."
   },
   "label-leading": {
-    "$type": "lineHeights",
     "$value": "{font-leading.1}",
+    "$type": "lineHeights",
     "$description": "Spazio tra le righe predefinito per le etichette."
+  },
+  "body-font-weight": {
+    "$value": "{font-weight.regular}",
+    "$type": "fontWeights"
+  },
+  "caption-font-weight-regular": {
+    "$value": "{font-weight.regular}",
+    "$type": "fontWeights"
+  },
+  "caption-font-weight-semibold": {
+    "$value": "{font-weight.semibold}",
+    "$type": "fontWeights"
+  },
+  "lead-font-weight": {
+    "$value": "{font-weight.regular}",
+    "$type": "fontWeights"
   }
 }
