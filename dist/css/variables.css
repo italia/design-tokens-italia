@@ -284,22 +284,22 @@
   --it-caption-font-weight-regular: var(--it-font-weight-regular);
   --it-caption-font-weight-semibold: var(--it-font-weight-semibold);
   --it-lead-font-weight: var(--it-font-weight-regular);
-  --it-icon-color-default: var(--it-color-text-base); /** Colore icona di base */
-  --it-icon-color-primary: var(--it-color-background-primary); /** Colore icona con link */
-  --it-icon-color-primary-hover: var(--it-color-background-primary-hover); /** Colore icona con link status hover */
-  --it-icon-color-primary-active: var(--it-color-background-primary-active); /** Colore icona con link status attivo */
-  --it-icon-color-secondary: var(--it-color-background-secondary); /** Colore icona di supporto */
-  --it-icon-color-secondary-hover: var(--it-color-background-secondary-hover); /** Colore icona di supporto - status hover */
-  --it-icon-color-secondary-active: var(--it-color-background-secondary-active); /** Colore icona di supporto - status attivo */
-  --it-icon-color-success: var(--it-color-background-success); /** Colore icona di supporto per azioni avvenute con successo */
-  --it-icon-color-success-hover: var(--it-color-background-success-hover); /** Colore icona di supporto per azioni avvenute con successo - status hover */
-  --it-icon-color-success-active: var(--it-color-background-success-active); /** Colore icona di supporto per azioni avvenute con successo - status attivo */
-  --it-icon-color-warning: var(--it-color-background-warning); /** Colore icona di supporto per comunicazioni che richiedono attenzione */
-  --it-icon-color-warning-hover: var(--it-color-background-warning-hover); /** Colore icona di supporto per comunicazioni che richiedono attenzione - status hover */
-  --it-icon-color-warning-active: var(--it-color-background-warning-active); /** Colore icona di supporto per comunicazioni che richiedono attenzione - status attivo */
-  --it-icon-color-danger: var(--it-color-background-danger); /** Colore icona di supporto per azioni non andate a buon fine - status hover */
-  --it-icon-color-danger-hover: var(--it-color-background-danger-hover); /** Colore icona di supporto per azioni non andate a buon fine - status hover */
-  --it-icon-color-danger-active: var(--it-color-background-danger-active); /** Colore icona di supporto per azioni non andate a buon fine - status hover */
-  --it-icon-color-inverse: var(--it-color-background-inverse); /** Colore icona dsabilitata */
-  --it-icon-color-disabled: var(--it-color-text-disabled); /** Colore icona disabilitata. */
+  --it-icon-default: var(--it-color-text-base); /** Colore icona di base */
+  --it-icon-primary: var(--it-color-background-primary); /** Colore icona con link */
+  --it-icon-primary-hover: var(--it-color-background-primary-hover); /** Colore icona con link status hover */
+  --it-icon-primary-active: var(--it-color-background-primary-active); /** Colore icona con link status attivo */
+  --it-icon-secondary: var(--it-color-background-secondary); /** Colore icona di supporto */
+  --it-icon-secondary-hover: var(--it-color-background-secondary-hover); /** Colore icona di supporto - status hover */
+  --it-icon-secondary-active: var(--it-color-background-secondary-active); /** Colore icona di supporto - status attivo */
+  --it-icon-success: var(--it-color-background-success); /** Colore icona di supporto per azioni avvenute con successo */
+  --it-icon-success-hover: var(--it-color-background-success-hover); /** Colore icona di supporto per azioni avvenute con successo - status hover */
+  --it-icon-success-active: var(--it-color-background-success-active); /** Colore icona di supporto per azioni avvenute con successo - status attivo */
+  --it-icon-warning: var(--it-color-background-warning); /** Colore icona di supporto per comunicazioni che richiedono attenzione */
+  --it-icon-warning-hover: var(--it-color-background-warning-hover); /** Colore icona di supporto per comunicazioni che richiedono attenzione - status hover */
+  --it-icon-warning-active: var(--it-color-background-warning-active); /** Colore icona di supporto per comunicazioni che richiedono attenzione - status attivo */
+  --it-icon-danger: var(--it-color-background-danger); /** Colore icona di supporto per azioni non andate a buon fine - status hover */
+  --it-icon-danger-hover: var(--it-color-background-danger-hover); /** Colore icona di supporto per azioni non andate a buon fine - status hover */
+  --it-icon-danger-active: var(--it-color-background-danger-active); /** Colore icona di supporto per azioni non andate a buon fine - status hover */
+  --it-icon-inverse: var(--it-color-background-inverse); /** Colore icona dsabilitata */
+  --it-icon-disabled: var(--it-color-text-disabled); /** Colore icona disabilitata. */
 }
