@@ -278,6 +278,10 @@ $it-label-font-size-s: $it-font-size-2; // La dimensione di font predefinita per
 $it-label-font-size: $it-font-size-3; // La dimensione di font predefinita per le etichette medie.
 $it-label-font-size-l: $it-font-size-4; // La dimensione di font predefinita per le etichette grandi.
 $it-label-leading: $it-font-leading-1; // Spazio tra le righe predefinito per le etichette.
+$it-body-font-weight: $it-font-weight-regular;
+$it-caption-font-weight-regular: $it-font-weight-regular;
+$it-caption-font-weight-semibold: $it-font-weight-semibold;
+$it-lead-font-weight: $it-font-weight-regular;
 $it-icon-color-default: $it-color-text-base; // Colore icona di base
 $it-icon-color-primary: $it-color-background-primary; // Colore icona con link
 $it-icon-color-primary-hover: $it-color-background-primary-hover; // Colore icona con link status hover
