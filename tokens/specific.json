@@ -86,7 +86,7 @@
       "$description": "Colore icona dsabilitata"
     },
     "disabled": {
-      "$value": "{color.text.disabled}",
+      "$value": "{color.link.disabled}",
       "$type": "color",
       "$description": "Colore icona disabilitata."
     },

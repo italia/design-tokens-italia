@@ -223,7 +223,7 @@ $it-color-link-secondary: $it-color-slate-28; // Colore del link secondario, ric
 $it-color-link-secondary-hover: $it-color-slate-20; // Testo del button secondary nello stato hover
 $it-color-link-secondary-active: $it-color-slate-20; // Testo del button secondary nello stato attivo e premuto.
 $it-color-link-inverse: $it-color-white; // Colore per i link invertiti
-$it-color-link-disabled: $it-color-slate-85; // Colore per i link disabilitati
+$it-color-link-disabled: $it-color-slate-62; // Colore per i link disabilitati
 $it-color-link-accent: $it-color-teal-32; // Colore di risalto per un link
 $it-color-link-accent-hover: $it-color-teal-26; // Colore di risalto per un link in stato hover.
 $it-color-outline-focus: $it-color-gray-10; // Colore di evidenziazione dello stato focus
@@ -299,4 +299,4 @@ $it-icon-danger: $it-color-background-danger; // Colore icona di supporto per az
 $it-icon-danger-hover: $it-color-background-danger-hover; // Colore icona di supporto per azioni non andate a buon fine - status hover
 $it-icon-danger-active: $it-color-background-danger-active; // Colore icona di supporto per azioni non andate a buon fine - status hover
 $it-icon-inverse: $it-color-background-inverse; // Colore icona dsabilitata
-$it-icon-disabled: $it-color-text-disabled; // Colore icona disabilitata.
+$it-icon-disabled: $it-color-link-disabled; // Colore icona disabilitata.

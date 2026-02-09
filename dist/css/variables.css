@@ -225,7 +225,7 @@
   --it-color-link-secondary-hover: var(--it-color-slate-20); /** Testo del button secondary nello stato hover */
   --it-color-link-secondary-active: var(--it-color-slate-20); /** Testo del button secondary nello stato attivo e premuto. */
   --it-color-link-inverse: var(--it-color-white); /** Colore per i link invertiti */
-  --it-color-link-disabled: var(--it-color-slate-85); /** Colore per i link disabilitati */
+  --it-color-link-disabled: var(--it-color-slate-62); /** Colore per i link disabilitati */
   --it-color-link-accent: var(--it-color-teal-32); /** Colore di risalto per un link */
   --it-color-link-accent-hover: var(--it-color-teal-26); /** Colore di risalto per un link in stato hover. */
   --it-color-outline-focus: var(--it-color-gray-10); /** Colore di evidenziazione dello stato focus */
@@ -301,5 +301,5 @@
   --it-icon-danger-hover: var(--it-color-background-danger-hover); /** Colore icona di supporto per azioni non andate a buon fine - status hover */
   --it-icon-danger-active: var(--it-color-background-danger-active); /** Colore icona di supporto per azioni non andate a buon fine - status hover */
   --it-icon-inverse: var(--it-color-background-inverse); /** Colore icona dsabilitata */
-  --it-icon-disabled: var(--it-color-text-disabled); /** Colore icona disabilitata. */
+  --it-icon-disabled: var(--it-color-link-disabled); /** Colore icona disabilitata. */
 }

@@ -368,7 +368,7 @@
         "$description": "Colore per i link invertiti"
       },
       "disabled": {
-        "$value": "{color.slate.85}",
+        "$value": "{color.slate.62}",
         "$type": "color",
         "$description": "Colore per i link disabilitati"
       },
