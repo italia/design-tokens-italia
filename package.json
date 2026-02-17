@@ -1,6 +1,6 @@
 {
   "name": "design-tokens-italia",
-  "version": "1.3.2",
+  "version": "1.3.3",
   "description": "Official repository of design tokens from Design System Italia",
   "author": "@italia",
   "main": "index.js",
