@@ -1,0 +1,60 @@
+publiccodeYmlVersion: 0.5.0
+name: Design Tokens Italia
+applicationSuite: Design system Italia
+url: https://github.com/italia/design-tokens-italia
+isBasedOn: https://styledictionary.com/
+softwareVersion: "v1.3.3 "
+releaseDate: 2026-02-17
+platforms:
+  - web
+categories:
+  - it-development
+  - design
+organisation:
+  uri: https://github.com/italia
+  name: Dipartimento per la trasformazione digitale
+roadmap: https://github.com/orgs/italia/projects/17/views/5?filterQuery=repo%3Aitalia%2Fdesign-tokens-italia
+developmentStatus: beta
+softwareType: library
+intendedAudience:
+  countries:
+    - IT
+description:
+  it-IT:
+    shortDescription: Sistema di design tokens per definire e applicare in modo
+      coerente le scelte visive nelle interfacce digitali.
+    longDescription: I design tokens, risorsa ufficiale del Design system Italia,
+      rappresentano le scelte visive fondamentali per la progettazione e lo
+      sviluppo di interfacce per siti e servizi digitali della Pubblica
+      Amministrazione. Definiscono e documentano attributi come colori,
+      tipografia, spaziature e dimensioni, consentendo di applicare queste
+      decisioni in modo coerente su diverse piattaforme e dispositivi.
+      L'utilizzo dei design tokens permette di mantenere un sistema visivo
+      scalabile e uniforme, semplificare le decisioni progettuali e facilitare
+      l'implementazione di componenti, pattern e template.
+    documentation: https://designers.italia.it/design-system/fondamenti/design-tokens/
+    features:
+      - Definisce in modo centralizzato colori, tipografia, spaziature e
+        dimensioni
+      - Garantisce coerenza tra progettazione e sviluppo delle interfacce
+        digitali
+      - Supporta il riutilizzo di decisioni progettuali in elementi e componenti
+        diversi
+      - Organizza i token in livelli diversi in base al contesto di applicazione
+      - Consente l'integrazione dei token nei progetti tramite variabili CSS e
+        Sass
+legal:
+  license: BSD-3-Clause-Clear
+maintenance:
+  type: community
+  contacts:
+    - name: Designers Italia
+      email: contatti@designers.italia.it
+localisation:
+  localisationReady: false
+  availableLanguages:
+    - it
+IT:
+  countryExtensionVersion: "1.0"
+  piattaforme:
+    anpr: false
