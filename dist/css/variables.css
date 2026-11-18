@@ -25,6 +25,16 @@
   --it-color-blue-77: #94c4f5; /** Colore tema default */
   --it-color-blue-87: #bfdfff; /** Colore tema default */
   --it-color-blue-97: #f2f7fc; /** Colore tema default */
+  --it-color-seagreen-10: #003121; /** Colore tema secondario */
+  --it-color-seagreen-14: #004931; /** Colore tema secondario */
+  --it-color-seagreen-19: #006242; /** Colore tema secondario */
+  --it-color-seagreen-24: #007a52; /** Colore tema secondario - valore base */
+  --it-color-seagreen-39: #329574; /** Colore tema secondario */
+  --it-color-seagreen-54: #64af96; /** Colore tema secondario */
+  --it-color-seagreen-69: #96cab9; /** Colore tema secondario */
+  --it-color-seagreen-76: #afd7ca; /** Colore tema secondario */
+  --it-color-seagreen-84: #c8e4db; /** Colore tema secondario */
+  --it-color-seagreen-92: #e1f2ec; /** Colore tema secondario */
   --it-color-slate-20: #17324d; /** Colore neutro */
   --it-color-slate-28: #2f475e; /** Colore neutro */
   --it-color-slate-36: #455b71; /** Colore neutro */
@@ -207,6 +217,7 @@
   --it-color-text-danger-active: var(--it-color-red-25); /** Colore del testo per problema o errore interattivo nello stato attivo e premuto. */
   --it-color-text-inverse: var(--it-color-white); /** Testo invertito per sfondi a contrasto (primary, secondary, emphasis) */
   --it-color-text-accent: var(--it-color-teal-32); /** Testo di accento, alternativo al primary per elementi interattivi su sfondi a contrasto */
+  --it-color-text-disabled: var(--it-color-slate-62); /** Colore del testo disabilitato. */
   --it-color-link-base: var(--it-color-blue-40); /** Colore base per i link */
   --it-color-link-hover: var(--it-color-blue-30); /** Colore per i link nello stato hover */
   --it-color-link-active: var(--it-color-blue-20); /** Colore per i link nello stato active */
