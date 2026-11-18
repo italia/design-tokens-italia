@@ -116,6 +116,58 @@
         "$description": "Colore tema default"
       }
     },
+    "seagreen": {
+      "10": {
+        "$value": "#003121",
+        "$type": "color",
+        "$description": "Colore tema secondario"
+      },
+      "14": {
+        "$value": "#004931",
+        "$type": "color",
+        "$description": "Colore tema secondario"
+      },
+      "19": {
+        "$value": "#006242",
+        "$type": "color",
+        "$description": "Colore tema secondario"
+      },
+      "24": {
+        "$value": "#007A52",
+        "$type": "color",
+        "$description": "Colore tema secondario - valore base"
+      },
+      "39": {
+        "$value": "#329574",
+        "$type": "color",
+        "$description": "Colore tema secondario"
+      },
+      "54": {
+        "$value": "#64AF96",
+        "$type": "color",
+        "$description": "Colore tema secondario"
+      },
+      "69": {
+        "$value": "#96CAB9",
+        "$type": "color",
+        "$description": "Colore tema secondario"
+      },
+      "76": {
+        "$value": "#AFD7CA",
+        "$type": "color",
+        "$description": "Colore tema secondario"
+      },
+      "84": {
+        "$value": "#C8E4DB",
+        "$type": "color",
+        "$description": "Colore tema secondario"
+      },
+      "92": {
+        "$value": "#E1F2EC",
+        "$type": "color",
+        "$description": "Colore tema secondario"
+      }
+    },
     "slate": {
       "20": {
         "$type": "color",
