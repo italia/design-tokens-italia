@@ -324,6 +324,11 @@
         "$type": "color",
         "$value": "{color.teal.32}",
         "$description": "Testo di accento, alternativo al primary per elementi interattivi su sfondi a contrasto"
+      },
+      "disabled": {
+        "$value": "{color.slate.62}",
+        "$type": "color",
+        "$description": "Colore del testo disabilitato."
       }
     },
     "link": {
