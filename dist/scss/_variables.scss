@@ -146,6 +146,7 @@ $it-shadow-blur-l: 48px; // Raggio di sfocatura dell'ombreggiatura
 $it-shadow-offset-s: 4px; // Offset dell'ombreggiatura
 $it-shadow-offset-m: 8px; // Offset dell'ombreggiatura
 $it-shadow-offset-l: 16px; // Offset dell'ombreggiatura
+$it-focus-outer-width: 3px; // Spessore dell'anello esterno del focus
 $it-icon-size-xs: 16px; // Dimensione icona molto piccola
 $it-icon-size-s: 24px; // Dimensione icona piccola
 $it-icon-size-m: 32px; // Dimensione icona media
@@ -226,7 +227,6 @@ $it-color-link-inverse: $it-color-white; // Colore per i link invertiti
 $it-color-link-disabled: $it-color-slate-62; // Colore per i link disabilitati
 $it-color-link-accent: $it-color-teal-32; // Colore di risalto per un link
 $it-color-link-accent-hover: $it-color-teal-26; // Colore di risalto per un link in stato hover.
-$it-color-outline-focus: $it-color-gray-10; // Colore di evidenziazione dello stato focus
 $it-color-shadow-whisper: $it-color-black-05; // Colore ombreggiatura leggermente visibile
 $it-color-shadow-soft: $it-color-black-10; // Colore ombreggiatura chiara
 $it-color-shadow-dark: $it-color-black-15; // Colore ombreggiatura molto visibile
@@ -248,6 +248,8 @@ $it-theme-italia-deep: $it-color-blue-20; // Colore del tema scuro
 $it-elevation-low: 0 $it-shadow-blur-s $it-shadow-offset-s 0 $it-color-shadow-whisper; // Ombreggiatura con sfocatura e distanza leggera
 $it-elevation-medium: 0 $it-shadow-offset-m $it-shadow-blur-m 0 $it-color-shadow-soft; // Ombreggiatura con sfocatura e distanza media
 $it-elevation-high: 0 $it-shadow-offset-l $it-shadow-blur-l 0 $it-color-shadow-dark; // Ombreggiatura con sfocatura e distanza elevata
+$it-focus-inner-width: $it-border-double; // Spessore dell'anello interno del focus
+$it-focus-outer-color: $it-color-gray-10; // Colore dell'anello esterno del focus
 $it-code-font: $it-font-mono; // La famiglia di font predefinita per i blocchi di codice.
 $it-data-font: $it-font-mono; // La famiglia di font predefinita per il contenuto della visualizzazione dei dati.
 $it-heading-font-weight: $it-font-weight-bold; // Il peso di font predefinito per i titoli
@@ -282,6 +284,10 @@ $it-body-font-weight: $it-font-weight-regular; // Il peso del font per il testo 
 $it-caption-font-weight-regular: $it-font-weight-regular; // Il peso del font per didascalie e testi piccoli
 $it-caption-font-weight-semibold: $it-font-weight-semibold; // Il peso del font medio per didascalie e testi piccoli
 $it-lead-font-weight: $it-font-weight-regular; // Il peso del font per il paragrafo di testo in evidenza
+$it-color-outline-focus: $it-focus-outer-color; // Colore di evidenziazione dello stato focus
+$it-focus-inner-color: $it-color-border-inverse; // Colore dell'anello interno del focus
+$it-focus-ring: 0 0 0 $it-focus-inner-width $it-focus-inner-color, 0 0 0 5px $it-focus-outer-color; // Anello di focus su sfondo chiaro
+$it-focus-ring-inverse: 0 0 0 $it-focus-inner-width $it-focus-outer-color, 0 0 0 5px $it-focus-inner-color; // Anello di focus su sfondo scuro
 $it-icon-default: $it-color-text-base; // Colore icona di base
 $it-icon-primary: $it-color-background-primary; // Colore icona con link
 $it-icon-primary-hover: $it-color-background-primary-hover; // Colore icona con link status hover

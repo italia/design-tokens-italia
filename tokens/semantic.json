@@ -326,8 +326,8 @@
         "$description": "Testo di accento, alternativo al primary per elementi interattivi su sfondi a contrasto"
       },
       "disabled": {
-        "$value": "{color.slate.62}",
         "$type": "color",
+        "$value": "{color.slate.62}",
         "$description": "Colore del testo disabilitato."
       }
     },
@@ -386,8 +386,14 @@
     "outline": {
       "focus": {
         "$type": "color",
-        "$value": "{color.gray.10}",
-        "$description": "Colore di evidenziazione dello stato focus"
+        "$value": "{focus.outer.color}",
+        "$description": "Colore di evidenziazione dello stato focus",
+        "$deprecated": {
+          "severity": "warning",
+          "message": "Sostituito da focus.outer.color, colore dell’anello esterno nella coppia di token focus.inner / focus.outer.",
+          "replacementToken": "{focus.outer.color}",
+          "removeAfter": "v3.0.0"
+        }
       }
     },
     "shadow": {
@@ -525,6 +531,76 @@
         "type": "dropShadow"
       },
       "$description": "Ombreggiatura con sfocatura e distanza elevata"
+    }
+  },
+  "focus": {
+    "inner": {
+      "color": {
+        "$type": "color",
+        "$value": "{color.border.inverse}",
+        "$description": "Colore dell'anello interno del focus"
+      },
+      "width": {
+        "$type": "borderWidth",
+        "$value": "{border.double}",
+        "$description": "Spessore dell'anello interno del focus"
+      }
+    },
+    "outer": {
+      "color": {
+        "$type": "color",
+        "$value": "{color.gray.10}",
+        "$description": "Colore dell'anello esterno del focus"
+      },
+      "width": {
+        "$type": "borderWidth",
+        "$value": "3px",
+        "$description": "Spessore dell'anello esterno del focus"
+      }
+    },
+    "ring": {
+      "$type": "boxShadow",
+      "$value": [
+        {
+          "x": "0",
+          "y": "0",
+          "blur": "0",
+          "spread": "{focus.inner.width}",
+          "color": "{focus.inner.color}",
+          "type": "dropShadow"
+        },
+        {
+          "x": "0",
+          "y": "0",
+          "blur": "0",
+          "spread": "{focus.inner.width} + {focus.outer.width}",
+          "color": "{focus.outer.color}",
+          "type": "dropShadow"
+        }
+      ],
+      "$description": "Anello di focus su sfondo chiaro"
+    },
+    "ring-inverse": {
+      "$type": "boxShadow",
+      "$value": [
+        {
+          "x": "0",
+          "y": "0",
+          "blur": "0",
+          "spread": "{focus.inner.width}",
+          "color": "{focus.outer.color}",
+          "type": "dropShadow"
+        },
+        {
+          "x": "0",
+          "y": "0",
+          "blur": "0",
+          "spread": "{focus.inner.width} + {focus.outer.width}",
+          "color": "{focus.inner.color}",
+          "type": "dropShadow"
+        }
+      ],
+      "$description": "Anello di focus su sfondo scuro"
     }
   }
 }
